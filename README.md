@@ -1,1 +1,4 @@
 # ImperatorRomeJP
+
+# Ironman mode
+No
