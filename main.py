@@ -5,7 +5,6 @@ import hashlib
 import json
 import os
 import shutil
-import tempfile
 import urllib.request
 import zipfile
 from os.path import join
@@ -40,13 +39,15 @@ def download_trans_zip_from_paratranz(project_id,
 
 def assembly_mod(mod_file_name,
                  resource_image_file_path,
-                 resource_paratranz_trans_zip_file_path,
+                 resource_paratranz_main_zip_file_path,
+                 resource_paratranz_sub_zip_file_path,
                  resource_font_dir_path,
                  out_dir_path):
     """
     Appモッドを作成
     :param mod_file_name: Modファイル名
-    :param resource_paratranz_trans_zip_file_path: Paratranzからダウンロードできるzipファイルのパス
+    :param resource_paratranz_main_zip_file_path: ParatranzからダウンロードできるMain Mod zipファイルのパス
+    :param resource_paratranz_sub_zip_file_path: ParatranzからダウンロードできるSub Mod zipファイルのパス
     :param resource_image_file_path: 画像ファイルパス
     :param resource_font_dir_path: フォントファイルが入っているフォルダのパス
     :param out_dir_path: 出力フォルダ
@@ -54,21 +55,27 @@ def assembly_mod(mod_file_name,
     """
 
     # TODO パス修正する
-    ext_paratranz_trans_dir_path = _(".", "tmp", "paratranz_ext")
+    ext_paratranz_main_dir_path = _(".", "tmp", "paratranz_ext_main")
+    ext_paratranz_sub_dir_path = _(".", "tmp", "paratranz_ext_sub")
     mod_dir_path = _(out_dir_path, mod_file_name)
     mod_loc_dir_path = _(mod_dir_path, "localization", "replace")
 
     # 初期化（AzureDevでは必要ない）
-    if os.path.exists(ext_paratranz_trans_dir_path):
-        shutil.rmtree(ext_paratranz_trans_dir_path)
+    if os.path.exists(ext_paratranz_main_dir_path):
+        shutil.rmtree(ext_paratranz_main_dir_path)
+    if os.path.exists(ext_paratranz_sub_dir_path):
+        shutil.rmtree(ext_paratranz_sub_dir_path)
     if os.path.exists(mod_dir_path):
         shutil.rmtree(mod_dir_path)
     os.makedirs(mod_dir_path, exist_ok=True)
     os.makedirs(mod_loc_dir_path, exist_ok=True)
 
     # zip展開する
-    with zipfile.ZipFile(resource_paratranz_trans_zip_file_path) as existing_zip:
-        existing_zip.extractall(ext_paratranz_trans_dir_path)
+    with zipfile.ZipFile(resource_paratranz_main_zip_file_path) as existing_zip:
+        existing_zip.extractall(ext_paratranz_main_dir_path)
+
+    with zipfile.ZipFile(resource_paratranz_sub_zip_file_path) as existing_zip:
+        existing_zip.extractall(ext_paratranz_sub_dir_path)
 
     # 画像ファイルを入れる
     shutil.copy(resource_image_file_path, mod_dir_path)
@@ -78,22 +85,40 @@ def assembly_mod(mod_file_name,
                     _(mod_dir_path, "fonts"))
 
     # clausewitzを移す
-    shutil.copytree(_(ext_paratranz_trans_dir_path, "utf8", "clausewitz", "localization"),
+    shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "clausewitz", "localization"),
                     _(mod_loc_dir_path, "clausewitz"))
 
     # jominiを移す
-    shutil.copytree(_(ext_paratranz_trans_dir_path, "utf8", "jomini", "localization"),
+    shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "jomini", "localization"),
                     _(mod_loc_dir_path, "jomini"))
 
     # gameを移す
-    shutil.copytree(_(ext_paratranz_trans_dir_path, "utf8", "game", "localization", "english"),
-                    _(mod_loc_dir_path, "english"))
+    shutil.copytree(src=_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "english"),
+                    dst=_(mod_loc_dir_path, "english"),
+                    ignore=shutil.ignore_patterns("character_names_l_english.yml",
+                                                  "countries_l_english.yml",
+                                                  "cultures_l_english.yml",
+                                                  "god_names_l_english.yml",
+                                                  "macroregions_l_english.yml",
+                                                  "nicknames_l_english.yml",
+                                                  "provincenames_l_english.yml"
+                                                  "regionnames_l_english.yml",
+                                                  "wonders_l_english.yml"
+                                                  ))
 
-    shutil.copytree(_(ext_paratranz_trans_dir_path, "utf8", "game", "localization", "gui"),
+    shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "gui"),
                     _(mod_loc_dir_path, "gui"))
 
-    shutil.copytree(_(ext_paratranz_trans_dir_path, "utf8", "game", "localization", "load_tips"),
+    shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "load_tips"),
                     _(mod_loc_dir_path, "load_tips"))
+
+    # SubModからファイルを移す
+    shutil.move(_(ext_paratranz_main_dir_path,
+                  "utf8", "game", "localization", "english", "god_names_l_english.yml"),
+                _(mod_loc_dir_path, "english", "god_names_l_english.yml"))
+    shutil.move(_(ext_paratranz_main_dir_path,
+                  "utf8", "game", "localization", "english", "wonders_l_english.yml"),
+                _(mod_loc_dir_path, "english", "wonders_l_english.yml"))
 
     return mod_dir_path
 
@@ -198,17 +223,26 @@ def main():
     mod_file_name = "japanese"
 
     # 翻訳の最新版をダウンロードする project_id=335はI:R JPのプロジェクトID
-    p_file_path = download_trans_zip_from_paratranz(
+    p_file_main_path = download_trans_zip_from_paratranz(
         project_id=335,
         secret=os.environ.get("PARATRANZ_SECRET"),
-        out_file_path=_(".", "tmp", "paratranz.zip"))
+        out_file_path=_(".", "tmp", "paratranz_main.zip"))
 
-    print("p_file_path:{}".format(p_file_path))
+    print("p_file_main_path:{}".format(p_file_main_path))
+
+    # 翻訳の最新版をダウンロードする project_id=350はI:R JPのプロジェクトID
+    p_file_sub_path = download_trans_zip_from_paratranz(
+        project_id=350,
+        secret=os.environ.get("PARATRANZ_SECRET"),
+        out_file_path=_(".", "tmp", "paratranz_sub.zip"))
+
+    print("p_file_sub_path:{}".format(p_file_sub_path))
 
     # Modを構築する（フォルダのまま）
     assembly_mod(
         mod_file_name=mod_file_name,
-        resource_paratranz_trans_zip_file_path=p_file_path,
+        resource_paratranz_main_zip_file_path=p_file_main_path,
+        resource_paratranz_sub_zip_file_path=p_file_sub_path,
         resource_image_file_path=_(".", "resource", "title.jpg"),
         resource_font_dir_path=_(".", "resource", "fonts"),
         out_dir_path=out_dir_path)
