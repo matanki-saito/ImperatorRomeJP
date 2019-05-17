@@ -38,18 +38,16 @@ def download_trans_zip_from_paratranz(project_id,
 
 
 def assembly_mod(mod_file_name,
-                 resource_image_file_path,
+                 resource_dir_path,
                  resource_paratranz_main_zip_file_path,
                  resource_paratranz_sub_zip_file_path,
-                 resource_font_dir_path,
                  out_dir_path):
     """
     Appモッドを作成
     :param mod_file_name: Modファイル名
     :param resource_paratranz_main_zip_file_path: ParatranzからダウンロードできるMain Mod zipファイルのパス
     :param resource_paratranz_sub_zip_file_path: ParatranzからダウンロードできるSub Mod zipファイルのパス
-    :param resource_image_file_path: 画像ファイルパス
-    :param resource_font_dir_path: フォントファイルが入っているフォルダのパス
+    :param resource_dir_path: リソースディレクトリパス
     :param out_dir_path: 出力フォルダ
     :return:
     """
@@ -59,6 +57,7 @@ def assembly_mod(mod_file_name,
     ext_paratranz_sub_dir_path = _(".", "tmp", "paratranz_ext_sub")
     mod_dir_path = _(out_dir_path, mod_file_name)
     mod_loc_dir_path = _(mod_dir_path, "localization", "replace")
+    mod_gui_dir_path = _(mod_dir_path, "gui")
 
     # 初期化（AzureDevでは必要ない）
     if os.path.exists(ext_paratranz_main_dir_path):
@@ -78,10 +77,10 @@ def assembly_mod(mod_file_name,
         existing_zip.extractall(ext_paratranz_sub_dir_path)
 
     # 画像ファイルを入れる
-    shutil.copy(resource_image_file_path, mod_dir_path)
+    shutil.copy(_(resource_dir_path, "title.jpg"), mod_dir_path)
 
     # フォントフォルダを入れる
-    shutil.copytree(resource_font_dir_path,
+    shutil.copytree(_(resource_dir_path, "fonts"),
                     _(mod_dir_path, "fonts"))
 
     # clausewitzを移す
@@ -106,11 +105,16 @@ def assembly_mod(mod_file_name,
                                                   "wonders_l_english.yml"
                                                   ))
 
+    # ダウンロードしたファイルから
     shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "gui"),
                     _(mod_loc_dir_path, "gui"))
 
     shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "load_tips"),
                     _(mod_loc_dir_path, "load_tips"))
+
+    # リソースから
+    shutil.copytree(_(resource_dir_path, "game", "gui"),
+                    mod_gui_dir_path)
 
     # SubModからファイルを移す
     shutil.move(_(ext_paratranz_main_dir_path,
@@ -243,8 +247,7 @@ def main():
         mod_file_name=mod_file_name,
         resource_paratranz_main_zip_file_path=p_file_main_path,
         resource_paratranz_sub_zip_file_path=p_file_sub_path,
-        resource_image_file_path=_(".", "resource", "title.jpg"),
-        resource_font_dir_path=_(".", "resource", "fonts"),
+        resource_dir_path=_(".", "resource"),
         out_dir_path=out_dir_path)
 
     print("mod_dir_path:{}".format(out_dir_path))
@@ -257,6 +260,8 @@ def main():
         mod_image_file_path="title.jpg",
         mod_supported_version="1.0.*",
         out_dir_path=out_dir_path)
+
+    return;
 
     print("generate .mod file")
 
