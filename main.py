@@ -261,8 +261,6 @@ def main():
         mod_supported_version="1.0.*",
         out_dir_path=out_dir_path)
 
-    return;
-
     print("generate .mod file")
 
     # S3にアップロード from datetime import datetime as dt
