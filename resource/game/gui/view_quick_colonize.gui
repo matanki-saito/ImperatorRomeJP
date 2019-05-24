@@ -1,0 +1,145 @@
+window = {
+	gfxtype = windowgfx
+	name = "view_quick_colonize"
+	parentanchor = bottom|left
+	size = { 949 433 }
+	position = { 0 0 }
+	widgetanchor = bottom|left
+	movable = no
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	square_close_button = {
+		#	using = button_close_01
+		name = "close_button"
+		position = { -4 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[QuickColonizeWindow.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	
+	textbox = {
+		position = { 0 18 }
+		size = { 949 16 }
+		align = center|nobaseline
+		using = MarbleButtonFontM
+		text = "[QuickColonizeWindow.GetTitle]"
+	}
+		
+	textbox = {
+		position = { 23 50 }
+		autoresize = yes
+		using = MarbleButtonFont
+		text = "CULTURE"
+	}
+	textbox = {
+		position = { 198 50 }
+		autoresize = yes
+		using = MarbleButtonFont
+		text = "RELIGION"
+	}
+	textbox = {
+		position = { 398 50 }
+		autoresize = yes
+		using = MarbleButtonFont
+		text = "TYPE"
+	}
+	textbox = {
+		position = { 473 50 }
+		autoresize = yes
+		using = MarbleButtonFont
+		text = "FROM"
+	}
+	textbox = {
+		position = { 648 50 }
+		autoresize = yes
+		using = MarbleButtonFont
+		text = "HAPPYNESS"
+	}
+	icon = {
+		name = "horizontal_divider_1"
+		position = { 23 75 }
+		texture = "gfx/interface/tiles/horizontal_divider.dds"
+		spriteType = corneredtiled
+		spriteborder = { 10 1 }
+		size = { 891 6 }
+	}
+	
+	scrollarea = {
+		position = { 13 80 }
+		size = { 912 330 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+		}		
+		
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 10 0 }
+				datamodel = "[QuickColonizeWindow.GetPops]"
+				
+				item = {
+					widget = {
+						size = { 880 50 }
+						
+						textbox = {
+							position = { 0 9 }
+							autoresize = yes
+							using = MarbleButtonFont
+							text = "[PopItem.GetPop.GetCulture.GetName]"
+						}
+						textbox = {
+							position = { 175 9 }
+							autoresize = yes
+							using = MarbleButtonFont
+							text = "[PopItem.GetPop.GetReligion.GetName]"
+						}
+						textbox = {
+							position = { 375 9 }
+							autoresize = yes
+							using = MarbleButtonFont
+							text = "[PopItem.GetPop.GetType.GetName]"
+						}
+						textbox = {
+							position = { 450 9 }
+							autoresize = yes
+							using = MarbleButtonFont
+							text = "[PopItem.GetPop.GetProvince.GetName]"
+							elide = Right
+						}
+						textbox = {
+							position = { 625 9 }
+							autoresize = yes
+							using = MarbleButtonFont
+							text = "[PopItem.GetHappyness|1%]"
+							tooltip = "[PopItem.GetHappynessTooltip]"
+						}
+						
+						
+						button_standard_white_marble = {
+							position = { 691 0 }
+							size = { 200 46 }
+							text = "MOVE_POP_T"
+							onclick = "[PopItem.Move]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_pop_move"
+							enabled = "[PopItem.CanMove]"
+							tooltip = "[PopItem.GetMoveString]"
+							onmousehierarchyenter = "[SetHighlightProvince( PopItem.GetPop.GetProvince.GetId )]"
+							onmousehierarchyleave = "[ClearHighlightColors]"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

@@ -138,7 +138,7 @@ window = {
 		}
 		
 		icon = {
-			position = { 394 2 }
+			position = { 400 2 }
 			framesize = { 50 50 }
 			size = { 30 30 }
 			texture = "gfx/interface/icons/shared_icons/pop_happy.dds"
