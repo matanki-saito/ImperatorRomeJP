@@ -7,8 +7,8 @@ fontfiles = {
 	always_load = yes
 
     group = {
-        languages = { "l_japanese" "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
-        files = { "fonts/OpenSans-Semibold.ttf" "fonts/NotoSansCJKsc-Regular.otf" "fonts/LusitanaCyr-Regular.ttf" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        files = { "fonts/OpenSans-Semibold.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
     }
 }
 
@@ -17,8 +17,8 @@ fontfiles = {
 	always_load = yes
 
     group = {
-        languages = { "l_japanese" "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
-        files = { "fonts/OpenSans-Condensed-Bold.ttf" "fonts/NotoSansCJKsc-Regular.otf" "fonts/LusitanaCyr-Regular.ttf" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        files = { "fonts/OpenSans-Condensed-Bold.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
     }
 }
 
@@ -27,8 +27,8 @@ fontfiles = {
 	always_load = yes
 
     group = {
-        languages = { "l_japanese" "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
-        files = { "fonts/lusitana_regular.ttf" "fonts/NotoSansCJKsc-Regular.otf" "fonts/LusitanaCyr-Regular.ttf" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        files = { "fonts/lusitana_regular.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
     }
 }
 
@@ -37,8 +37,8 @@ fontfiles = {
 	always_load = yes
 
     group = {
-        languages = { "l_japanese" "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
-        files = { "fonts/Lusitana-Bold.ttf" "fonts/NotoSansCJKsc-Regular.otf" "fonts/LusitanaCyr-Regular.ttf" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        files = { "fonts/Lusitana-Bold.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
     }
 }
 
@@ -46,8 +46,8 @@ fontfiles = {
     name = "Cinzel-Bold"
 
     group = {
-        languages = { "l_japanese" "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
-        files = { "fonts/Cinzel-Bold.ttf" "fonts/NotoSansCJKsc-Bold.otf" "fonts/LusitanaCyr-Regular.ttf" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        files = { "fonts/Cinzel-Bold.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
     }
 }
 
