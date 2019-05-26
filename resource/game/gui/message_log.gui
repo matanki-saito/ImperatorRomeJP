@@ -1,0 +1,75 @@
+window = {
+	gfxtype = windowgfx
+	name = "message_log"
+	
+	size = { 800 300 }
+	
+	parentanchor = bottom|left
+	position = { -24 8 }
+	widgetanchor = bottom|left
+	
+	movable = yes
+	
+	icon = {
+		texture = "gfx/interface/log/log_bg.dds"
+	}
+	
+	icon = {
+		position = { 751 284 }
+		texture = "gfx/interface/log/log_rope_scrollbar_end.dds"
+	}
+	
+	scrollarea = {
+		position = { 31 18 }
+		size = { 732 264 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = RopeScrollBar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				datamodel = "[MessageLog.GetMessages]"
+				item = {
+					widget = {
+						size = { 720 44 }
+						container = {
+							
+							button = {
+								position = { 2 0 }
+								texture = "gfx/interface/log/log_view_button.dds"
+								onclick = "[OpenMessageDialog(UIMessage.GetMessage)]"
+								onrightclick = "[ShowMessageSettings(UIMessage.GetMessage)]"
+							}
+							
+							textbox = {
+								position = { 46 18 }
+								text = "[UIMessage.GetLogDate]"
+								using = BlacklSilkFont
+								tooltip = "MESSAGE_LOG_TOOLTIP"
+							#	widgetanchor = vcenter|left
+							#	parentanchor = vcenter|left
+							}
+							
+							textbox = {
+								position = { 150 18 }
+								text = "[UIMessage.GetLog]"
+								using = BlacklSilkFont
+								#	fontsize = 15
+								autoresize = yes
+								maximumsize = { 570 -1 }
+								multiline = yes
+								widgetanchor = vcenter|left
+								align = vcenter|left
+								
+								fontcolor = { 1 1 1 1 }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

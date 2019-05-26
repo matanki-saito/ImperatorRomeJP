@@ -1,0 +1,1491 @@
+types IngameTopbar
+{
+	type topbar_tab_button = container {
+		
+		
+		button = {
+			name = "button"
+			position = { 0 0 }
+			gfxtype = updownframedbuttongfx
+			effectname = "NoHighlight"
+			upframe = 1
+			downframe = 2
+			overframe = 3
+			framesize = { 32 32 }
+			parentanchor = top|left
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		
+		# Set these:
+		# texture
+		# onclick
+		# shortcut
+		# down
+		# tooltip
+		
+		}
+
+		widget = {
+			state = {
+				name = _show
+				start_sound = {soundeffect = "event:/SFX/Ambience/2DMapEmitters/Nature/sfx_amb_base_wind"}
+			}
+		}
+
+	
+	
+	}
+}
+
+
+
+types Mapmodestuff
+{
+	type mapmodebutton = button {
+		shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
+		gfxtype = togglepushbuttongfx
+		effectname = "NoHighlight"
+		
+		upframe = 1
+        uphoverframe = 2
+        uppressedframe = 3
+        downframe = 4
+        downhoverframe = 5
+        downpressedframe = 6
+
+		clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_map_mode"
+		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+
+		block "visibility" {
+			visible = "[CanChangeMapMode]"
+			enabled = "[CanChangeMapMode]"
+		}
+	}
+}
+
+template map_modes
+{
+	### MAPMODES ROW 1
+	flowcontainer = {
+		name = "mapmodes_row_1"
+		position = { 24 1 }
+		
+		
+		mapmodebutton = {
+			texture = "gfx/interface/minimap/mapmode_terrain.dds"
+			framesize = { 45 37 }
+
+			
+			down = "[IsMapMode('terrain')]"
+		
+			name = "map_mode_terrain_button"
+			onclick = "[SetMapMode('terrain')]"
+			shortcut = "map_mode_1"
+			tooltip = "MAPMODE_TERRAIN"
+		}
+		mapmodebutton = {
+			
+
+			texture = "gfx/interface/minimap/mapmode_simpleterrain.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('simple_terrain')]"
+			
+			name = "simple_terrain"
+			onclick = "[SetMapMode('simple_terrain')]"
+			shortcut = "map_mode_2"
+			tooltip = "MAPMODE_SIMPLE_TERRAIN"
+		}
+		mapmodebutton = {
+			
+
+			texture = "gfx/interface/minimap/mapmode_political.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('political')]"
+
+			
+			name = "political"
+			onclick = "[SetMapMode('political')]"
+			shortcut = "map_mode_3"
+			tooltip = "MAPMODE_POLITICAL"
+		}
+		mapmodebutton = {
+			
+	
+			texture = "gfx/interface/minimap/mapmode_culture.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('culture')]"
+
+			
+			name = "culture"
+			onclick = "[SetMapMode('culture')]"
+			shortcut = "map_mode_4"
+			tooltip = "MAPMODE_CULTURE"
+		}
+		mapmodebutton = {
+			
+
+			texture = "gfx/interface/minimap/mapmode_religion.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('religion')]"
+			
+			name = "religion"
+			onclick = "[SetMapMode('religion')]"
+			shortcut = "map_mode_5"
+			tooltip = "MAPMODE_RELIGION"
+		}
+		mapmodebutton = {
+			
+
+			texture = "gfx/interface/minimap/mapmode_province.dds"
+			framesize = { 45 37 }
+			
+			
+			down = "[IsMapMode('area')]"
+
+			
+			name = "area"
+			onclick = "[SetMapMode('area')]"
+			shortcut = "map_mode_6"
+			tooltip = "MAPMODE_AREA"
+		}
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_tradegoods.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('tradegoods')]"
+			
+			
+			name = "trade_goods"
+			onclick = "[SetMapMode('tradegoods')]"
+			shortcut = "map_mode_7"
+			tooltip = "MAPMODE_TRADEGOODS"
+		}
+		mapmodebutton = {
+	
+			texture = "gfx/interface/minimap/mapmode_population.dds"
+			framesize = { 45 37 }
+
+			down = "[IsMapMode('population')]"
+			
+			
+			
+			name = "population"
+			onclick = "[SetMapMode('population')]"
+			shortcut = "map_mode_8"
+			tooltip = "MAPMODE_POPULATION"
+		}
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_diplomatic.dds"
+			framesize = { 45 37 }
+			visible = "[CanChangeMapMode]"
+			
+			down = "[IsMapMode('diplomacy')]"
+
+			
+			name = "diplomacy"
+			enabled = "[CanChangeMapMode]"
+			onclick = "[SetMapMode('diplomacy')]"
+			shortcut = "map_mode_9"
+			tooltip = "MAPMODE_DIPLOMACY"
+		}
+	}
+
+	### MAPMODES ROW 2
+	flowcontainer = {
+		name = "mapmodes_row_2"
+		position = { 24 41 }
+		
+		
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_barbarian.dds"
+			framesize = { 45 37 }
+			
+			
+			down = "[IsMapMode('barbarian_power')]"
+
+			
+			name = "map_mode_barbarian_button"
+			onclick = "[SetMapMode('barbarian_power')]"
+			shortcut = "map_mode_10"
+			tooltip = "MAPMODE_BARBARIAN"
+		}
+		
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_traderoutes.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('trade_routes')]"
+
+	
+			
+			name = "map_mode_trade_routes_button"
+			onclick = "[SetMapMode('trade_routes')]"
+			shortcut = "map_mode_11"
+			tooltip = "MAPMODE_TRADE_ROUTES"
+		}
+		
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_players.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('players')]"
+
+			
+			name = "map_mode_players_button"
+			onclick = "[SetMapMode('players')]"
+			shortcut = "map_mode_12"
+			tooltip = "MAPMODE_PLAYERS"
+		}
+		
+		
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_fort.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('fortifications')]"
+			
+			
+			name = "map_mode_fortifications_button"
+			onclick = "[SetMapMode('fortifications')]"
+			shortcut = "map_mode_13"
+			tooltip = "MAPMODE_FORTIFICATIONS"
+		}
+		
+		
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_region.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('region')]"
+			
+			name = "region"
+			onclick = "[SetMapMode('region')]"
+			shortcut = "map_mode_14"
+			tooltip = "MAPMODE_REGION"
+		}
+		
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_supply.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('supply')]"
+			
+			name = "map_mode_supply_button"
+			onclick = "[SetMapMode('supply')]"
+			shortcut = "map_mode_15"
+			tooltip = "MAPMODE_SUPPLY"
+		}
+		
+		mapmodebutton = {
+			
+			texture = "gfx/interface/minimap/mapmode_civilization.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('civilization')]"
+			
+			name = "map_mode_civ_button"
+			onclick = "[SetMapMode('civilization')]"
+			shortcut = "map_mode_16"
+			tooltip = "MAPMODE_CIVILIZATION"
+		}
+		
+		mapmodebutton = {
+			texture = "gfx/interface/minimap/mapmode_opinion.dds"
+			framesize = { 45 37 }
+			size = { 45 37 }
+			
+			down = "[IsMapMode('opinion')]"
+			
+			name = "opinion"
+			onclick = "[SetMapMode('opinion')]"
+			tooltip = "MAPMODE_OPINION"
+			shortcut = "map_mode_17"
+		}
+		mapmodebutton = {
+			texture = "gfx/interface/minimap/mapmode_unrest_loyalty.dds"
+			framesize = { 45 37 }
+			
+			down = "[IsMapMode('unrest_loyalty')]"
+			
+			name = "unrest_loyalty"
+			onclick = "[SetMapMode('unrest_loyalty')]"
+			tooltip = "MAPMODE_UNREST_LOYALTY"
+			shortcut = "map_mode_18"
+		}
+	}
+}
+
+template map_actions
+{
+	### MAP ACTIONS ROW 1
+	flowcontainer = {
+		name = "mapactions_row_1"
+		position = { 24 0 }
+		
+		
+		button = {
+			name = "find_province"
+			onclick = "[OnFindProvince]"
+			shortcut = "find_province"
+			
+			gfxtype = framedbuttongfx
+			effectname = "NoHighlight"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			visible = "[CanChangeMapMode]"
+			
+			upframe = 1
+			overframe = 2
+			downframe = 3
+			texture = "gfx/interface/minimap/minimap_find_province.dds"
+			framesize = { 45 37 }
+			
+			tooltip = "MAPACTION_FIND_PROVINCE"
+		}
+		
+		button = {
+			name = "go_to_capital"
+			onclick = "[GoToCapital]"
+			shortcut = "go_to_capital"
+			
+			gfxtype = framedbuttongfx
+			effectname = "NoHighlight"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			visible = "[CanChangeMapMode]"
+			
+			upframe = 1
+			overframe = 2
+			downframe = 3
+			texture = "gfx/interface/minimap/minimap_go_to_capital.dds"
+			framesize = { 45 37 }
+			
+			tooltip = "MAPACTION_GO_TO_CAPITAL"
+		}
+	}
+}
+
+
+vbox = {
+	name = "ingame_topbar"
+	
+	window = {
+		layoutpolicy_horizontal = Expanding
+		layoutpolicy_vertical = Expanding
+		layoutstretchfactor_vertical = 20
+		alwaystransparent = yes
+		
+		widget = {
+			name = "top_bar_bg"
+			size = { 100% 160 }
+			position = { 0 0 }
+			alwaystransparent = yes
+			
+			icon = {
+				name = "topbar_bg_left"
+				position = { 992 0 }
+				texture = "gfx/interface/topbar/top_bar_left.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 0 0 }
+				size = { 1200 90 }
+				alwaystransparent = no
+				widgetanchor = top|right
+			}
+			
+			icon = {
+				name = "topbar_bg_center"
+				position = { 992 0 }
+				texture = "gfx/interface/topbar/top_bar_center.dds"
+				alwaystransparent = yes
+			}
+			
+			icon = {
+				name = "topbar_bg_right"
+				position = { 1032 0 }
+				texture = "gfx/interface/topbar/top_bar_right.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 0 0 }
+				size = { 100% 52 }
+				alwaystransparent = no
+			}
+		
+		}
+		
+		container = {
+			position = { 0 152 }
+			visible = "[InGameTopbar.IsTutorialActive]"
+			
+			icon = {
+				texture = "gfx/interface/tiles/button_base.dds"
+			}
+			button = {
+				position = { 6 57 }
+				texture = "gfx/interface/buttons/button_tutorial.dds"
+				frame = "[InGameTopbar.GetTutorialFrame]"
+				onclick = "[InGameTopbar.OpenView('tutorial_objectives')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				forcedown = "[IsGameViewOpen('tutorial_objectives')]"
+				gfxtype = buttongfx
+				framesize = { 49 49 }
+			}
+		}
+		
+		container = {
+			position = { 56 92 }
+			
+			icon = {
+				texture = "gfx/interface/tiles/button_base.dds"
+			}
+			
+			button = {
+				position = { 6 57 }
+				texture = "gfx/interface/buttons/button_macro_builder.dds"
+				onclick = "[InGameTopbar.OpenView('macro_builder')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				forcedown = "[IsGameViewOpen('macro_builder')]"
+				tooltip = "MACRO_BUILDER_MENU"
+				gfxtype = buttongfx
+			}
+		}
+		
+		
+		icon = {
+			texture = "gfx/interface/topbar/flag_shadow.dds"
+			#TODO, does not work? intersectionmask = yes
+		}
+		
+		banner_widget = {
+			position = { -14 -115 }
+			size = { 155 355 }
+			entity_instance = "[InGameTopbar.GetFlagEntity]"
+			color = "[InGameTopbar.AccessCoatOfArms.GetColor('(int32)1')]"
+			texture = "[InGameTopbar.AccessCoatOfArms.GetTexture('(int32)155','(int32)355')]"
+			frame = "[InGameTopbar.AccessCoatOfArms.GetFrame('(int32)155','(int32)355')]"
+			framesize = { 155 355 }
+			tooltip = "[InGameTopbar.GetFlagDesc]"
+			realtime = yes
+		
+		}
+		
+		widget = {
+			position = { 56 132 }
+			size = { 60 68 }
+			
+			tooltip = "MACRO_BUILDER_MENU"
+		}
+		
+		widget = {
+			position = { 0 190 }
+			size = { 60 68 }
+			visible = "[InGameTopbar.IsTutorialActive]"
+			
+			tooltip = "TUTORIAL_MENU"
+		}
+		
+		flowcontainer = {
+			position = { 145 5 }
+			
+			widget = {
+				name = "treasury"
+				size = { 116 40 }
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "treasury_icon"
+					position = { 1 -2 }
+					size = { 36 36 }
+					using = icon_treasury
+				}
+				
+				textbox = {
+					name = "treasury_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetTreasury|0]"
+					widgetanchor = top|hcenter
+				}
+				
+				icon = {
+					name = "plus"
+					position = { -1 3 }
+					size = { 36 36 }
+					using = icon_plus
+					visible = [InGameTopbar.GetPlayer.HasPositiveBalance]
+				}
+				
+				
+				icon = {
+					name = "minus"
+					position = { -1 3 }
+					size = { 36 36 }
+					using = icon_minus
+					visible = "[Not(InGameTopbar.GetPlayer.HasPositiveBalance)]"
+				}
+				
+				tooltip = [InGameTopbar.GetPlayer.GetTreasuryTooltip]
+			}
+
+			widget = {
+				name = "manpower"
+				size = { 116 40 }
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "manpower_icon"
+					position = { 2 0 }
+					size = { 36 36 }
+					using = icon_manpower
+				}
+				textbox = {
+					name = "manpower_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetManpower]"
+					widgetanchor = top|hcenter
+				}
+				
+				icon = {
+					name = "plus"
+					position = { -1 3 }
+					size = { 36 36 }
+					using = icon_plus
+					visible = [InGameTopbar.GetPlayer.HasPositiveManpower]
+				}
+				
+				
+				icon = {
+					name = "minus"
+					position = { -1 3 }
+					size = { 36 36 }
+					using = icon_minus
+					visible = "[Not(InGameTopbar.GetPlayer.HasPositiveManpower)]"
+				}
+				
+				tooltip = [InGameTopbar.GetPlayer.GetManpowerTooltip]
+			}
+
+			widget = { 
+				size = { 25 34 }
+
+				icon = {
+					name = "vertical_divider_1"
+					texture = "gfx/interface/tiles/vertical_divider.dds"
+					spriteType = corneredtiled
+					spriteborder = { 0 10 }
+					size = { 6 34 }
+					alpha = 0.5
+					position = { 7 0 }
+				}
+			}
+			
+			widget = {
+				name = "military"
+				size = { 116 40 }
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "military_icon"
+					position = { 3 -1 }
+					size = { 36 36 }
+					using = icon_military
+				}
+				
+				textbox = {
+					name = "military_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetPower.GetValue('military')]"
+					widgetanchor = top|hcenter
+				}
+				
+				tooltip = "[InGameTopbar.GetPlayer.GetPower.GetTooltip('military')]"
+			}
+			
+			widget = {
+				name = "civic"
+				size = { 116 40 }
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "civic_icon"
+					position = { 2 0 }
+					size = { 36 36 }
+					using = icon_civic
+				}
+				
+				textbox = {
+					name = "civic_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetPower.GetValue('civic')]"
+					widgetanchor = top|hcenter
+				}
+				
+				tooltip = "[InGameTopbar.GetPlayer.GetPower.GetTooltip('civic')]"
+			}
+			
+			widget = {
+				name = "oratory"
+				size = { 116 40 }
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "oratory_icon"
+					position = { 2 -1 }
+					size = { 36 36 }
+					using = icon_oratory
+				}
+				
+				textbox = {
+					name = "oratory_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetPower.GetValue('oratory')]"
+					widgetanchor = top|hcenter
+				}
+				
+				tooltip = "[InGameTopbar.GetPlayer.GetPower.GetTooltip('oratory')]"
+			}
+			
+			widget = {
+				name = "religious"
+				size = { 116 40 }
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "religious_icon"
+					position = { 2 0 }
+					size = { 36 36 }
+					using = icon_religious
+				}
+				
+				textbox = {
+					name = "religious_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetPower.GetValue('religious')]"
+					widgetanchor = top|hcenter
+				}
+				
+				tooltip = "[InGameTopbar.GetPlayer.GetPower.GetTooltip('religious')]"
+			}	
+
+			widget = { 
+				size = { 25 34 }
+
+				icon = {
+					name = "vertical_divider_1"
+					texture = "gfx/interface/tiles/vertical_divider.dds"
+					spriteType = corneredtiled
+					spriteborder = { 0 10 }
+					size = { 6 34 }
+					alpha = 0.5
+					position = { 7 0 }
+				}
+			}
+			
+			widget = {
+				name = "stability"
+				size = { 116 40 }
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "stability_icon"
+					position = { 2 0 }
+					size = { 36 36 }
+					using = icon_stability
+				}
+				
+				textbox = {
+					name = "stability_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetStability]"
+					widgetanchor = top|hcenter
+				}
+				
+				tooltip = [InGameTopbar.GetPlayer.GetStabilityTooltipPlayer]
+			}
+
+			widget = {
+				name = "aggressive_expansion"
+				size = { 116 40 }
+				alpha_recursive = "[TransparentIfZero(InGameTopbar.GetPlayer.GetCurrentAgressiveExpansion)]"
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "aggressive_expansion_icon"
+					position = { 2 -1 }
+					size = { 36 36 }
+					using = icon_aggressive_expansion
+				}
+				
+				textbox = {
+					name = "aggressive_expansion_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetCurrentAgressiveExpansion|2]"
+					widgetanchor = top|hcenter
+				}
+
+				tooltip = "[InGameTopbar.GetPlayer.GetCurrentAgressiveExpansionInfo]"
+			}	
+			
+			widget = {
+				name = "tyranny"
+				size = { 116 40 }
+				alpha_recursive = "[TransparentIfZero(InGameTopbar.GetPlayer.GetTyranny)]"
+				
+				icon = {
+					name = "value_frame"
+					position = { 0 -2 }
+					texture = "gfx/interface/tiles/icon_value_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 48 48 }
+					size = { 110 40 }
+				}
+				
+				icon = {
+					name = "tyranny_icon"
+					position = { 2 0 }
+					size = { 36 36 }
+					using = icon_tyranny
+				}
+				
+				textbox = {
+					name = "tyranny_value"
+					position = { 72 3 }
+					using = MarbleButtonFont
+					autoresize = yes
+					text = "[InGameTopbar.GetPlayer.GetTyranny|2]"
+					widgetanchor = top|hcenter
+				}
+				
+				tooltip = [InGameTopbar.GetPlayer.GetTyrannyTooltip]
+			}	
+		}
+		
+		
+		### MAIN TABS
+		
+		
+		container = {
+			name = "mains tabs"
+			position = { 100 48 }
+			#size = { 80 500}
+			
+			widgetanchor = top|left
+			parentanchor = top|left
+			alwaystransparent = no
+			
+			flowcontainer = {
+				name = "button_overview"
+				position = { 46 9 }
+				
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_overview.dds"
+						onclick = "[InGameTopbar.OpenView('overview')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('overview')]"
+						tooltip = "NATION_OVERVIEW_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_1"
+					}
+				}
+				#	}
+				#
+				#	flowcontainer = {
+				#		name = "buttons_first"
+				#		position = { 143 9 }
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_government.dds"
+						onclick = "[InGameTopbar.OpenView('government')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('government')]"
+						tooltip = "GOVERNMENT_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_2"
+					}
+				}
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_military.dds"
+						onclick = "[InGameTopbar.OpenView('military')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('military')]"
+						tooltip = "MILITARY_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_3"
+					}
+				}
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_technology.dds"
+						onclick = "[InGameTopbar.OpenView('technology')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('technology')]"
+						tooltip = "TECHNOLOGY_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_4"
+					}
+				}
+				
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_religion.dds"
+						onclick = "[InGameTopbar.OpenView('religion')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('religion')]"
+						tooltip = "RELIGION_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_5"
+					}
+				}
+				
+				#	}
+				#
+				#	flowcontainer = {
+				#		name = "buttons_second"
+				#		position = { 470 9 }
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_economy.dds"
+						onclick = "[InGameTopbar.OpenView('economy')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('economy')]"
+						tooltip = "ECONOMY_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_6"
+					}
+				}
+				
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_diplomacy.dds"
+						onclick = "[InGameTopbar.OpenView('diplomacy')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('diplomacy')]"
+						tooltip = "DIPLOMACY_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_7"
+					}
+				}
+				
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_decisions.dds"
+						onclick = "[InGameTopbar.OpenView('decisions')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('decisions')]"
+						tooltip = "DECISIONS_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_8"
+					}
+				}
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_trade.dds"
+						onclick = "[InGameTopbar.OpenView('trade')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('trade')]"
+						tooltip = "TRADE_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_9"
+					}
+				}
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_characters.dds"
+						onclick = "[InGameTopbar.OpenView('characters')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('characters')]"
+						tooltip = "CHARACTERS_MENU"
+						using = top_bar_button_spacing
+						shortcut = "top_bar_10"
+					}
+				}
+				
+				topbar_tab_button = {
+					
+					icon = {
+						name = "shade_for_button"
+						using = top_bar_button_shade_spacing
+					}
+					
+					button = {
+						texture = "gfx/interface/topbar/top_bar_button_mercenary.dds"
+						onclick = "[InGameTopbar.OpenView('mercenary')]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						forcedown = "[IsGameViewOpen('mercenary')]"
+						tooltip = "MERCENARY_MENU"
+						using = top_bar_button_spacing
+					#shortcut = "top_bar_11"
+					}
+				}
+			}
+		}
+		
+		widget = {
+			size = { 400 100 }
+			position = { -4 -268 }
+			parentanchor = bottom|right
+			widgetanchor = bottom|right
+			visible = "[IsGamePaused]"
+			
+			icon = {
+				texture = "gfx/interface/tiles/pause_banner.dds"
+				alwaystransparent = no
+			}
+			
+			textbox = {
+				position = { 0 14 }
+				autoresize = yes
+				text = "Game_Paused"
+				parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+				using = GoldenFontL
+				fontsize = 28
+			}
+		}
+		
+		widget = {
+			position = { 1 1 }
+			name = "minimap_and_buttons"
+			parentanchor = bottom|right
+			widgetanchor = bottom|right
+			#	direction = vertical
+			size = { 408 292 }
+			
+			### MINI MAP
+			mini_map = {
+				position = { -12 -5 }
+				name = "mini_map"
+				parentanchor = bottom|right
+				widgetanchor = bottom|right
+				texture = "gfx/interface/minimap/minimap.dds"
+			}
+			
+			widget = {
+				position = { 5 -32 }
+				size = { 418 210 }
+				parentanchor = bottom|right
+				widgetanchor = bottom|right
+				using = small_window_p_type
+			}
+			
+			### MAP MODES
+			container = {
+				name = "map_modes"
+				position = { -2 15 }
+				parentanchor = top|right
+				using = map_modes
+			}
+			
+			### MAP ACTIONS
+			container = {
+				name = "map_actions"
+				position = { -14 -6 }
+				parentanchor = bottom|right
+				widgetanchor = bottom|right
+				using = map_actions
+			}
+			
+			menu_button = {
+				size = { 40 40 }
+				onclick = "[ToggleMessageLog]"
+				position = { 14 249 }
+				tooltip = "MESSAGE_LOG_TT"
+				texture = "gfx/interface/buttons/log_button.dds"
+			}
+		}
+		
+		### TOPBAR CORNER ASSET
+		icon = {
+			name = "bg"
+			position = { 0 0 }
+			parentanchor = top|right
+			size = { 270 90 }
+			texture = "gfx/interface/topbar/top_bar_right_corner.dds"
+		}
+		
+		
+		### DATE
+		window = {
+			name = "date"
+			size = { 210 108 }
+			parentanchor = top|right
+			position = { 0 0 }
+			movable = no
+			
+			icon_time_indicator = {
+				position = { -51 48 }
+				parentanchor = top|right
+				frame = "[GetCurrentGameSpeed]"
+			}
+			
+			icon = {
+				name = "date_frame"
+				position = { -51 5 }
+				texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				parentanchor = top|right
+				spriteborder = { 12 12 }
+				size = { 360 40 }
+			}
+			
+			textbox = {
+				name = "date_text"
+				position = { -51 15 }
+				size = { 360 20 }
+				using = MarbleButtonFont
+				parentanchor = top|right
+				#autoresize = yes
+				text = "CURRENT_DATE"
+				tooltip = "CURRENT_DATE_TOOLTIP"
+				align = center|nobaseline
+			}
+			
+			container = {
+				position = { -187 60 }
+				parentanchor = top|right
+				
+				visible = no
+				
+				icon = {
+					name = "replay_frame"
+					position = { 0 0 }
+					parentanchor = top|right
+					texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+				}
+				
+				play_button = {
+					name = "open_replay_button"
+					size = { 42 42 }
+					
+					visible = "[Not(IsReplayShown)]"
+					
+					position = { 1 4 }
+					
+					onclick = "[OnToggleReplay]"
+					
+					tooltip = "OPEN_REPLAY"
+				}
+				
+				pause_button = {
+					name = "close_replay_button"
+					size = { 42 42 }
+					
+					position = { 1 4 }
+					
+					visible = "[IsReplayShown]"
+					
+					onclick = "[OnToggleReplay]"
+					
+					tooltip = "CLOSE_REPLAY"
+				}
+			}
+			
+			container = {
+				position = { -143 60 }
+				parentanchor = top|right
+				
+				icon = {
+					name = "play_frame"
+					position = { 0 0 }
+					parentanchor = top|right
+					texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+				}
+				
+				play_button = {
+					name = "play_button"
+					size = { 42 42 }
+					
+					visible = "[IsGamePaused]"
+					position = { 1 4 }
+					
+					onclick = "[OnPause]"
+					shortcut = pausebrk
+					
+					tooltip = "UNPAUSE_GAME"
+				}
+				
+				pause_button = {
+					name = "pause_button"
+					size = { 42 42 }
+					
+					position = { 1 4 }
+					
+					visible = "[Not(IsGamePaused)]"
+					
+					onclick = "[OnPause]"
+					shortcut = pausebrk
+					
+					tooltip = "PAUSE_GAME"
+				}
+			}
+			
+			container = {
+				position = { -96 60 }
+				parentanchor = top|right
+				
+				
+				icon = {
+					name = "minus_frame"
+					position = { 0 0 }
+					texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+				}
+				
+				minus_button = {
+					size = { 42 42 }
+					shortcut = "decrease_speed"
+					onclick = "[OnDecreaseGameSpeed]"
+					position = { 1 4 }
+					tooltip = "DECREASE_GAME_SPEED"
+					enabled = "[CanChangeGameSpeed]"
+				}
+			}
+			
+			container = {
+				position = { -49 60 }
+				parentanchor = top|right
+				
+				icon = {
+					name = "plus_frame"
+					position = { 0 0 }
+					texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+				}
+				
+				plus_button = {
+					size = { 42 42 }
+					shortcut = "increase_speed"
+					onclick = "[OnIncreaseGameSpeed]"
+					position = { 1 4 }
+					tooltip = "INCREASE_GAME_SPEED"
+					enabled = "[CanChangeGameSpeed]"
+				}
+			}
+			
+			container = {
+				position = { -2 60 }
+				parentanchor = top|right
+				
+				icon = {
+					name = "menu_frame"
+					position = { 0 0 }
+					texture = "gfx/interface/topbar/top_bar_button_frame_small.dds"
+				}
+				
+				menu_button = {
+					name = "outliner_button_icon"
+					texture = "gfx/interface/buttons/outliner_button.dds"
+					size = { 42 42 }
+					shortcut = "outliner"
+					onclick = "[OnToggleOutliner]"
+					position = { 1 4 }
+					tooltip = "OUTLINER_SHOWHIDE_TOOLTIP"
+				}
+			}
+			
+			menu_button = {
+				name = "menu_button_icon"
+				position = { -6 6 }
+				parentanchor = top|right
+				size = { 42 42 }
+				shortcut = "close_window"
+				onclick = "[OnPauseMenu]"
+				tooltip = "SHOW_MENU"
+			}
+			
+			jomini_music_player_mini_controller = {
+				visible = no
+				parentanchor = top|right
+				position = { -10 150 }
+			}
+		}
+		
+		### LAGGING PLAYER NOTIFICATION
+		widget = {
+			using = ScrollMessageBackground
+			using = clickthrough_blocker
+			size = { 210 100 }
+			position = { -100 -298 }
+			parentanchor = bottom|right
+			visible = "[GetPlayerIsLagging]"
+			
+			textbox = {
+				size = { 180 70 }
+				position = { 14 16 }
+				using = MarbleButtonFont
+				multiline = yes
+				text = "[GetLaggingPlayerString]"
+				align = center|nobaseline
+			}
+		}
+		
+		
+		
+		### ERROR PLATYPUS!
+		widget = {
+			position = { 0 -278 }
+			size = { 113 140 }
+			parentanchor = bottom|right
+			visible = "[HasErrors]"
+			
+			button = {
+				name = "error_button"
+				parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+				texture = "gfx/interface/error_platy.dds"
+				tooltip = "[ErrorTooltip]"
+				onclick = "[OpenErrorLog]"
+				size = { 100% 100% }
+			}
+			
+			
+			icon = {
+				position = { -2 -10 }
+				size = { 80 32 }
+				parentanchor = bottom|hcenter
+				widgetanchor = bottom|hcenter
+				texture = "gfx/interface/error_banner.dds"
+			}
+			
+			textbox = {
+				name = "error_text"
+				position = { -1 -16 }
+				using = FontValue
+				parentanchor = bottom|hcenter
+				widgetanchor = bottom|hcenter
+				autoresize = yes
+				align = center|nobaseline
+				text = "[NumberOrErrors|b]"
+			}
+		}
+		
+		###
+		textbox = {
+			position = { 0 400 }
+			using = FontHeading1
+			parentanchor = top|hcenter
+			autoresize = yes
+			text = "AUTOSAVE_IN_PROGRESS"
+			align = center|nobaseline
+			visible = "[IsAutoSaving]"
+		}
+		
+		textbox = {
+			position = { 0 190 }
+			using = FontHeading1
+			parentanchor = top|hcenter
+			autoresize = yes
+			text = "SAVE_IN_PROGRESS"
+			align = center|nobaseline
+			visible = "[IsSaving]"
+		}
+		
+		container = {
+			position = { -410 1 }
+			parentanchor = top|right
+			widgetanchor = top|right	
+			tooltip = "TOPBAR_SCORE_TOOLTIP"
+			
+			button = {
+				gfxtype = buttongfx
+				position = { -50 0 }
+				size = { 44 44 }
+
+				texture = "gfx/interface/buttons/score_button.dds"
+				onclick = "[InGameTopbar.OpenView('view_score')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_decrement"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			}
+			
+			icon = {
+				name = "score_frame"
+				position = { -5 6 }
+				texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				parentanchor = top|right
+				spriteborder = { 12 12 }
+				size = { 92 32 }
+
+				textbox = {
+					parentanchor = top|hcenter
+					autoresize = yes
+					position = { 0 2 }
+					text = "[InGameTopbar.GetPlayer.GetScore|0]"
+					using = MarbleButtonFontS
+				}			
+			}
+		}
+	}
+}
