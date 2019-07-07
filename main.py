@@ -56,8 +56,8 @@ def assembly_mod(mod_file_name,
     ext_paratranz_main_dir_path = _(".", "tmp", "paratranz_ext_main")
     ext_paratranz_sub_dir_path = _(".", "tmp", "paratranz_ext_sub")
     mod_dir_path = _(out_dir_path, mod_file_name)
-    mod_loc_dir_path = _(mod_dir_path, "localization", "replace")
-    mod_gui_dir_path = _(mod_dir_path, "gui")
+    mod_loc_root_dir_path = _(mod_dir_path, "localization")
+    mod_loc_replace_dir_path = _(mod_loc_root_dir_path, "replace")
 
     # 初期化（AzureDevでは必要ない）
     if os.path.exists(ext_paratranz_main_dir_path):
@@ -67,7 +67,7 @@ def assembly_mod(mod_file_name,
     if os.path.exists(mod_dir_path):
         shutil.rmtree(mod_dir_path)
     os.makedirs(mod_dir_path, exist_ok=True)
-    os.makedirs(mod_loc_dir_path, exist_ok=True)
+    os.makedirs(mod_loc_replace_dir_path, exist_ok=True)
 
     # zip展開する
     with zipfile.ZipFile(resource_paratranz_main_zip_file_path) as existing_zip:
@@ -85,44 +85,29 @@ def assembly_mod(mod_file_name,
 
     # clausewitzを移す
     shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "clausewitz", "localization"),
-                    _(mod_loc_dir_path, "clausewitz"))
+                    _(mod_loc_replace_dir_path, "clausewitz"))
 
     # jominiを移す
     shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "jomini", "localization"),
-                    _(mod_loc_dir_path, "jomini"))
+                    _(mod_loc_replace_dir_path, "jomini"))
 
     # gameを移す
     shutil.copytree(src=_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "english"),
-                    dst=_(mod_loc_dir_path, "english"),
+                    dst=_(mod_loc_root_dir_path, "english"),
                     ignore=shutil.ignore_patterns("character_names_l_english.yml",
                                                   "countries_l_english.yml",
-                                                  "cultures_l_english.yml",
-                                                  "god_names_l_english.yml",
                                                   "macroregions_l_english.yml",
                                                   "nicknames_l_english.yml",
                                                   "provincenames_l_english.yml"
-                                                  "regionnames_l_english.yml",
-                                                  "wonders_l_english.yml"
+                                                  "regionnames_l_english.yml"
                                                   ))
 
     # ダウンロードしたファイルから
     shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "gui"),
-                    _(mod_loc_dir_path, "gui"))
+                    _(mod_loc_replace_dir_path, "gui"))
 
     shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "load_tips"),
-                    _(mod_loc_dir_path, "load_tips"))
-
-    # リソースから
-    shutil.copytree(_(resource_dir_path, "game", "gui"),
-                    mod_gui_dir_path)
-
-    # SubModからファイルを移す
-    shutil.move(_(ext_paratranz_main_dir_path,
-                  "utf8", "game", "localization", "english", "god_names_l_english.yml"),
-                _(mod_loc_dir_path, "english", "god_names_l_english.yml"))
-    shutil.move(_(ext_paratranz_main_dir_path,
-                  "utf8", "game", "localization", "english", "wonders_l_english.yml"),
-                _(mod_loc_dir_path, "english", "wonders_l_english.yml"))
+                    _(mod_loc_replace_dir_path, "load_tips"))
 
     return mod_dir_path
 
@@ -258,7 +243,7 @@ def main():
         mod_dir_name=mod_file_name,
         mod_tags={"Translation", "Localisation"},
         mod_image_file_path="title.jpg",
-        mod_supported_version="1.0.*",
+        mod_supported_version="1.1.*",
         out_dir_path=out_dir_path)
 
     print("generate .mod file")

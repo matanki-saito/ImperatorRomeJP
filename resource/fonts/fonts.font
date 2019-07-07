@@ -7,8 +7,13 @@ fontfiles = {
 	always_load = yes
 
     group = {
-        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" }
         files = { "fonts/OpenSans-Semibold.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
+    }
+
+    group = {
+        languages = { "l_russian" }
+        files = {  "fonts/LusitanaCyr-Regular.ttf" "fonts/OpenSans-Semibold.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
     }
 }
 
@@ -17,8 +22,13 @@ fontfiles = {
 	always_load = yes
 
     group = {
-        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" }
         files = { "fonts/OpenSans-Condensed-Bold.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
+    }
+
+    group = {
+        languages = { "l_russian" }
+        files = { "fonts/LusitanaCyr-Regular.ttf" "fonts/OpenSans-Condensed-Bold.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
     }
 }
 
@@ -27,8 +37,13 @@ fontfiles = {
 	always_load = yes
 
     group = {
-        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" }
         files = { "fonts/lusitana_regular.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
+    }
+
+    group = {
+        languages = { "l_russian" }
+        files = { "fonts/LusitanaCyr-Regular.ttf" "fonts/lusitana_regular.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
     }
 }
 
@@ -37,8 +52,13 @@ fontfiles = {
 	always_load = yes
 
     group = {
-        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" }
         files = { "fonts/Lusitana-Bold.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
+    }
+
+    group = {
+        languages = { "l_russian" }
+        files = { "fonts/LusitanaCyr-Regular.ttf" "fonts/Lusitana-Bold.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
     }
 }
 
@@ -46,8 +66,13 @@ fontfiles = {
     name = "Cinzel-Bold"
 
     group = {
-        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" "l_russian" }
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" }
         files = { "fonts/Cinzel-Bold.ttf" "fonts/Hellenism-Kana-SemiBold.ttf" "fonts/Hellenism-SemiBold.ttf" }
+    }
+
+    group = {
+        languages = { "l_russian" }
+        files = { "fonts/LusitanaCyr-Regular.ttf" "fonts/Cinzel-Bold.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
     }
 }
 
@@ -107,7 +132,6 @@ font = {
 }
 
 #Main font
-## Needs to be replaced in the future. Why?
 font = {
 	name = "BaseFont"
 	
