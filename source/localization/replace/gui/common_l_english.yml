@@ -1,0 +1,7 @@
+﻿l_english:
+ CLOSE:0 "#T 閉じる#!"
+ BACK:0 "戻る"
+ TOP_BAR_VERSION:2 "実行ファイル Gitバージョン：$BuildRevision$\n$VersionNumber$（$VersionName$）\nMPチェックサム：$MPChecksum$\n$RandomLogInfo$ $BuildRevisionTime$"
+ TOP_BAR_VERSION_LIVE:1 "バージョン：$VersionNumber$（$VersionName$） \n MP チェックサム： $MPChecksum$"
+ OK_BUTTON:0 "OK"
+ CANCEL_BUTTON:0 "キャンセル"

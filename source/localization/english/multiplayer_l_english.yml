@@ -1,0 +1,5 @@
+﻿l_english:
+ RANDOM_COUNT:0 "乱数"
+ RANDOM_SEED:0 "ランダムシード"
+ GAMESTATE_CHECKSUM:0 "ゲーム状態のチェックサム"
+ LIVING_CHARACTERS:0 "存命の人物"

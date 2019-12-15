@@ -1,0 +1,12 @@
+﻿l_english:
+ tribal_flavour_event.1.t:0 "確執"
+ tribal_flavour_event.1.desc:0 "部族の二人の人物が、彼らが見つけたという金の[ROOT.GetCountry.Custom('get_found_treasure')]の所有権がどちらにあるのかを判断して欲しいと申し出てきた。[SCOPE.sChar('duelist_1').GetName]は、見つけたのは自分だから自分に所有権があるべきだと考えているようだが、一方で[SCOPE.sChar('duelist_2').GetName]は、見つかったのは自分の土地なのだから所有権も[SCOPE.sChar('duelist_2').GetHerHim]にあるべきだと言っているようだ。"
+ tribal_flavour_event.1.a:0 "所有権は[SCOPE.sChar('duelist_1').GetName]にあるだろう。"
+ tribal_flavour_event.1.b:0 "所有権は[SCOPE.sChar('duelist_2').GetName]にあるだろう。"
+ tribal_flavour_event.1.c:0 "[ROOT.GetCountry.GetName]が預かっておくとしよう。"
+ tribal_flavour_event.1.d:0 "神々に捧げられるべきである！"
+ string_necklace:0 "首飾り"
+ string_crown:0 "王冠"
+ string_statue:0 "像"
+ string_amphora:0 "アンフォラ"
+ string_goblet:0 "ゴブレット"

@@ -1,0 +1,11 @@
+﻿l_english:
+ ACHIEVEMENT_UNLOCKED: "実績はアンロックされています！"
+ ACHIEVEMENT_LOCKED: "実績はロックされています"
+ ACHIEVEMENT_NOT_POSSIBLE: "現在のキャンペーンでは達成できません"
+ ACHIEVEMENTS: "実績"
+ ACHIEVEMENT_FILTER_POSSIBLE: "表示可能"
+ ACHIEVEMENT_FILTER_NOT_POSSIBLE: "表示不可能"
+ ACHIEVEMENT_FILTER_UNLOCKED:1 "獲得した実績を表示する"
+ ACHIEVEMENT_FILTER_LOCKED:1 "残りの実績を表示する"
+ ACHIEVEMENT_GROUP_TITLE: "[Group.GetName]－[Group.CalcNumberOfUnlockedAchievements] / [Group.GetNumberOfAchievements]"
+ ACHIEVEMENT_GROUP_TOOLTIP: "[Group.GetName]グループの#V [Group.GetNumberOfAchievements]#!個の実績のうち、#V [Group.CalcNumberOfUnlockedAchievements]#!個が解除されました。"

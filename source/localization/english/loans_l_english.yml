@@ -1,0 +1,3 @@
+﻿l_english:
+ num_of_loans_tooltip:1 "\t\t\t\t\t\t\t\t[SCOPE.sCountry('actor').GetName|Y]は#Y 3#!未満の借金を抱えている。"
+ rule_pop_greater_than_target_loyalty:0 "\t\t\t\t\t\t\t\t統治者の人気は[SCOPE.sChar('target').GetName]の人気より大きい。"

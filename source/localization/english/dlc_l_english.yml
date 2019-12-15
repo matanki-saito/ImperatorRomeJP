@@ -1,0 +1,5 @@
+﻿l_english:
+ HAS_DLC_TRIGGER:0 "所持しているDLC：$DLC|Y$"
+ HAS_NOT_DLC_TRIGGER:0 "所持していないDLC：$DLC|Y$"
+ MISSING_DLCS:0 "DLCが不足："
+ AlphaTestDLC:0 "アルファテストDLC"

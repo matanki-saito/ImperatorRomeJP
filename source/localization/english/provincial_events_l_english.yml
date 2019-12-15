@@ -1,0 +1,5 @@
+﻿l_english:
+ provincial_events.1.t:0 "地方の緊張"
+ provincial_events.1.desc:1 "[ROOT.GetCountry.GetPrimaryCulture.GetName]人の入植者と[SCOPE.sP('colonial_province').GetName]の地元の人々との間で緊張が高まっている。地元の人々は、入植者が地元の伝統や権力構造を拒否していると訴えているようだ。一方、入植者たちは、新しい[ROOT.GetCountry.GetPrimaryCulture.GetName]人の集落がこの地域の既存の大都市を凌駕しているために地元の人々が心配しているだけだと訴えている。"
+ provincial_events.1.a:0 "[ROOT.GetCountry.GetPrimaryCulture.GetName]人の利益を優先する。"
+ provincial_events.1.b:0 "土着住民の権利を守る。"

@@ -1,0 +1,5 @@
+﻿l_english:
+ Johan_event.1.t:0 "ヨハンのテストイベントタイトル"
+ Johan_event.1.d:0 "[ROOT.Char.GetName]は[ROOT.Char.GetAge]歳で[ROOT.Char.GetCountry.GetName]に住んでいる"
+ Johan_event.1.a:0 "賽は投げられた！"
+ animated_text_effect:0 "[ROOT.GetProvince.GetName]は退屈で仕方がない"
