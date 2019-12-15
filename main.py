@@ -202,6 +202,11 @@ def upload_mod_to_s3(upload_dir_path,
     return "{}/{}".format("https://d3fxmsw7mhzbqi.cloudfront.net", name), out_zip_path
 
 
+def update_source(mod_folder_path):
+    shutil.rmtree("source", ignore_errors=True)
+    shutil.copytree(mod_folder_path, _("source"))
+
+
 def main():
     # 一時フォルダ用意
     os.makedirs(_(".", "tmp"), exist_ok=True)
@@ -217,6 +222,8 @@ def main():
         secret=os.environ.get("PARATRANZ_SECRET"),
         out_file_path=_(".", "tmp", "paratranz_main.zip"))
 
+    p_file_main_path = _(".", "tmp", "paratranz_main.zip")
+
     print("p_file_main_path:{}".format(p_file_main_path))
 
     # 翻訳の最新版をダウンロードする project_id=350はI:R JPのプロジェクトID
@@ -225,10 +232,12 @@ def main():
         secret=os.environ.get("PARATRANZ_SECRET"),
         out_file_path=_(".", "tmp", "paratranz_sub.zip"))
 
+    p_file_sub_path = _(".", "tmp", "paratranz_sub.zip")
+
     print("p_file_sub_path:{}".format(p_file_sub_path))
 
     # Modを構築する（フォルダのまま）
-    assembly_mod(
+    mod_folder_path = assembly_mod(
         mod_file_name=mod_file_name,
         resource_paratranz_main_zip_file_path=p_file_main_path,
         resource_paratranz_sub_zip_file_path=p_file_sub_path,
@@ -264,6 +273,9 @@ def main():
     generate_distribution_file(url=cdn_url,
                                out_file_path=_(".", "out", "dist.v2.json"),
                                mod_file_path=mod_pack_file_path)
+
+    # utf8ファイルを移動する（この後git pushする）
+    update_source(mod_folder_path=mod_folder_path)
 
 
 if __name__ == "__main__":
