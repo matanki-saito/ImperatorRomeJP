@@ -222,8 +222,6 @@ def main():
         secret=os.environ.get("PARATRANZ_SECRET"),
         out_file_path=_(".", "tmp", "paratranz_main.zip"))
 
-    p_file_main_path = _(".", "tmp", "paratranz_main.zip")
-
     print("p_file_main_path:{}".format(p_file_main_path))
 
     # 翻訳の最新版をダウンロードする project_id=350はI:R JPのプロジェクトID
@@ -231,8 +229,6 @@ def main():
         project_id=350,
         secret=os.environ.get("PARATRANZ_SECRET"),
         out_file_path=_(".", "tmp", "paratranz_sub.zip"))
-
-    p_file_sub_path = _(".", "tmp", "paratranz_sub.zip")
 
     print("p_file_sub_path:{}".format(p_file_sub_path))
 
