@@ -1,5 +1,5 @@
 ﻿l_english:
- CALL_OMEN_TOOLTIP:2 "Call '$NAME|Y$' for $DURATION$ days, with the following benefits:\n$EFFECT$"
+ CALL_OMEN_TOOLTIP:2 "「$NAME|Y$」を$DURATION$日間有効化します。 効果は以下の通りです：\n$EFFECT$"
  omen_mars_desc_ROM:2 "#Y Hellenic Roman Omen#!\nThe patron god of Rome will inspire and bless our men with the strength to take on any enemy, for as long as our people remain faithful. With Mars at our side, our soldiers are sure to fight harder than ever before. After all, who would want to act shameful in front of a god?\n\nMars has been the patron god of Rome since time immemorial. From the Field of Mars and the many shrines and temples dedicated in the god's honor, to the stories of his sons Remulus and Romulus who founded the city; Mars is one of the most important gods in our pantheon."
  omen_mars_germanic_religion:0 "戦争聖歌"
  omen_mars_desc_germanic_religion:0 "我が民族は戦いにおいて、神々や死者の霊が味方してくれることを祈って儀式的な軍歌を歌う。そうして我らの男たちは勇ましく戦うことができる。"

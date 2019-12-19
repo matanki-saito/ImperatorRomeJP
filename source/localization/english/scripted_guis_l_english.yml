@@ -1,9 +1,9 @@
 ﻿l_english:
  move_capital_title_tt:0 "#T 首都を移転する#!"
  make_into_subject_state_tt:0 "#Y [SCOPE.sState('target_state').GetState.GetShortName]#!を#Y 属国#!として解放します"
- release_subject_title_tt:0 "#T 従属国として開放する#!"
- release_subject_confirm_title:0 "従属国の開放"
- release_subject_confirm_text:0 "#Y [SCOPE.sState('target_state').GetState.GetShortName]#!を#Y 属国#!として開放しますか？"
+ release_subject_title_tt:0 "#T 従属国として解放する#!"
+ release_subject_confirm_title:0 "従属国の解放"
+ release_subject_confirm_text:0 "#Y [SCOPE.sState('target_state').GetState.GetShortName]#!を#Y 属国#!として解放しますか？"
  move_province_capital_title_tt:0 "#T 州都を移転する#!"
  not_capital_state_tt:0 "@trigger_no!首都州の州都を変えることはできません。"
  empower_x_party:0 "#T [SCOPE.GetRootScope.GetCharacter.GetPartyName]に権限を与える#!"
