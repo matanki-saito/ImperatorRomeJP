@@ -126,7 +126,7 @@
  ASX_ADJ:0 "Armorican"
  inherit_armorica_provinces_tooltip:0 "$ARMORICA_NAME$の形成に必要な#Y 従属国#!の州が併合されます"
  formable_not_cyprus_exists:0 "#Y $CYPRUS_NAME$#!が存在しない"
- form_cyprus:0 "キプロスの統一"
+ form_cyprus:0 "キュプロスの統一"
  form_cyprus_desc:0 "銅が豊富なキプロス島と、その大陸との交易を繋ぐ主要な港町は我々の素晴らしい故郷である。今こそキプロス人としてのアイデンティティを確立し、歴史に名を刻もうではないか。"
  CYPRUS_NAME:0 "Cyprus"
  CYPRUS_ADJECTIVE:0 "Cypriot"

@@ -970,7 +970,7 @@
  city.1.t:0 "[SCOPE.sP('city_1_target').GetName]の繁栄"
  city.1.desc:0 "[SCOPE.sP('city_1_target').GetName]の[ROOT.GetCountry.Custom('get_city_council_type')]は使節を寄越して、今年の収穫、貿易、税収全ての産出が大きく黒字であったことを報告した。国への奉仕精神を誇らしく示すために、国に追加の収入を捧げると決定したようである。\n\n我々はこの金を彼ら自身のために使うよう伝えることもできるがどうするべきだろうか？"
  city.1.a:0 "寄進は大変ありがたいことだ。"
- city.1.b:1 "Give it to the merchants of Norba."
+ city.1.b:1 "その金を商業の活性化に使おう。"
  city.2.t:0 "自主性"
  city.2.desc:0 "[SCOPE.sP('city_2_target').GetName]の勤勉な人々は、私財を投げ打って自分たちの優れた都市の生活基盤を発展させてきた。\n\n彼らは民衆の鑑だ。"
  city.2.a:0 "素晴らしい！"

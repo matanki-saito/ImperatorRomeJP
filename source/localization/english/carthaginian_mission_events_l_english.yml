@@ -1,6 +1,6 @@
 ﻿l_english:
  me_carthage_sicily.1.desc:0 "$dhe_carthage.3.desc$\n\nWe have received news that a local aristocrat of Syracuse looks upon us favorably, and have offered to help us put an end to Syracusan domination of eastern Sicily. With this local benefactor in our service, the Greek threat will be at an end."
- me_carthage_sicily.1.a.tt:1 "#Y [SCOPE.sCountry('mission_country').GetName]#!はシチリア島東部の#Y シラクサ#!支配下の区域すべてに請求権を得ます"
+ me_carthage_sicily.1.a.tt:1 "#Y [SCOPE.sCountry('mission_country').GetName]#!はシチリア島東部の#Y $SYR$#!支配下の区域すべてに請求権を得ます"
  me_carthage_sicily.2.desc:1 "At long last our struggle for the island of Sicily is over, and with it our Mediterranean position is unquestionably secured. We no longer need worry over the threat of Greek interference in our vital trade routes or the ambitions of their tyrants and kings, and the rich Greek cities of the Italian peninsula lie open before us.\n\nHowever, Sicily is a populous island with a long and proud Greek tradition in addition to that of local Latin tribes; these spirited people have had much invested in a Punic defeat, and will doubtless not be immediately content with our rule.\n\nIt has been suggested that a client state be established in order to placate the desire for self-governance, others advocate that this island is no different from any other and must bend to our will."
  me_carthage_sicily.2.a.tt:0 "We will release a #Y Feudatory#! named Epikrateia who will gain control of all our territories in the areas of #Y Sicania#!, #Y Syracuse#! and #Y Siculia#!."
  me_carthage_sicily.2.a.tt_player:0 "We will release a #Y Subject#! named Epikrateia who will gain control of all our territories in the areas of #Y Sicania#!, #Y Syracuse#! and #Y Siculia#!. As one of our subjects in Sicily is controlled by a player, they will be prioritized to fill this role."
@@ -10,7 +10,7 @@
  me_carthage_sicily.3.t:0 "The Epikrateia of Sicily"
  me_carthage_sicily.3.desc:2 "After conquering Sicily, the Punics decided to have the whole island govern itself. As staunch loyal supporters of our overlord to the south-west, we have been given the great honor of taking on the role of governors in their place.\n\nAs the rulers of the Punic Epikrateia, we are sure to have a bright future ahead of us."
  me_carthage_sicily.3.a:0 "I, for one, welcome our new Punic overlords."
- me_carthage_sicily.1.a.tt2:0 "#Y シラクサ#!は近隣の勢力に助けを求めるかもしれません"
+ me_carthage_sicily.1.a.tt2:0 "#Y $SYR$#!は近隣の勢力に助けを求めるかもしれません"
  me_carthage_sicily.4.t:0 "The Punic Menace"
  me_carthage_sicily.4.desc:0 "Long have our ancestors and senators mused upon the Carthaginian threat across the ocean. Recently, however, this threat has moved closer to home; as the city of excess extends insidious tendrils into the heartland of Sicilia.\n\nWhilst we have not always seen eye to eye, an envoy from Syracusae tells us of the likelihood of impending war in Sicily once again, and begs our protection that all of Italia might be spared from the terror of foreign rule."
  me_carthage_sicily.4.a:0 "This game of nations must be brought to an end."

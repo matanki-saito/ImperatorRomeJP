@@ -4,7 +4,7 @@
  mission_colonia_desc:0 "is a Governorship under our control but it is also far from the culture and traditions of our capital. We should develop this region and encourage migration of loyal citizens of our own culture into the region to create a core of loyal subjects here."
  centralization_desc:0 "is a region under our control with unrealized potential. We should send our administrators and procurators to this governorship to strengthen our hold over the area and grow the local economy."
  capital_mission_desc:0 "は我々の本拠地であるとともに国家の中心である。この州の経済を発展させ、首都を刷新し、我が国の首都と呼ばれるにふさわしい輝かしい文明の中心地に仕立て上げなければいけない。"
- generic_mission_home_infrastructure_CRITERIA_DESCRIPTION:0 "このミッションは[SCOPE.sGovernorship('infra_governorship').GetName]州の開発について扱います。ミッションは以下を含みます：\n\n[SCOPE.sP('governorship_capital').GetName][SCOPE.sP('governorship_capital').Custom('get_central_branch_type')]。\n[SCOPE.sP('governorship_capital').Custom('get_temple_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_food_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_mining_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_port_branch')]"
+ generic_mission_home_infrastructure_CRITERIA_DESCRIPTION:0 "このミッションは[SCOPE.sGovernorship('infra_governorship').GetName]州の開発について扱います。\nミッションは以下を含みます：\n\n[SCOPE.sP('governorship_capital').GetName][SCOPE.sP('governorship_capital').Custom('get_central_branch_type')]。\n[SCOPE.sP('governorship_capital').Custom('get_temple_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_food_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_mining_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_port_branch')]"
  mission_colonia:0 "の安定化と発展"
  mission_centralization:0 "の発展"
  mission_country_capital:0 "の真珠"
