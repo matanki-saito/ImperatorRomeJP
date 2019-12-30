@@ -24,7 +24,7 @@
  pbc_event.5.t:0 "[SCOPE.sGovernorship('affected_governorship').GetName]総督の腐敗"
  pbc_event.5.desc:0 "[SCOPE.sGovernorship('affected_governorship').GetName]の総督は自らの地位を利用し、[SCOPE.sState('affected_province').GetShortName]の人々を衣食もままならない程に困窮させているらしい。その地域を通過した我々の腹心の話からは、辛うじてその日を生きる人々の絶望的な状況が窺える。\n\n[SCOPE.sChar('power_character').GetName]は[SCOPE.sChar('power_character').GetHerHis]自身が治める地域の人々を蔑ろにするだけでなく、私利私欲のためだけに自分の立場を利用している。"
  pbc_event.5.a:0 "どの総督もやってることだろう？"
- pbc_event.5.b:0 "けしからん！監察官を何人か派遣し、奴を牽制しろ。"
+ pbc_event.5.b:0 "けしからん！監督官を何人か派遣し、奴を牽制しろ。"
  pbc_event.5.c:0 "[SCOPE.sState('affected_province').GetShortName]の人々が望むものを送ってやろう。"
  pbc_event.5.d:0 "して、我々の取り分はどこだ？"
  pbc_event.6.t:0 "宮廷内の宿敵"

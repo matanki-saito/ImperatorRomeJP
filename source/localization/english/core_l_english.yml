@@ -229,7 +229,7 @@
  GOOD_COLOR:0 "$KEY|G$"
  BAD_COLOR:0 "$KEY|R$"
  NEUTRAL_COLOR:0 "$KEY|Y$"
- GOTO_PROVINCE:0 "場所へ移動する"
+ GOTO_PROVINCE:0 "移動"
  DYNASTY:0 "王朝"
  MENU:0 "メニュー"
  RESUME:0 "再開"

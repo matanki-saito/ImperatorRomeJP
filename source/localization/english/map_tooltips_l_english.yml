@@ -7,7 +7,7 @@
  LAKE_PROVINCE_TOOLTIP:0 "#T 湖沼#! [PROVINCE.GetName|Y]\n[PROVINCE.GetName|Y]"
  RIVER_PROVINCE_TOOLTIP:0 "#T 河川#! [PROVINCE.GetName|Y]\n[PROVINCE.GetName|Y]\n[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
  PROVINCE_OWNER:0 "@[PROVINCE.GetOwner.GetFlag]![PROVINCE.GetOwner.GetName]領[PROVINCE.GetState.GetShortName]州"
- PROVINCE_OCCUPIED:1 "@[PROVINCE.GetController.GetFlag]![PROVINCE.GetOccupierInfo]が占領中\n@[PROVINCE.GetOwner.GetFlag]![PROVINCE.GetOwner.GetName]領[PROVINCE.GetState.GetName]"
+ PROVINCE_OCCUPIED:1 "｜@[PROVINCE.GetController.GetFlag]![PROVINCE.GetOccupierInfo]が占領中\n@[PROVINCE.GetOwner.GetFlag]![PROVINCE.GetOwner.GetName]領[PROVINCE.GetState.GetName]"
  PROVINCE_OWNER_REPLAY:0 "@$OWNER_TAG$!$OWNER$"
  PROVINCE_OCCUPIED_REPLAY:1 "、@$OWNER_TAG$!$OWNER$領｜@$CONTROLLER_TAG$!$CONTROLLER$が占領中"
  PROVINCE_BARB_INFO_OCCUPIED:0 "$NAME|Y$蛮族"

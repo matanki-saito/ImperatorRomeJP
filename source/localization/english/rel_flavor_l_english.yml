@@ -13,7 +13,7 @@
  rel_flavor_hellenic.3.b:0 "この神託は何かの間違いであることを民衆や仲間に分かってもらわなければ。"
  rel_flavor_hellenic.3.c:0 "時代遅れの迷信に過ぎない。"
  rel_flavor_hellenic.4.t:0 "神の答え"
- rel_flavor_hellenic.4.desc:2 "The ceremony to appease the gods continued for several days, until finally we got the response we were hoping for. It seems [ROOT.GetCountry.Custom('get_god_of_light')] has been appeased by our actions, and has intervened on the behalf of [ROOT.GetCountry.GetRuler.GetName], to make sure [ROOT.GetCountry.GetRuler.GetSheHe] will continue ruling in the light of the gods. "
+ rel_flavor_hellenic.4.desc:2 "神々を宥めるための祝祭は数日間にも及び、そうしてついに我々が望む反応が返ってきた。[ROOT.GetCountry.Custom('get_god_of_light')]は我々の行いに満足し、神々の承認の下[ROOT.GetCountry.GetRuler.GetName]の統治が長く続くようにと力を発揮してくださったようだ。"
  rel_flavor_hellenic.4.a:0 "良い知らせだ！"
  rel_flavor_hellenic.5.t:0 "Prophecies Continues"
  rel_flavor_hellenic.5.desc:0 "The gods are silent as the days continues. In the end, the priests brings us the ill news. It seems the gods have truly decided that there is no redemption for [ROOT.GetCountry.GetRuler.GetName]. With these two blow-backs to our rule, it is only a matter of time before someone will topple our current leadership."
