@@ -358,7 +358,7 @@
  get_battle_win_1:0 "、敵の斥候が味方陣地に深く入り込んで後方支援部隊を制圧しようとした際、猛烈な反撃を仕掛けて後方で大混乱が起こることを防ぎ、余勢を駆って主戦場まで彼らを追撃するとそのまま[ROOT.GetCountry.GetRuler.GetPraenomen]による攻勢に参加したようだ！"
  get_battle_win_2:0 "左翼部隊を指揮し、敵軍の攻勢に耐え、敵を陣営の近くまで追い詰めた後、[ROOT.GetCountry.GetRuler.GetPraenomen]を支援するために旋回し、敵軍の左翼部隊に壊滅的な打撃を与えたようだ！"
  get_battle_win_3:0 "[ROOT.GetCountry.GetRuler.GetPraenomen]の傍に控え、[ROOT.GetCountry.GetRuler.GetHerHis]の将軍に混ざって意見を述べるとともに戦いの成り行きを見守る追加の目としての役割を果たした後、お付きの騎兵と共に戦場に駆けていったようだ！"
- get_battle_loss_1:0 "attempted to keep enemy deep scouts from overrunning the baggage train but was unable to stand their ferocious assault, fleeing to the side of the [ROOT.GetCountry.GetRulerTitle] as they dealt with a near encirclement."
+ get_battle_loss_1:0 "敵の斥候部隊による後方撹乱を食い止めようとしたが、激しい攻撃に耐えることができず、半ば包囲されつつある状況の中で[ROOT.GetCountry.GetRulerTitle]の傍に逃げ帰ったようだ。"
  get_battle_loss_2:0 "左翼部隊の指揮を請け負ったようだ。勇敢な戦いぶりではあったものの、敵軍による猛烈な攻勢に耐えきれず左翼部隊は敗走し、中央部隊を包囲の危機に晒し、これが[ROOT.GetCountry.GetAdjective]軍全体の敗走のきっかけになったと見られている。"
  get_battle_loss_3:0 "[ROOT.GetCountry.GetRuler.GetPraenomen]の近くで待機し、[ROOT.GetCountry.GetRuler.GetHerHis]と将軍の作戦会議に口を挟んだり戦場をぼーっと眺めたりした後、お付きの騎兵と共に戦場に向かってしまったようだ！"
  get_battle_injury_1:0 "戦場の混乱の中で流れ矢に当たって負傷した"

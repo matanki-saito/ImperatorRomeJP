@@ -75,7 +75,7 @@
  rel_flavor_canaanite.1.a:0 "A gift for Melqart is the least we can do."
  rel_flavor_canaanite.1.b:0 "We have nothing to send to Tyrus."
  rel_flavor_canaanite.2.t:0 "ギリシャのメルカルト"
- rel_flavor_canaanite.2.desc:0 "We have recently had an influx of believers from [SCOPE.sCountry('neighbor_country').GetName] visit our city of [SCOPE.sP('randomized_country_province').GetName], as it is apparently part of their beliefs about the demigod Herakles and his travels. Many have started seeing the similarities between the Hellenic demigod and our own Melqart.\n\nLooking into this line of dialog might help us better understand our neighbors, and grow a closer friendship with them. "
+ rel_flavor_canaanite.2.desc:0 "ここのところ[SCOPE.sCountry('neighbor_country').GetName]からヘラクレスの信奉者が流入し、[SCOPE.sP('randomized_country_province').GetName]を訪れている。なぜならその都市が、彼らが信奉する半神半人のヘラクレスと彼の旅路に関係する場所だからである。そして今や多くの者がヘラクレスと我々の神メルカルトとの間に類似性を見出し始めている。\n\nヘラクレスの物語を知ることによって我々は隣人をより良く理解し、彼らとより親密な関係を築けるようになるだろう。"
  rel_flavor_canaanite.2.a:0 "彼はメルカルトにそっくりだ！"
  rel_flavor_canaanite.2.b:0 "非常識かつ冒涜的だ。"
  rel_flavor_canaanite.3.t:0 "The High God"

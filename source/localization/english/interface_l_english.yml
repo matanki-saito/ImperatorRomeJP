@@ -1210,7 +1210,7 @@
  NO_POSSIBLE_COUNTRIES:0 "No Possible Countries"
  REVOLT_SUPPORT_NORMAL:0 "国内の合計$TOTAL|0Y$POPのうち$DEFECT|0Y$POPが反乱を望んでいます。"
  REVOLT_DISLOYAL_SUBJECT:0 "$WHO$は不忠であり、彼らの$VAL|0Y$POPは反乱に加担するでしょう。"
- REVOLT_DISLOYAL_SUBJECT_NOT:0 "$WHO$は不忠ですが、彼らは我々と同じ文化グループであり、彼らの$VAL|Y0$POPは反乱に加担しません。"
+ REVOLT_DISLOYAL_SUBJECT_NOT:0 "$WHO$は不忠ですが、彼らは宗主国と同じ文化グループであるため、彼らの$VAL|Y0$POPは反乱に加担しません。"
  REVOLT_LOYAL_SUBJECT:0 "$WHO$は忠実であり、彼らの$VAL|Y0$POPは反乱に加担しません。"
  TRADE_ROUTE_EXTERNAL_BASE:0 "国外：$VAL|Y2$@gold!"
  TRADE_ROUTE_INTERNAL_BASE:0 "国内：$VAL|Y2$@gold!"
