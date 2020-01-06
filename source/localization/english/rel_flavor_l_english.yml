@@ -91,7 +91,7 @@
  rel_flavor_canaanite.5.desc:0 "[ROOT.GetCountry.GetRuler.GetName] is wildly popular among our populace, and [ROOT.GetCountry.GetRuler.GetHerHis] rule will be remembered for many generations to come. Several of our advisors have suggested putting up a stele as a permanent memory of the era of [ROOT.GetCountry.GetRuler.GetName], as an inspiration for descendants and future leaders. "
  rel_flavor_canaanite.5.a:0 "Sounds like a good idea."
  rel_flavor_canaanite.5.b:0 "Our rule will stand as a testament on its own."
- rel_flavor_canaanite.6.t:0 "The Syncretic Healer"
+ rel_flavor_canaanite.6.t:0 "異教の医神"
  rel_flavor_canaanite.6.desc:0 "[SCOPE.sP('randomized_country_province').GetName]の民衆の間で、地元の神であるシャドラファを崇拝する機運が高まっている。シャドラファは、蠍を手にしながら土地を渡り歩く神秘的な治癒師として描かれる神だ。\n\n彼は他の地域の人々から見ればやや異質な神だが、これは我々がこの地域の信仰に好意を示す良い機会になるかもしれない。"
  rel_flavor_canaanite.6.a:0 "彼を祀る社を建てるくらいのことはしよう。"
  rel_flavor_canaanite.6.b:0 "勝手に崇拝させておけ。"

@@ -1,8 +1,8 @@
 ﻿l_english:
- pirate_events.1.t:0 "Pirate Lair"
- pirate_events.1.desc:0 "It has come to our attention that a pirate lair has sprung up in [SCOPE.sP('pirate_cove').GetName]. The local merchants and traders clamour for us to root out these pirates, so that their trade ships can continue to sail along our shores unmolested.\n\nAn advisor of [ROOT.GetCountry.GetRuler.GetPraenomen] comes up to [ROOT.GetCountry.GetRuler.GetHerHim] and says 'My [ROOT.GetCountry.GetRulerTitle], I have a cunning plan...'."
- pirate_events.1.a:0 "We will dislodge these pirates! By force if necessary!"
- pirate_events.1.b:0 "'Oh! What is it?'"
+ pirate_events.1.t:0 "海賊の隠れ家"
+ pirate_events.1.desc:0 "[SCOPE.sP('pirate_cove').GetName]に海賊の隠れ家が出現したようだ。地元の荷主や交易商は引き続き彼らの貿易船が沿岸を妨害されずに航海できるためにもこれらの海賊を一掃してほしいと強く要求している。\n\n[ROOT.GetCountry.GetRuler.GetPraenomen]の顧問の一人がやって来て「[ROOT.GetCountry.GetRulerTitle]、私にいい策がありますよ」と言っているのだが…"
+ pirate_events.1.a:0 "海賊どもを根絶やしにしろ！力ずくでも構わん！"
+ pirate_events.1.b:0 "「ほほう、話を聞こうじゃないか」"
  pirate_events.2.t:0 "Attack the Pirates"
  popular_ruler_pirate_attack_desc:0 "[ROOT.GetCountry.GetRuler.GetName], wary of losing favour with the local population, has decided to give in to its demands. After a year of preparation, [ROOT.GetCountry.GetRuler.GetSheHe] is finally ready to attack. [ROOT.GetCountry.GetRuler.GetHerHis|U] advisors cannot agree, however, on whether it would be best to attack them by land or by sea."
  arrogant_ruler_pirate_attack_desc:0 "[ROOT.GetCountry.GetRuler.GetName] has spent a year drilling [ROOT.GetCountry.GetRuler.GetHerHis] forces, gathering supplies, and making the necessary preparations. [ROOT.GetCountry.GetRuler.GetHerHis|U] advisors cannot agree, however, on whether it would be best to attack them by land or by sea. Of course, they have turned to [ROOT.GetCountry.GetRuler.GetName] to make the decision, being the tactical genius that [ROOT.GetCountry.GetRuler.GetSheHe] is."

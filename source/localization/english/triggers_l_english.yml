@@ -697,6 +697,6 @@
  minaable_tradegood_required:0 "#Y 石材#!、#Y 大理石#!、#Y 貴金属#!、#Y 卑金属#!あるいは#Y 鉄材#!を要求している"
  holy_site_tooltip:0 "[THIS.GetName]が領有者の宗教における聖地である"
  2irontt:0 "[SCOPE.sArea('third').GetName|Y]が少なくとも#Y 2#!の鉄材を輸入している"
- generic_mission_placement_b:0 "Convert [SCOPE.sArea('first').GetName]"
+ generic_mission_placement_b:0 "[SCOPE.sArea('first').GetName]の改宗"
  AGGRESSIVE_EXPANSION_NOT_TRIGGER:0 "$NUM|Y$$COMPARATOR$の侵略的拡大を持っていない"
  AGGRESSIVE_EXPANSION_TRIGGER:0 "$NUM|Y$$COMPARATOR$の侵略的拡大を持っている"
