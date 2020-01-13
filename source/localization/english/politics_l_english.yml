@@ -25,7 +25,7 @@
  SENATE_VOCAL_MINORITY:1 "元老院の承認を得ずに強行すると、$COST$のコストがかかります。"
  IMPACT_LOYALTY:0 "$NAME|$の成員の忠誠：$VAL|+=%$\n"
  IMPACT_SUPPORT:0 "$NAME|Y$の人気：$VAL|+=0$\n"
- ENDORSE_TITLE:0 "#T $NAME$を支持#!\n"
+ ENDORSE_TITLE:0 "#T $NAME$を支持する#!\n"
  ENDORSE_PARTY:0 "支持する"
  ENDORSE_PARTY_TOO_STRONG:0 "既に$SEATS|Y$以上の議席を得ているため、$NAME|Y$を支持することはできません。"
  ENDORSE_PARTY_POPULIST_TOO_WEAK:0 "$POP|Y$が$SEATS|Y$未満の議席しか保有していないため、$NAME|Y$を支持することができません。"

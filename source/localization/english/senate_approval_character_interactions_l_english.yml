@@ -108,7 +108,7 @@
  has_orator_diplo:0 "統治者：#Y 演説者#!の特性を持っている"
  target_in_civil_war_diplo:0 "対象：内戦中"
  same_ruler_religion_diplo:0 "統治者：対象の統治者と同じ宗教"
- target_ruler_religious_diplo:0 "対象：統治者が#Y 敬虔#!あるいは#Y 信心深い#!の特性を持っている"
+ target_ruler_religious_diplo:0 "対象：統治者が#Y 敬虔#!あるいは#Y 誠実#!の特性を持っている"
  target_is_theocratic_diplo:0 "対象：#Y 神権制#!の政体である"
  makes_less_money_diplo:0 "国：対象より収入が低い"
  target_is_plutocratic_diplo:0 "対象：#Y 富豪制#!の政体である"

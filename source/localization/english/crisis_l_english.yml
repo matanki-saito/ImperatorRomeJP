@@ -10,7 +10,7 @@
  ip_republic.47.a:0 "裏切りには相応の対価を支払ってもらわねばならぬな。"
  ip_republic.48.t:0 "元老院の最後通告"
  ip_republic.48.desc:0 "元老院の大多数を代表して、[SCOPE.sChar('ultimatum_protagonist').GetName]が最後通告を通達してきた。それによれば、彼らは直近の会期で我々が制定した、いわゆる「[SCOPE.sChar('prominent_lawmaker').GetFamilyDisplayAdjective]の改革」として知られる全ての法案を直ちに撤回するように求めている。\n\n反抗的な派閥はそれらの撤回に加えて、数世紀も前に廃止された様々な十分の一税を再び制定するように要求している。[SCOPE.sChar('ultimatum_protagonist').GetPraenomen]は通達の最後を憂慮すべき言葉で締めくくった。この件を支持しているのは何も元老院だけではなく、軍人階級の大多数も同様であると。"
- ip_republic.48.a:0 "[ROOT.GetCountry.GetName]は[SCOPE.sChar('ultimatum_protagonist').GetPraenomen]の見え透いた誇張ですら及ばないような酷い脅迫を受けても生き抜いてきたのだ。"
+ ip_republic.48.a:0 "[ROOT.GetCountry.GetName]は[SCOPE.sChar('ultimatum_protagonist').GetPraenomen]の見え透いた誇張などとは比較にならない窮地を潜り抜けてきたのだ。"
  ip_republic.48.b:0 "非[ROOT.GetCountry.GetAdjective]人の権利のために内戦の危険を冒すことはできぬ。"
  ip_republic_48_tt_a:0 "#R この選択は元老院の介入と内戦の可能性を増加させます#!"
  ip_r_47_tooltip_a:0 "[SCOPE.sChar('senatorial_general').GetName]に率いられた将軍たちは軍を招集し、我々の国家の土台を脅かしています！"

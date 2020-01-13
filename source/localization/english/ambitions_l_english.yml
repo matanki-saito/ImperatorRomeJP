@@ -151,7 +151,7 @@
  scheme_steal:0 "窃盗！"
  scheme_steal_desc:0 "盗れるだけ盗って、後には何も残すな！"
  scheme_can_have_consequences:0 "この計画は何らかの医学的結果をもたらします"
- scheme_seek_treatment:0 "治療を求める"
+ scheme_seek_treatment:0 "治療する"
  scheme_seek_treatment_desc:0 "医学は要求される水準には全く届いていないが、[ROOT.GetCharacter.GetPraenomen]は治療を受ける危険性を受け入れるつもりでいます。"
  scheme.4.t:0 "異議申し立て"
  scheme.4.desc:0 "法律というものは全く酷い発明である。[SCOPE.sChar('thief').GetName]が従者を従えて文書を見せながら我々に対してそっけなく伝えた内容とは、[ROOT.GetCharacter.GetName]が所有していると思い込んでいる土地の区画は、実際のところ[SCOPE.sChar('thief').GetFamilyDisplayAdjective]一門に属する[SCOPE.sChar('thief').GetHerHis]の分家の所有である、ということであった。\n\nこの主張は捏造されたものであるかも知れないが、[SCOPE.sChar('thief').GetPraenomen]はどうやらこの主張の裏付けとなる書類を持っているようだ。"
