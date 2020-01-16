@@ -410,7 +410,7 @@
  temples_of:0 "の寺院"
  temples_of_desc:0 "This is a major religious center of our faith."
  generic_mission_home_infrastructure_BUTTON_TOOLTIP:0 "我々の統治下でこの地域の都市基盤を改善しなければならない。"
- general_mission_cooldown_tt:0 "You will #R NOT#! be able to restart this mission until at least #R 20#! years have passed."
+ general_mission_cooldown_tt:0 "#R 20年#!が経過するまではこのミッションを再び開始することが#R できなくなります#!"
  generic_infra_mission.30.t:0 "Flagships Completed"
  generic_infra_mission.30.desc:0 "It is with great pride that the shipbuilders of [SCOPE.sP('ship_building_center').GetName] have let us know that our new flagships are ready to be taken into use.\n\nThese new titans of the sea will undoubtedly be very useful to our navy but before they are taken into service they will serve our purposes in internal politics.\nThe birthing ceremeony cannot be held by anyone but our ruler himself, but the maiden voyage will require a commander. A great honor and a boon that many families would value highly."
  generic_infra_mission.30.a:0 "[SCOPE.sCharacter('naval_family_1').GetName] is the right [SCOPE.sCharacter('naval_family_1').GetWomanMan] for the Job!"

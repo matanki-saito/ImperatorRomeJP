@@ -564,7 +564,7 @@
  dhe_massalia.3.b:0 "If it will give us peace..."
  dhe_massalia.3.c:0 "We will not bow to a trouser-wearing petty chief."
  dhe_massalia.3.ct:0 "#R [SCOPE.sChar('dhe_massalia_slv_ruler').GetEmployer.GetName] may declare war on us.#!\nMassilia (@[THIS.GetCountry.GetFlag]!) will gain Claims on all neighboring cities owned by [SCOPE.sChar('dhe_massalia_slv_ruler').GetEmployer.GetName] (@[SCOPE.sChar('dhe_massalia_slv_ruler').GetEmployer.GetFlag]!)"
- dhe_massalia.3.d:0 "Disappointing..."
+ dhe_massalia.3.d:0 "残念だ…"
  dhe_massalia.4.t:0 "Massilian Decision"
  dhe_massalia.4.desc_1:0 "Our envoy returns from [SCOPE.sChar('dhe_massalia_mas_ruler').GetEmployer.GetName] with the news that [SCOPE.sChar('dhe_massalia_mas_ruler').GetEmployer.GetRulerTitle] [SCOPE.sChar('dhe_massalia_mas_ruler').GetName] and the pathetic [SCOPE.sChar('dhe_massalia_mas_ruler').GetEmployer.GetAdjective] senate have foolishly refused to accept our generous demand for tribute and are preparing for war.\n\nAll look with bated breath to [SCOPE.sChar('dhe_massalia_slv_ruler').GetEmployer.GetRulerTitle] [SCOPE.sChar('dhe_massalia_slv_ruler').GetName] for our next move."
  dhe_massalia.4.desc_2:0 "Our envoy returns from [SCOPE.sChar('dhe_massalia_mas_ruler').GetEmployer.GetName] with the news that [SCOPE.sChar('dhe_massalia_mas_ruler').GetEmployer.GetRulerTitle] [SCOPE.sChar('dhe_massalia_mas_ruler').GetName] and the [SCOPE.sChar('dhe_massalia_mas_ruler').GetEmployer.GetAdjective] senate have wisely accepted our generous demand for tribute to avoid conflict.\n\nIt seems they have finally understood who is in control of the area."

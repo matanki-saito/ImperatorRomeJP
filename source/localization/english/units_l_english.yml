@@ -426,5 +426,5 @@
  SUB_FOOD_STORAGE:0 "可載食料：$VAL|2G$\n"
  AI_SELECTED_REGIONS:0 "$COUNT$地域で活動します"
  AI_NO_SELECTED_REGIONS:0 "マップをクリックして地域を選択することもできます"
- AI_NO_SHARED_SELECTED_REGIONS:0 "No shared region selection."
+ AI_NO_SHARED_SELECTED_REGIONS:0 "共通の地域は選択されていません"
  supply_train:0 "輜重隊"
