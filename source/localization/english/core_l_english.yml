@@ -92,7 +92,7 @@
  MONTHLY_POWER_GAIN_DUE_TO:0 "以下の理由により毎月$VAL|=+$変動します：\n"
  POWER_BASE_GAIN:0 "基本：$VAL|=+$\n"
  POWER_GOV_GAIN:0 "アイデアと政府の一致：$VAL|=+$\n"
- POWER_RULER_GAIN:0 "$TITLE$ $NAME$($SKILL$)：$VAL|=+$\n"
+ POWER_RULER_GAIN:0 "$TITLE$ $NAME$ ($SKILL$): $VAL|=+$\n"
  ATTRIB_BASE:0 "基本：$VAL|=+$"
  MODIFIER_ALL_POWER_COST:0 "パワーコスト"
  PRICE_NOT_ENOUGH_POWER:1 "@trigger_no!@$KEY$_icon!が$NEED|Y$必要ですが足りません！"

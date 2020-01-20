@@ -4,7 +4,7 @@
  IDEA_NOT_FULLFILL_PREQUES:0 "このアイデアを取得するための必要条件を満たしていません"
  TECHNOLOGY_LOWER_THAN:0 "未満"
  TECHNOLOGY_HIGHER_THAN:0 "以上"
- OR_TRIGGER_STARTS:0 "以下のいずれかを満たす必要があります"
+ OR_TRIGGER_STARTS:0 "以下のいずれかを満たす"
  THE_YEAR_IS_BEFORE:0 "年代が右記より前："
  THE_YEAR_IS_AFTER:0 "年代が右記より後："
  HAVE_LESS_THAN:0 "右記未満である："

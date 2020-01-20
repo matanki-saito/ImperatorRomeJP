@@ -202,7 +202,7 @@
  carthaginian_africa_expansion_emporium_tripoli_DESC:0 "南方に位置する我々の隣人、エンポリオンとトリポリタニアは、現在のところ我々の保護下にある。支配権を南や東へ拡大するために、おそらく我々には彼らの豊かな港を直接支配する必要があるだろう。"
  carthaginian_africa_expansion_libyan_empire:0 "リビュア帝国"
  carthaginian_africa_expansion_libyan_empire_DESC:1 "アフリカの沿岸は我々の支配下となり、メルカルトの柱からリビュア砂漠に至るまでヌミディアとマウレタニアの諸部族は[SCOPE.GetRootScope.GetCountry.GetName]のくびきの下に屈した。今や我々の母国を脅かすものはなく海をまたぐ土地は収穫の時を迎えており、偉大なるディードーの都は燦爛たる光によって照らされているのである。"
- carthage_africa_libyan_empire.tt:0 "このタスクの完了時に二つの永続的なボーナスから一つを選択するします"
+ carthage_africa_libyan_empire.tt:0 "このタスクの完了時に二つの永続的なボーナスから一つを選択します"
  carthaginian_africa_expansion_libyphoenician_settlement_tt:0 "ムスラミイの諸部族は服従して#Y [SCOPE.GetRootScope.GetCountry.GetName]#!の#Y 属国#!となるか、あるいは#Y [SCOPE.GetRootScope.GetCountry.GetName]#!からの独立戦争に踏み切るかのいずれかが発生します"
  carthage_mission_iberian_investments:0 "イベリアへの投資"
  carthage_mission_iberian_investments_DESCRIPTION:1 "イベリア征服はかの地における我々の影響力を大きく拡大させたが、確保した土地のほとんどは未開で貧しい土地である。イベリアから産出される莫大な富を最大限に活用するためにもこの地に手を掛け産業基盤を整えなければならない。"

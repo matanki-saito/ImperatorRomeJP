@@ -45,7 +45,7 @@
  ALERT_OUTSIDE_OF_NAVAL_RANGE:0 "#T 海軍範囲外の部隊#!\n以下の部隊が海軍範囲外に位置しています"
  ALERT_FREE_IDEA_SLOTS:0 "#T 未使用のアイデアスロット#!\n未使用のアイデアスロットがあります"
  ALERT_STARVING_PROVINCES:0 "#T 食料供給不足#!\n以下の州は#R 食料供給不足#!となっています。"
- STARVING_ENTRY:0 "$NAME$ - 現在の食料 $VAL|R$ ($CHANGE|+=2$)"
+ STARVING_ENTRY:0 "$NAME$ - 現在の食料 $VAL|R$（$CHANGE|+=2$）"
  ALERT_NO_FOOD:1 "#T 食料不足#!\n以下の部隊には食料不足が発生しており損耗を受けます"
  UNIT_NO_FOOD_ALERT_ENTRY:0 "[UNIT.GetName]：[UNIT.GetFoodPercentage|Y%/2]"
  ALERT_COMPLETED_MISSION_TASK:0 "#T ミッションのタスクが達成可能です#!"
