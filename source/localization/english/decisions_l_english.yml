@@ -88,7 +88,7 @@
  assyria_must_not_exist:0 "$ASSYRIA_NAME$が存在しない"
  form_assyria:0 "アッシリアの形成"
  form_assyria_desc:0 "敵に打ち砕かれるよりも前、アッシリアの地は偉大なる帝国の中心地として繁栄していた。再びこの地を統一し、古き神々と伝統に栄光を誓ってかつての偉大なるアッシリア帝国を再興しようではないか。"
- assyria_claims_tooltip:1 "$ASSYRIA_NAME$は#Y $assyria_region$#!および#Y $babylonia_region$#!地域に請求権を獲得します"
+ assyria_claims_tooltip:1 "$ASSYRIA_NAME$は#Y $assyria_region$#!および#Y $babylonia_area$#!地域に請求権を獲得します"
  armenia_claims_tooltip:1 "$ARMENIA_NAME$は#Y $armenia_region$#!地域と、#Y $armenia_maior_area$#!、#Y $armenia_minor_area$#!、#Y $sophene_area$#!および#Y $corduene_area$#!の各州に請求権を獲得します"
  armenia_must_not_exist:0 "$ARM$が存在しない"
  form_armenia:0 "アルメニアの形成"
