@@ -176,7 +176,7 @@
  tribal_centralization_law:1 "親族関係"
  tribal_autonomy_laws:1 "族長の地位"
  clan_cohesion:0 "孤立した氏族"
- clan_cohesion_desc:0 "我がシマ社会の緊密な性質は、権力が危険な個人の手にほとんどかかっていない事を保証する。"
+ clan_cohesion_desc:0 "我らが閉鎖的な社会の緊密な性質は、危険な人物の手に権力が滅多に掛からない事を保証する。"
  local_hierarchs:0 "地方の豪族"
  local_hierarchs_desc:0 "Giving dominant families our blessing to rule with the best interests of our nation at heart, will help establish a foundation of loyal subjects, at the cost of some financial autonomy."
  trusted_envoys_law:0 "信頼できる大使"
