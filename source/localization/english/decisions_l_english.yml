@@ -108,7 +108,7 @@
  macedon_claims_tooltip:1 "$MACEDONIA_NAME$は#Y $macedonia_region$#!地域に請求権を獲得します"
  macedon_not_existing:0 "$MAC$が存在しない"
  form_macedon:0 "マケドニアの形成"
- form_macedon_desc:0 "古来よりマケドニア地域の豪族たちは弱く無能であることを蔑み、強く有能であることを尊ぶ。この国を破滅に導く者たちから王座を奪取し、マケドニア人が納得して仕える強力な国家を作り上げるのだ。"
+ form_macedon_desc:0 "古来よりマケドニアの有力者たちは、弱く無能であることを嫌い、強く有能であることを是とする。この国を破滅に導く者どもから王国を奪取し、マケドニア人が納得して仕える強力な国家を作り上げるのだ。"
  dravida_claims_tooltip:1 "$DRAVIDA_NAME$は#Y $dravida_region$#!および#Y $karnata_region$#!地域に請求権を獲得します"
  dravida_not_existing:0 "$DRAVIDA_NAME$が存在しない"
  form_dravida:0 "ドラヴィダの形成"

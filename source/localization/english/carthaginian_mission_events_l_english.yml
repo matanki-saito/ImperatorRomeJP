@@ -181,5 +181,5 @@
  me_carthage_bomilcars_revolution.3.t:0 "力の均衡"
  me_carthage_bomilcars_revolution.3.desc:0 "我々の使者が、誇り高き国家、[SCOPE.sC('from_country').GetName]から厄介な知らせを持ち帰ってきた。短期間の不安定な状態のあと、それまでは権力とは縁遠かった派閥が[SCOPE.sC('from_country').GetAdjective]の[SCOPE.sC('from_country').Custom('get_court_type')]で実権を握り、かの国の誇りある民主制の伝統をもてあそんでいるというのだ。\n\n忠実な顧問たちは、この厄介な事態を厳しく非難するために特使を派遣することを勧めている。上辺だけの王座に座っている老いぼれた守銭奴が、人々を宥めるために誤った征服事業を考えでもすれば、この地域の繊細な力の均衡は崩れてしまうだろう。"
  me_carthage_bomilcars_revolution.3.a:0 "特使を派遣せよ。"
- me_carthage_bomilcars_revolution.3.b:0 "この気難しいライオンには見つからぬようにしておかなければ…"
+ me_carthage_bomilcars_revolution.3.b:0 "この気難しい獅子には見つからぬようにしておかなければ…"
  opinion_bomilcar_chain_end:0 "厳しい非難"
