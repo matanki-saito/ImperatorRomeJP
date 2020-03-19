@@ -59,7 +59,7 @@
  pbc_event.11.t:0 "飛躍的進歩"
  pbc_event.11.desc:1 "研究者の一人、[SCOPE.sChar('power_character').GetName]は、もう少しで[SCOPE.sChar('power_character').GetSheHe]が現在取り組んでいる研究において素晴らしい進歩を達成できると考えているようだ。今後数年間にわたっていくらかの物資と資金さえ追加されればそれでよいということらしい。\n\nこれらを手に入れるために、[SCOPE.sChar('power_character').GetSheHe]は我々の[ROOT.GetCountry.GetRulerTitle]、[ROOT.GetCountry.GetRuler.GetName]に対して、個人的に資金や物資を利用できないか願い出てきたのである。彼にこうした行動を許せば残りの研究者たちは間違いなく割りを食うことになるが、結局のところこれはやる価値のあることなのだろうか？"
  pbc_event.11.a:0 "[SCOPE.sChar('power_character').GetPraenomen]に必要となるすべてのものを与えよ。"
- pbc_event.11.b:0 "もちろん一人の研究者にすべての資金を預けるような無駄遣いをするつもりはない。"
+ pbc_event.11.b:0 "もちろん一人の研究者に全ての資金を預けるような無駄遣いをするつもりはない。"
  pbc_event.11.c:0 "[SCOPE.sChar('power_character').GetPraenomen]にいくらか新たな資金を用意しよう。"
  pbc_event.11.d:0 "資金に余裕はないが、[ROOT.GetCountry.GetRuler.GetPraenomen]なら解決策を知っているだろう。"
  pbc_event.12.t:0 "怠慢な役人"

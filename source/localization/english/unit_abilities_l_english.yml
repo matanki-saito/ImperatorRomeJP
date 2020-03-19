@@ -99,7 +99,7 @@
  capture_port_no_valid_port:0 "この艦隊に隣接する、要塞化されておらず防衛されていない敵の港湾区域がありません"
  port_assault_no_valid_port:0 "この艦隊に隣接する、防衛されておらず要塞化されている敵の港湾区域がありません"
  port_raid_no_valid_port:0 "この艦隊に隣接する、包囲中で城壁破壊のない敵の港湾区域がありません"
- drill_army:0 "軍を訓練する"
+ drill_army:0 "軍事訓練"
  drill_armydesc:1 "訓練には高い費用が掛かるものの、全ての兵士を実践投入できる状態に保ち、彼らが戦いの中で命や手足を失わずに済む方法を学ぶ最も有効な手段である。結局のところ、経験こそが最良の師なのだ。"
  naval_raiding_cooldown_tooltip:0 "近隣の港はどれも最近襲撃されたばかりです"
  naval_raiding_only_overlord_ports_tooltip:0 "近隣の港がこの海軍の保有国の#Y 宗主国#!に領有されています"
