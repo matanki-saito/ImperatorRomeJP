@@ -130,7 +130,7 @@
  got_informed_ip7:0 "幸運にも先だって警告しておいたことが功を奏し、彼に危害が加えられることは無かったが、事件の実行犯を捕まえることには失敗し、世間では二人のならず者による犯行ということになっている。"
  got_target_won:0 "幸いなことに、その並外れた軍事能力のおかげで、戦いは防御側有利に運ぶこととなった"
  got_target_lost:0 "[SCOPE.sChar('plot_target').GetName]は軍事能力に欠けるため、この襲撃は[SCOPE.sChar('plotting_pretender').GetName]の有利に事が進んだが、[SCOPE.sChar('plot_target').GetName]が負傷しながらも逃げ延びられたことは不幸中の幸いであった"
- got_successor_normal:0 "loyal subject"
+ got_successor_normal:0 "忠実な臣下"
  got_primary_heir_normal:0 "beloved heir"
  got_tribal_council_type:0 "氏族長会議"
  got_republic_council_type:0 "評議会"

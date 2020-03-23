@@ -101,7 +101,7 @@
  MOVE_FAMILY_EFFECT:0 "[FAMILY.GetNumOfMembers|Y]名の成員と共に[FAMILY.GetName|Y]一門は[TARGET_COUNTRY.GetName]に移動します"
  MOVE_COUNTRY_EFFECT:0 "[CHARACTER.GetNameForEffects]は[TARGET_COUNTRY.GetName]に移動します"
  CHANGE_MERCENARY_EMPLOYER_EFFECT:0 "[CHARACTER.GetNameForEffects]は[TARGET_COUNTRY.GetName]に仕えるようになります"
- MARRY_CHARACTER_EFFECT:0 "[CHARACTER.GetNameForEffects]と[TARGET_CHARACTER.GetNameForEffects]は婚姻関係になります。"
+ MARRY_CHARACTER_EFFECT:0 "[CHARACTER.GetNameForEffects]と[TARGET_CHARACTER.GetNameForEffects]は婚姻関係になります"
  ADD_FRIEND_EFFECT:0 "[CHARACTER.GetNameForEffects]は[TARGET_CHARACTER.GetNameForEffects]と友人になります"
  REMOVE_FRIEND_EFFECT:0 "[CHARACTER.GetNameForEffects]は[TARGET_CHARACTER.GetNameForEffects]と友人ではなくなります"
  ADD_RIVAL_EFFECT:0 "[CHARACTER.GetNameForEffects]は[TARGET_CHARACTER.GetNameForEffects]を宿敵と目しはじめます"
