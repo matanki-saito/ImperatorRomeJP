@@ -17,7 +17,3 @@
  LOBBY_LABEL_POPULATION:0 "人口"
  LOBBY_LABEL_DIPLOMACY:0 "外交"
  MULTIPLAYER_GUI_SEARCH_FOR_SERVER_PROMPT:0 "サーバーを探す"
- MSGRDK_SIGNIN_FAILED_TITLE:0 "問題が存在します"
- MSGRDK_SIGNIN_FAILED_TEXT:0 "Microsoftアカウントでサインインしていません。いくつかのゲーム要素が使えない可能性があります。"
- MSGRDK_NO_PERMISSION_TITLE:0 "アカウントの許諾"
- MSGRDK_NO_UGC_TEXT:0 "ユーザー作成のコンテンツにアクセスする権限がありません。MODは使用不能になります。"

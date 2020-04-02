@@ -26,7 +26,7 @@
  administrative_purge_rep:0 "王政派の粛清"
  desc_administrative_purge_rep:0 "この偉大な国に王政派なる概念の居場所はない。内部からの脅威を排除するよう努めねば。"
  tribal_reform.2.t:0 "官吏の粛清"
- tribal_reform.2.desc:0 "理想とする政府を追い求めるとき、あらゆる障害が我々の前に立ちはだかる。そうした障害の一つは[SCOPE.sChar('purge_target').GetPraenomen]という名の、我々自身とは異なる理想に強く執着している人物である。\n\n机上では、異なる政治思想に対して一定の寛容が必要とされるが、我々の顧問は、[SCOPE.sChar('purge_target').GetPraenomen]の耳障りな意見はまるで非現実的であり、政府内の地位を保証できるようなものではないと勧告している。"
+ tribal_reform.2.desc:0 "In pursuit of our ideal government, many obstacles stand in the way. One of those obstacles goes by the name of [SCOPE.sChar('purge_target').GetPraenomen], who possesses a strong allegiance to a cause not aligned with our own.\n\nLogic dictates a certain amount of tolerance for opposing ideologies, however, our advisors recommend that the jarring notions of [SCOPE.sChar('purge_target').GetPraenomen] are simply too far-fetched to warrant a continued place in our government."
  tribal_reform.2.a:0 "同感だ。[SCOPE.sChar('purge_target').GetSheHe|U]を追いやるべきだ。"
  tribal_reform.2.b:0 "我々にこれほど良く仕えてくれた者を非難などできぬ。"
  tribal_reform.2.c:0 "[SCOPE.sChar('purge_target').GetHerHim]を見せしめにせよ！"

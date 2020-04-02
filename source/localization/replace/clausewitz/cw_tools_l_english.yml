@@ -55,3 +55,5 @@
  editor_inherit_visibility_property_tooltip: "アタッチされたウィジェットから表示状態を継承するモードを指定します。「表示」だとウィジェットが表示されたときには表示されますが、ウィジェットが非表示になっても非表示にはなりません。「非表示」はその反対を意味します"
  editor_minimumsize_property_tooltip: "ウィジェットの最小サイズ。-1は最小値無しを意味します。"
  editor_maximumsize_property_tooltip: "ウィジェットの最大サイズ。-1は最大値無しを意味します。"
+ tools_highlight: "$VALUE|Y$"
+ tools_error: "$VALUE|R$"

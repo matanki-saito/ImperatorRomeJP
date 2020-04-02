@@ -6,7 +6,7 @@
  warfare.1.c:0 "誰も隠れることはできない！"
  warfare.1.d:0 "[SCOPE.sP('temp_city_scope_warfare_1').GetName]滅ぶべし！"
  warfare.2.t:0 "[SCOPE.sP('temp_city_scope_warfare_1').GetName]の略奪！"
- warfare.2.desc:0 "[SCOPE.sP('temp_city_scope_warfare_1').GetName]が陥落した後、[SCOPE.sChar('siege_instigator').GetName]は[SCOPE.sChar('siege_instigator').HerHis]の軍隊が好きなように略奪することを許した。恣意に虐殺と、強姦、収奪などの悪行を働いた挙句、[SCOPE.sChar('siege_instigator').GetPraenomen]は莫大な富を獲得した。我々の顧問は[SCOPE.sChar('siege_instigator').GetSheHe]が現在我が国で最も富裕な人物の一人だと示唆している。かつて[SCOPE.sP('temp_city_scope_warfare_1').GetName]から脱走した兵士も今や[SCOPE.sChar('siege_instigator').GetPraenomen]の傘下に入ろうとしている。\n\nたとえ[SCOPE.sChar('siege_instigator').GetHerHis]が大衆から喝采を浴びているとしても、我々は[SCOPE.sChar('siege_instigator').GetHerHim]が行った悪行に対して罰することを検討すべきだろう。"
+ warfare.2.desc:1 "[SCOPE.sP('temp_city_scope_warfare_1').GetName]が陥落した後、[SCOPE.sChar('siege_instigator').GetName]は[SCOPE.sChar('siege_instigator').GetHerHis]の軍隊が好きなように略奪することを許した。恣意に虐殺と、強姦、収奪などの悪行を働いた挙句、[SCOPE.sChar('siege_instigator').GetPraenomen]は莫大な富を獲得した。我々の顧問は[SCOPE.sChar('siege_instigator').GetSheHe]が現在我が国で最も富裕な人物の一人だと示唆している。かつて[SCOPE.sP('temp_city_scope_warfare_1').GetName]から脱走した兵士も今や[SCOPE.sChar('siege_instigator').GetPraenomen]の傘下に入ろうとしている。\n\nたとえ[SCOPE.sChar('siege_instigator').GetHerHis]が大衆から喝采を浴びているとしても、我々は[SCOPE.sChar('siege_instigator').GetHerHim]が行った悪行に対して罰することを検討すべきだろう。"
  warfare.2.a:0 "いや、放っておこう。"
  warfare.2.b:0 "忠誠の誓いを立てさせよう。"
  warfare.2.c:0 "我々の取り分を要求する！"

@@ -48,5 +48,6 @@
  STARVING_ENTRY:0 "$NAME$ - 現在の食料 $VAL|R$（$CHANGE|+=2$）"
  ALERT_NO_FOOD:1 "#T 食料不足#!\n以下の部隊には食料不足が発生しており損耗を受けます"
  UNIT_NO_FOOD_ALERT_ENTRY:0 "[UNIT.GetName]：[UNIT.GetFoodPercentage|Y%/2]"
- ALERT_COMPLETED_MISSION_TASK:0 "#T ミッションのタスクが達成可能です#!"
- COMPLETED_MISSION_TASK_ENTRY:0 "$NAME$ - 達成可能！"
+ ALERT_COMPLETED_MISSION_TASK:1 "#T ミッションのタスクが達成可能です#!"
+ COMPLETED_MISSION_TASK_ENTRY:1 "$NAME$ - 達成可能！"
+ ALERT_CAN_COLONIZE_PROVINCE:1 "#T 植民可能な領域#!\n次の領域に植民可能です："

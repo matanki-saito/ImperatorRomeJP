@@ -25,7 +25,7 @@
  generic_mission_conquer_region_branch_1_b:0 "[SCOPE.sArea('first').GetName]の支配"
  generic_mission_conquer_region_branch_1_d:0 "[SCOPE.sP('conquer_region_target').GetArea.GetRegion.GetName]への進出"
  namenamename:0 "#Y [THIS.GetProvince.GetArea.GetName]#!"
- every_state_city_custom:0 "#Y 州内の全ての都市およびメトロポリス#!"
+ every_state_city_custom:1 "#Y [SCOPE.sArea('development_branch_area').GetName]#!におけるすべての都市またはメトロポリス"
  generic_mission_conquer_region_branch_1_f:0 "[SCOPE.sArea('third_follow').GetName]の征服"
  generic_mission_conquer_region_branch_1_g:0 "[SCOPE.sArea('second_follow').GetName]の併合"
  generic_mission_conquer_region_branch_1_e:0 "[SCOPE.sArea('first_follow').GetName]の獲得"

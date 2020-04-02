@@ -8,3 +8,4 @@
  END_GAME_VIEW_GREATEST_EMPIRE_TITLE:0 "歴史上最も偉大な帝国"
  END_GAME_VIEW_GREATEST_EMPIRE_TEXT:1 "[COUNTRY.GetAdjective]の人々はアレクサンドロス大王ですら及ばぬ大帝国を打ち立てたと、神々から直々に賞賛されるにふさわしい。\n\n歴史書は我々を単に征服者としてではなく、あまねく世界に文明と真理をもたらした者として記載するに違いない。"
  OBSERVE:0 "観察者モードで続ける"
+ CONTINUE_PAST_END_DATE:0 "ゲームを続行する（実績は達成できません）"
