@@ -163,7 +163,7 @@
  INCREASE_CIVILIZATION_CAP_BUTTON_TOOLTIP:0 "#T 都市開発を調整する#!\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( ProvinceWindow.GetProvince.MakeScope ).AddScope('player', Player.MakeScope ).End )]"
  MOVE_PROVINCE_CAPITAL_BUTTON_TOOLTIP:0 "#T 州都に定める#!\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( ProvinceWindow.GetProvince.MakeScope ).End )]"
  MOVE_CAPITAL_BUTTON_TOOLTIP:0 "#T 首都に定める#!\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( ProvinceWindow.GetProvince.MakeScope ).End )]"
- RELEASE_SUBJECT_BUTTON_TOOLTIP:0 "#T 従属国を解放する#!\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( Player.MakeScope ).AddScope('target_state',StateItem.GetState.MakeScope ).End )]"
+ RELEASE_SUBJECT_BUTTON_TOOLTIP:0 "#T 従属国として解放する#!\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( Player.MakeScope ).AddScope('target_state',StateItem.GetState.MakeScope ).End )]"
  FOUND_CITY_BUTTON_TOOLTIP:0 "#T 都市の建設#!\n集落が都市にアップグレードされ、人口許容量が増加し新たな建造物の建設が可能になります。\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( BuildBuildingWindow.GetProvince.MakeScope ).AddScope('player', Player.MakeScope ).End )]"
  FOUND_METROPOLIS_BUTTON_TOOLTIP:0 "#T メトロポリスの建設#!\n大都市がメトロポリスにアップグレードされ、人口許容量だけでなくPOPへの魅力も大きく増加します。\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( BuildBuildingWindow.GetProvince.MakeScope ).AddScope('player', Player.MakeScope ).End )]"
  REVOKE_CITY_STATUS_BUTTON_TOOLTIP:0 "#T 都市の廃止#!\n都市・メトロポリスの地位を廃止して集落に戻し、人口許容量が大きく低下するとともに住民の不満を引き起こします。\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( BuildBuildingWindow.GetProvince.MakeScope ).AddScope('player', Player.MakeScope ).End )]"

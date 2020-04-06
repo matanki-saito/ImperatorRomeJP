@@ -1,6 +1,6 @@
 ﻿l_english:
  assassinate.1.t:0 "接触報告"
- assassinate.1.desc:0 "Our advisors report that [SCOPE.sChar('foreign_agent').GetName], a trusted friend of our [ROOT.GetCountry.GetRulerTitle], has made contact with our agents in [SCOPE.sChar('target').GetEmployer.GetName]. The planned assassination of [SCOPE.sChar('target').GetName] is beginning to take shape - however, [SCOPE.sChar('foreign_agent').GetPraenomen] has requested that we send aid, that [SCOPE.sChar('foreign_agent').GetSheHe] might be better able to perform [SCOPE.sChar('foreign_agent').GetHerHis] covert duties."
+ assassinate.1.desc:0 "我々の顧問の報告によると、我らが[ROOT.GetCountry.GetRulerTitle]の信頼できる友人である[SCOPE.sChar('foreign_agent').GetName]が[SCOPE.sChar('target').GetEmployer.GetName]において我々のスパイと接触したようだ。[SCOPE.sChar('target').GetName] に対する暗殺計画は少しずつ現実化しつつあるが、[SCOPE.sChar('foreign_agent').GetPraenomen]は我々からの追加の援助を要求している。援助によって[SCOPE.sChar('foreign_agent').GetSheHe]の隠密活動はさらに首尾よく行われるだろう。"
  assassinate.1.a:0 "[SCOPE.sChar('target').GetPraenomen]が死ぬなら何でも用立てよう。"
  assassinate.1.b:0 "本当にこれは必要なのか？"
  assassinate.1.c:0 "何か上手い戦略を使えと[SCOPE.sChar('foreign_agent').GetHerHim]に伝えろ！"
@@ -24,7 +24,7 @@
  assassinate.6.b:0 "そんなことはできない。"
  agent_will_flee_to_us_tt:0 "[SCOPE.sChar('foreign_agent').GetName]は暗殺実行の後、我が国への逃亡を試みます"
  assassinate.7.t:0 "前夜は近い"
- assassinate.7.desc:0 "Our agent in [SCOPE.sChar('target').GetEmployer.GetName] has informed us that the attempted assassination targeting [SCOPE.sChar('target').GetName] will go ahead imminently. [SCOPE.sChar('foreign_agent').GetSheHe|U] only requests one further instruction.\n\nIn what manner should we attempt to do away with [SCOPE.sChar('target').GetPraenomen]?"
+ assassinate.7.desc:0 "[SCOPE.sChar('target').GetEmployer.GetName]にいる我々のスパイによると、[SCOPE.sChar('target').GetName]を標的とした暗殺計画は間もなく実行されるだ。[SCOPE.sChar('foreign_agent').GetSheHe|U]は最後の指示を待っている。\n\nどの方法で[SCOPE.sChar('target').GetPraenomen]を殺害するのがよいだろうか？"
  assassinate.7.a:0 "毒殺がきっとうまくいく。"
  assassinate.7.b:0 "手早く突き刺せば十分だろう。"
  assassinate.7.c:0 "皮を剥いでしまえ！"

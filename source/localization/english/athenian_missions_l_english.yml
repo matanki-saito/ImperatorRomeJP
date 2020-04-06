@@ -104,7 +104,7 @@
  athenian_mission_03_political_task_3_DESC:0 "The Assembly has been suffering under the rule of ambitious politicians and foreign overlords, first from Macedon, then later on from the Antigonids. We need to restore true democracy to Athens, for which we were once known throughout Greece."
  athenian_mission_03_political_task_4:0 "Organized Citizens"
  athenian_mission_03_political_task_4_DESC:0 "The influence of foreign warlords and nations has left its marks on [ROOT.GetCountry.GetName]. A stain on our history, and institutions."
- athenian_mission_03_political_task_5:0 "Ancient Traditions"
+ athenian_mission_03_political_task_5:0 "古代の伝統"
  athenian_mission_03_political_task_5_DESC:0 "A celebration of the return of our unsullied ancient democracy is only in order."
  athenian_mission_03_political_task_6:0 "A Personal Touch"
  athenian_mission_03_political_task_6_DESC:0 "Sometimes, a personal touch in diplomatic negotiations can go a long way."

@@ -7,6 +7,6 @@
  ASSAULT_NOT_IN_COMMAND:0 "あなたはこの包囲の指揮官ではありません。"
  ASSAULT_TOO_LOW_MORALE:0 "突撃するには包囲軍の士気が低すぎます。"
  ASSAULT_ORDER:2 "#T 突撃命令#!\n#TF 突撃命令を与えると、人的資源のコストが高くつきますが、迅速な結果をもたらす可能性があります。#!"
- DISBAND_NOT_IN_COMBAT:0 "Units in combat can not be disbanded."
+ DISBAND_NOT_IN_COMBAT:0 "戦闘中のユニットは解散できません"
  REORGANIZE_WINDOW_TITLE:0 "再編成"
  SELECT_UNIT:0 "このユニットを選択"
