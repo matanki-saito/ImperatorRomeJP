@@ -344,7 +344,7 @@
  AGO_ADJ:0 "Argolian"
  form_argolis:0 "$ARGOLIS_NAME$の形成"
  form_argolis_desc:0 "アルゴスの周辺地域はアルゴリスとして知られ、ギリシアの中で最も勇敢で誇り高い人々が住む土地である。我々は今まで他の近隣地域で見られるような同盟や連合を形成したことはないが、今こそお互いの違いを乗り越えて団結するべき時ではないだろうか。"
- formable_not_aestuia_exists:0 "#Y AESTUIA_NAME#!が存在しない"
+ formable_not_aestuia_exists:0 "#Y $AESTUIA_NAME$#!が存在しない"
  form_aestuia:0 "$AESTUIA_NAME$の統一"
  form_aestuia_desc:0 "アエスティ族はもはや散り散りになった民族ではなく、今この時を以て我々の支配の下に結集する。我らの采配によって、アエスティアの強さと団結を世界に知らしめようではないか。"
  AESTUIA_NAME:0 "Aestuia"
