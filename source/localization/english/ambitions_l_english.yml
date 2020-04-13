@@ -99,7 +99,7 @@
  ambition_become_politician:0 "政治家になる"
  ambition_become_politician_desc:0 "[ROOT.GetCharacter.GetPraenomen] はいつかリーダーとして我々の偉大な国をさらなる高みへ導くことを夢見ています。"
  ambition_become_demagogue:0 "扇動者になる"
- ambition_become_demagogue_desc:0 "[ROOT.GetCharacter.GetPraenomen]はいつか我々の政府を打倒して全体主義体制を打ち立てるという自分の欲望を誰彼構わず吹聴しています。"
+ ambition_become_demagogue_desc:0 "[ROOT.GetCharacter.GetPraenomen]はいつか現在の政府を打倒して全体主義体制を打ち立てるという自分の欲望を誰彼構わず吹聴しています。"
  ambition_become_holy:0 "信仰を深める"
  ambition_become_holy_desc:0 "[ROOT.GetCharacter.GetPraenomen]は神聖な謎を観照することに残りの人生を捧げることを望んでいます。"
  abandoned_family:0 "一門を捨てた"

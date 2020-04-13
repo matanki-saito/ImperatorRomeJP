@@ -514,7 +514,7 @@
  bitter_friend:0 "choosing to honor their personal relationship with the tyrant over the needs of the body politic"
  flavor_egy_ophellas_desc_other:0 "by his supposed ally Agathokles of Syracuse during their joint invasion of Carthage,"
  flavor_egy_ophellas_desc_syracuse:0 "and the seizure of his army by our wily king Agathokles during their joint invasion of Carthage,"
- get_sel_name_fetch:0 "[GetCountry('SEL').GetRuler.GetFamilyDisplayAdjective] Empire"
+ get_sel_name_fetch:0 "[GetCountry('SEL').GetRuler.GetFamilyDisplayAdjective]$country_name_empire$"
  get_sel_name_fallback:0 "Persian Empire"
  get_sel_adj_fetch:0 "[GetCountry('SEL').GetRuler.GetFamilyDisplayAdjective]"
  get_sel_adj_fallback:0 "Persian"

@@ -1,0 +1,4 @@
+﻿l_english:
+ SETTING_VALUE_PERCENTAGE_WARNING: "$VALUE|%0X$"
+ RECOMMENDED_GUI_SCALE_TOO_HIGH: "#X $VALUE|%0$を超えるスケーリングではインターフェースが画面外に表示される可能性があります#!"
+ RECOMMENDED_GUI_SCALE: "$VALUE|%0$を超えるスケーリングではインターフェースが画面外に表示される可能性があります"

@@ -450,4 +450,4 @@
  tribal_reform_BUTTON_TOOLTIP:0 "我が部族にとって、新たな統治方法を考慮しなければならない時が来たようだ。外国から様々な観念が押し寄せてきている中、我々は本当に移住民であり続けることができるだろうか？"
  get_trade_investment_mission_loc_1:0 "#R [SCOPE.ScriptValue('generic_infrastructure_mission_trade_investment_svalue')|0]#!"
  get_trade_investment_mission_loc_2:0 "#Y [SCOPE.ScriptValue('generic_infrastructure_mission_trade_investment_svalue')|0]#!"
- holy_site_uruk_anu_temple:0 "Anu Temple of"
+ holy_site_uruk_anu_temple:0 "のアヌ寺院"

@@ -210,7 +210,7 @@
  closed_court_law_desc:0 "我らが賢明な統治者と元老院は余りにも尊すぎるので、平民と親しくするのは許されない。不満分子に気づかれないように、我が首都の城壁の中で彼らを安全に納めよう。"
  increased_council_powers:1 "評議会の法的権威"
  increased_council_powers_desc:1 "より大きな氏族評議会に法的決定を下す権限を与える事で、すべての人々が我が国の運営に対する発言権を持ち、我が政府の効率を高めるようにする。"
- tribal_authority_laws:1 "法の規定"
+ tribal_authority_laws:1 "専制法"
  tribal_council_laws:0 "評議会法"
  succession_law:0 "継承法"
  agnatic_succession_law:0 "男系長子相続制"

@@ -18,7 +18,7 @@
  returning_merc_failure:0 "残念ながら、冒険者としての生き方は[SCOPE.sChar('returning_merc').GetPraenomen]に向いていなかったようだ。数多くの軍事的失敗や、辛くも回避した部下の反乱の話を聞く限りではそう考えるしかない。[SCOPE.sChar('returning_merc').GetPraenomen]が望んだのはもう少し刺激の少ない生活であり、ついにはこそこそと[ROOT.GetCountry.GetName]に戻って来たのだった。"
  character_events.43.a:0 "興味深いことだ。"
  character_events.44.t:0 "追放者の帰還"
- character_events.44.desc:0 "長い長い冒険の果てに、[SCOPE.sChar('returning_merc').GetName]はついに[ROOT.GetCountry.GetAdjective]の地に足を踏み入れた。\n\n宮廷が酷くがっかりしたのは、[SCOPE.sChar('returning_merc').GetPraenomen]が我々が望んでいた姿ではなく、悪だくみの方法を少し学んだ程度だったということである。国境の向こうで、彼は卑劣な僭称者である[SCOPE.sChar('supported_pretender').GetName]を支持するという、虚しい宣言をした。\n\n[SCOPE.sChar('returning_merc').GetPraenomen]をおだててやればその気分を宥めてやることもできるだろう。最も効果的なのは、金だろうが。"
+ character_events.44.desc:0 "長い長い冒険の果てに、[SCOPE.sChar('returning_merc').GetName]はついに[ROOT.GetCountry.GetAdjective]の地に足を踏み入れた。\n\n宮廷が酷くがっかりしたのは、[SCOPE.sChar('returning_merc').GetPraenomen]が我々が望んでいた姿ではなく、悪だくみの方法を少し学んだ程度だったということである。国境を越えるや否や、[SCOPE.sChar('returning_merc').GetSheHe]は卑劣な僭称者である[SCOPE.sChar('supported_pretender').GetName]を支持すると明確に宣言した。\n\n[SCOPE.sChar('returning_merc').GetPraenomen]をおだててやればその気分を宥めてやることもできるだろう。最も効果的なのは、金だろうが。"
  character_events.44.a:0 "裏切り者め…"
  character_events.47.t:0 "後継者の帰還"
  character_events.47.desc:0 "かつての後継者、[SCOPE.sChar('returning_merc').GetName]の帰還がこそこそと噂されている。ずいぶん前に、[SCOPE.sChar('returning_merc').GetSheHe]は[ROOT.GetCountry.GetAdjective]の宮廷を離れ、遠方の土地に運命を見出したが、避けられぬ戴冠に臨むために帰還してきたのだ。\n\nしかし事態の進行は早く、[SCOPE.sChar('returning_merc').GetPraenomen]がまだ国外にいる間に親愛なる君主、[SCOPE.sChar('old_king').GetName]が他界し、[ROOT.GetCountry.GetRuler.GetName]が即位するという成り行きになった。\n\n[SCOPE.sChar('returning_merc').GetPraenomen]は[SCOPE.sChar('returning_merc').GetSheHe]こそがこの国を真に統治するに相応しいと確信しているし、多くの者も賛同しているように思われる。"

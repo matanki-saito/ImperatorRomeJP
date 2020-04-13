@@ -1,5 +1,5 @@
 ﻿l_english:
- PROVINCE_TOOLTIP:2 "#t [PROVINCE.Custom('get_city_status_cloc')][PROVINCE.GetName]$OWNERSHIP$#!"
+ PROVINCE_TOOLTIP:2 "#t [PROVINCE.GetName] ([PROVINCE.Custom('get_city_status_cloc')])\n$OWNERSHIP$#!"
  IMPASSIBLE_COLORED_PROVINCE_TOOLTIP:0 "#T 通行不可能#! [PROVINCE.GetName|Y]"
  IMPASSIBLE_UNCOLORED_PROVINCE_TOOLTIP:0 "#T 通行不可能#! [PROVINCE.GetName|Y]"
  UNINHABITABLE_PROVINCE_TOOLTIP:1 "#T 居住不可能#! [PROVINCE.GetName|Y]"

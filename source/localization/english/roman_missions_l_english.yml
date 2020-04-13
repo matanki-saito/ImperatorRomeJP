@@ -267,7 +267,7 @@
  roman_7_invading_gaul_REWARD_DESCRIPTION:0 "ガリア"
  roman_7_secure_allies:0 "ガリアにおける同盟者の獲得"
  roman_7_secure_allies_DESC:0 "No one knows the weaknesses of the Gaulish tribes better than their brothers. Befriending an important Celtic group may let the conquest of Gallia go more smoothly."
- roman_7_secure_allies_tooltip:1 "A #Y Gallic#! or #Y Proto-European#! nation exists in the Regions of #Y Transalpine Gaul#!, #Y Aquitania#!, #Y Celtica#!, #Y Armorica#!, or #Y Belgica#!, neighbors #Y Rome#! or a Subject, is not allied with #Y Rome#!, is not a Subject, has at least #Y 4#! Territories, has greater than #R -50#! opinion of #Y Rome#!, is a lower Rank than #Y Rome#!."
+ roman_7_secure_allies_tooltip:1 "#Y $ROM$#!もしくはその従属国の隣国で、#Y $ROM$#!の同盟国ではなく、従属国ではなく、#Y 4#!区域以上を領有し、#Y $ROM$#!に対する評価が#R -50#!を超える値で、#Y $ROM$#!より低い国家ランクの#Y ガリア#!もしくは#Y 先印欧#!系国家が#Y $transalpine_gaul_region$#!、#Y $aquitaine_region$#!、#Y $central_gaul_region$#!、#Y $armorica_region$#!もしくは#Y $belgica_region$#!地域に存在する"
  roman_7_secure_allies_tooltip2:0 "#Y $ROM$#!が#Y 1#!以上の区域を#Y $transalpine_gaul_region$#!、#Y $aquitaine_region$#!もしくは#Y $central_gaul_region$#!地域に領有する"
  roman_7_secure_allies_rewtt:0 "$roman_diplo_reward_tt$隣接する#Y ガリア#!系部族国家"
  roman_7_secure_alps:0 "アルペースの確保"

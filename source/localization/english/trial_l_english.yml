@@ -1,7 +1,7 @@
 ﻿l_english:
  trial_consequences:0 "#Y [SCOPE.sChar('target').GetName]#!を有罪にできなかった場合、この人物は内戦を始めようとする可能性があります"
  trial.1.t:0 "裁判：告発"
- trial.1.desc_republic:0 "The senate hall slowly falls to silence as [SCOPE.sChar('target').GetName], the accused, is brought before them. As [SCOPE.sChar('target').Custom('random_character_adjective_negative')] a [SCOPE.sChar('target').GetWomanMan] [ROOT.GetCountry.GetName] has never known - the senate murmurs in condemnation.\n\nThe social censure still hanging in the air, the examiner steps forward and addresses the senate, asking of which crime [SCOPE.sChar('target').GetPraenomen] stands accused."
+ trial.1.desc_republic:0 "被疑者の[SCOPE.sChar('target').GetName]が彼らの前に引き出されると、元老院の議場はゆっくりと静寂に包まれていった。[ROOT.GetCountry.GetName]においてかつて例のないほど[SCOPE.sChar('target').Custom('random_character_adjective_negative')][SCOPE.sChar('target').GetWomanMan]だと議場の面々は口々に非難している。\n\n非難の声が未だ飛び交う中、判事は前に進み出ると元老院に対して[SCOPE.sChar('target').GetPraenomen]がいかなる罪によって告訴されているのかを高らかに読み上げた。"
  trial.1.desc_monarchy:0 "被告人の[SCOPE.sChar('target').GetName]が俯いたまま[ROOT.GetCountry.GetRulerTitle]の前に引き出されてくると、法廷は暗い雰囲気に包まれた。[SCOPE.sChar('target').Custom('get_council_1_descriptor')]、[SCOPE.sChar('target').GetPraenomen|U]は最後の最後で勇み足を踏み出してしまった。\n\n裁判を進行するため、判事は[ROOT.GetCountry.GetRulerTitle]である[ROOT.GetCountry.GetRuler.GetPraenomen]の公的な称号を読み上げ、[SCOPE.sChar('target').GetPraenomen]の告訴事由について尋問を開始した。"
  trial.1.desc_tribal:0 "[SCOPE.sChar('target').GetName]が彼らの前に連れて来られても部族の氏族長たちは無表情に座ったままだった。氏族会議には同情の表情を浮かべる者は一人たりともいない。\n\n判事が大きな声で制すると、糾弾する声もおさまり静寂が辺りを覆った。秩序のベールが下ろされ、判事は[ROOT.GetCountry.GetRulerTitle]の[ROOT.GetCountry.GetRuler.GetPraenomen]に対し、[SCOPE.sChar('target').GetPraenomen]の告訴事由を読み上げた。"
  trial.1.a:0 "職権の乱用は由々しき問題である。"
