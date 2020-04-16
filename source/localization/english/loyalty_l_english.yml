@@ -7,7 +7,7 @@
  loyalty_non_loyal_cohorts:0 "指揮する大隊数"
  loyalty_current_ruler:0 "現在の統治者"
  loyalty_mercenary:0 "傭兵"
- loyalty_started_civil_war:0 "過去の反乱"
+ loyalty_started_civil_war:0 "反乱に加担した"
  loyalty_civil_war_loyalist:0 "忠臣"
  loyalty_senate_decision_fallback:0 "元老院の決定"
  loyalty_same_party_as_ruler:0 "統治者と同じ派閥"
