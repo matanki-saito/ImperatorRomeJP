@@ -61,7 +61,7 @@
  move_capital_title_confirm_t:1 "首都移転"
  move_capital_title_confirm_desc:1 "[ROOT.GetProvince.GetOwner.GetName]の首都を#Y [ROOT.GetProvince.GetName]#!に移転しますか？\n[ROOT.GetProvince.GetOwner.GetName]は政治的影響力@political_influence!を#R -[SCOPE.ScriptValue('move_capital_pop_difference_cost')]#!失います"
  move_provincial_capital_title_confirm_t:1 "州都移転"
- move_provincial_capital_title_confirm_desc:1 "#Y [ROOT.GetProvince.GetState.GetShortName]#!の州都を#Y [ROOT.GetProvince.GetName]#!に移転しますか？\n[ROOT.GetProvince.GetOwner.GetName]は政治的影響力@political_influence!を#R [SCOPE.ScriptValue('subtract_influence_large')]#!失います"
+ move_provincial_capital_title_confirm_desc:2 "#Y [ROOT.GetProvince.GetState.GetShortName]#!の州都を#Y [ROOT.GetProvince.GetName]#!の都市に移転しますか？\n[ROOT.GetProvince.GetState.GetName]は@loyalty_icon!を#R [SCOPE.ScriptValue('province_capital_price_svalue')]#!失います"
  invest_mil_t:0 "州代官の任命"
  invest_mil_desc:0 "#Y [ROOT.GetState.GetName]#!を改善してもよろしいですか？"
  invest_civ_t:0 "生活基盤への投資促進"

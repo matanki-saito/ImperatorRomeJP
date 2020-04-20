@@ -337,4 +337,4 @@
  DEIFY_RULER_CANNOT_DUE_TO_NON_DEITY:0 "@trigger_no!You can only deify a ruler based on a Deity"
  ALREADY_HAVE_AN_ACTIVE_OMEN:0 "@trigger_no! 啓示は同時に一つしか受けることができません。"
  TRAIT_LOYALTY:0 "@loyalty_icon! 忠誠：$VAL|+2$"
- CAPITAL_TOOLTIP: "[PROVINCE.GetName] is the capital of [PROVINCE.GetOwner.GetName], several key import routes run to the capital and trade goods surpluses here provide empire-wide benefits. It also receives income bonuses and is a particularly valuable city to control in times of war."
+ CAPITAL_TOOLTIP: "[PROVINCE.GetName]は[PROVINCE.GetOwner.GetName]の首都です。主要な輸入ルートがいくつか首都に通じており、交易品の余剰は帝国全体に利益をもたらします。また収入にボーナスがあり、戦時においてはこの都市を支配することが特に重要となります。"
