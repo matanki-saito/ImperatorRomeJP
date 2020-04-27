@@ -245,7 +245,7 @@
  dhe_city_fall.3.b:0 "我らにとっても特に印象深い芸術品をいくつか持ち帰ろう。"
  dhe_city_fall.3.c:0 "価値ある物がないか全ての家を探し回り、[ROOT.GetProvince.GetOwner.GetName]に持ち帰れ。"
  dhe_city_fall.4.t:0 "[SCOPE.sP('special_province').GetName]の征服"
- dhe_city_fall.4.desc:0 "偉大なる都市[SCOPE.sP('special_province').GetName]は最終的に我が軍のもとに陥落し、今や我らの手中にある。\n\n[SCOPE.sP('special_province').GetName]は古代エジプトの首都であり、商業や宗教の重要な中心地であった。エジプトの歴史を通して上下エジプトの間で重要な役割を演じてきた。その紐帯を断ち切ることは、この地域を支配するために為すべき事のうち最初の一歩に過ぎない。\n\n都市が我らの支配下にあることで、部下や顧問はこの古い敵をどう取り扱うかを気にしている。都市を徹底的に略奪し、価値ある物全てを[ROOT.GetProvince.GetOwner.GetCapital.GetName]に持ち帰ることを求める者もいる。"
+ dhe_city_fall.4.desc:0 "偉大なる都市[SCOPE.sP('special_province').GetName]は最終的に我が軍のもとに陥落し、今や我らの手中にある。\n\n[SCOPE.sP('special_province').GetName]は古代エジプトの首都であり、商業や宗教の重要な中心地であった。エジプトの歴史を通じて上下エジプトの連絡点として重要な役割を演じてきた。その紐帯を断ち切ることは、この地域を支配するために為すべき事のうち最初の一歩に過ぎない。\n\n都市が我らの支配下にあることで、部下や顧問はこの古い敵をどう取り扱うかを気にしている。都市を徹底的に略奪し、価値ある物全てを[ROOT.GetProvince.GetOwner.GetCapital.GetName]に持ち帰ることを求める者もいる。"
  dhe_city_fall.4.a:0 "この古代都市を手つかずのままにしておくよう手配する。"
  dhe_city_fall.4.b:0 "畏怖を訴えかけるような芸術品をいくつか我が国に持ち帰ろう。"
  dhe_city_fall.4.c:0 "印象に残った財宝や遺物は全部[SCOPE.sP('special_province').GetName]に持ち帰る。"
