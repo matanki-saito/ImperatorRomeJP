@@ -210,7 +210,7 @@
  form_illyria_claims_tooltip:0 "$ILLYRIA_NAME$は#Y $illyria_region$#!地域に請求権を獲得します"
  formable_not_dacia_exists:0 "#Y $DACIA_NAME$#!が存在しない"
  form_dacia:0 "ダキアの形成"
- form_dacia_desc:0 "ダキア、それは豊かな資源、文化、文明を誇る土地であり、その地に住まう我々は貪欲な隣人からの嫉妬の目を向けられている。今こそ、分裂した諸部族を一つの旗印の下に結束させる強力な指導者の出現が望まれる時だ。"
+ form_dacia_desc:0 "ダキア、それは豊かな資源、文化、文明を誇る土地であり、その地に住まう我々は貪欲な隣人から嫉妬の目を向けられている。今こそ、分裂した諸部族を一つの旗印の下に結束させる強力な指導者が望まれる時だ。"
  DACIA_NAME:0 "Dacia"
  DACIA_ADJECTIVE:0 "Dacian"
  DAC:0 "Dacia"
