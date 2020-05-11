@@ -2,7 +2,7 @@
  HERHIM:0 "[CHARACTER.GetHerHim]"
  GOTO_COUNTRY:0 "移動"
  MESSAGE_LOG_TOOLTIP:0 "#T 通知の日付#!\n#I 左クリックで通知の詳細を確認、右クリックで通知の設定ができます。"
- POPULARITY_MESSAGE:0 "$NAME$は#G $POPULARITY$#!の人気を得ました。"
+ POPULARITY_MESSAGE:0 "$NAME$は#G $POPULARITY$#!の人気を得ました"
  NEG_POPULARITY_MESSAGE:0 "$NAME$は#R $POPULARITY$#!の人気を失いました。"
  MESSAGE_HEAD_GOV:0 "行政官からの報告"
  MESSAGE_HEAD_ADM:0 "船大工からの報告"

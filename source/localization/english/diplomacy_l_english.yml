@@ -590,7 +590,7 @@
  IN_CIVIL_WAR_WITH:1 "#T $WHO$#!\nこの国は$WHO|Y$との間で内戦状態にあります。内戦は一方が他方を完全に征服するまで継続します！"
  CD_HASACCESS:1 "#T $LIST$#!\n$WHO|Y$は$LIST|Y$の軍事通行権を得ています。これにより$WHO$の軍は$LIST$の領内を通行することができます。"
  CD_GIVESACCESS:1 "#T $LIST$#!\n$WHO|Y$は$LIST|Y$に軍事通行権を許可しています。これにより$LIST$の軍は$WHO$の領内を通行することができます。"
- ATWARWITH:2 "#T $LIST$#!\n$WHO|Y$は$LIST|Y$と#R 戦争中#!です。講和が結ばれるまで互いに戦います。\n\n[WAR.GetName|Y]\nこの戦争は[WAR.GetWarGoal.GetName|Y]の戦争目標をめぐって戦われ、主導国[WAR.GetAttackerWarLeader.GetName|Y]と[WAR.GetDefenderWarLeader.GetName|Y]の間の戦勝点は[WAR.GetWarScore|+=2]です。"
+ ATWARWITH:2 "#T $LIST$#!\n$WHO|Y$は$LIST|Y$と#R 戦争中#!です。講和が結ばれるまで互いに戦います。\n\n[WAR.GetName|Y]\nこの戦争は[WAR.GetWarGoal.GetName|Y]の戦争目標をめぐって戦われ、[WAR.GetDefenderWarLeader.GetName|Y]に対して[WAR.GetAttackerWarLeader.GetName|Y]が獲得した戦勝点は現在[WAR.GetWarScore|+=2]です。"
  HASCBON:2 "#T $LIST$#!\n$WHO|Y$は$LIST|Y$に開戦事由を保有しています。これにより$WHO$は安定度を低下させることなく宣戦布告することができます。\n\nこの開戦事由は$EXPIRE|Y$まで有効です。"
  GUARANTEED:3 "#T $LIST$#!\n$WHO|Y$は$LIST|Y$により独立保障されています。これにより$WHO$のいかなる防衛戦争にも$LIST$は参戦しなければなりません。"
  GUARANTING:3 "#T $LIST$#!\n$WHO|Y$は$LIST|Y$の独立を保障しています。これにより$LIST$のいかなる防衛戦争にも$WHO$は参戦しなければなりません。"

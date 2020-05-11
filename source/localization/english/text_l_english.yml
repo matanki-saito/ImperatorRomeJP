@@ -150,4 +150,4 @@
  got_territory_type:0 "区域"
  got_established_metropolis_type:0 "メトロポリス"
  MISMATCHING_DEITY_FACTOR:0 "Mismatching pantheon deity religion: $VAL|%+=2$"
- change_pantheon:0 "祭神の構成を変更したこと"
+ change_pantheon:0 "パンテオンの構成を変更したこと"

@@ -1,5 +1,5 @@
 ﻿l_english:
- CALL_OMEN_TOOLTIP:4 "$NAME|Y$の啓示を受けることにより、$DURATION|Y$年間にわたり以下の恩恵を得ることができます：\n$EFFECT$"
+ CALL_OMEN_TOOLTIP:4 "$NAME|Y$の啓示を受けることにより、 $DURATION|Y$年間にわたり以下の恩恵を得ることができます：\n$EFFECT$"
  convert_pops_omen:1 "我々の区域に住む最大で#Y 5#!のPOPが#Y [deified_ruler.GetReligion.GetName]#!に改宗します"
  assimilate_pops_omen:1 "我々の区域に住む最大で#Y 5#!のPOPが#Y [deified_ruler.GetCulture.GetName]#!文化に同化します"
  converts_one_employed_character:1 "最大で#Y 2#!名までの雇用中の人物が#Y [deified_ruler.GetReligion.GetName]#!に改宗します"
