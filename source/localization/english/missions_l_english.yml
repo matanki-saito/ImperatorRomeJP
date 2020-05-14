@@ -138,7 +138,7 @@
  generic_infra_mission.7.a:0 "They are most welcome."
  pilgrim_traders:0 "Influx of Traders"
  desc_pilgrim_traders:0 "With the construction of the great shrines in this province a great deal of merchants have come to seek out new business opportunities here."
- have_3_trade_goods_tooltip:1 "Invest in #Y 3#! New Trade Routes in [SCOPE.sP('governorship_capital').GetState.GetShortName]. ([governorship_capital.Custom('get_trade_investment_mission_loc')]/#Y 3#!)"
+ have_3_trade_goods_tooltip:1 "[SCOPE.sP('governorship_capital').GetState.GetShortName]で州投資を行い交易路を#Y 3本#!新設する（[governorship_capital.Custom('get_trade_investment_mission_loc')] / #Y 3#!）"
  fortify_capital:0 "[SCOPE.sP('governorship_capital').GetName]の要塞化"
  fortify_capital_DESC:0 "As the seat of our authority in all of [SCOPE.sGovernorship('infra_governorship').GetName] it is not tolerable that [SCOPE.sP('governorship_capital').GetName] lacks fortifications. We need to erect new walls and ramparts to shield those who rely on us for protection."
  fortified_residence:0 "Fortified Residence"

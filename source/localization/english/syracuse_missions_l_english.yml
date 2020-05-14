@@ -163,7 +163,7 @@
  syracuse_4_2_DESC:0 "Since the rise of the Bruttian and Lucanian tribes, the Italiote cities have struggled to maintain their independence. We could approach our subjugated fellow Greeks with an offer of protection."
  syracuse_4_2_allow_tt:0 "An Italic country has as its subject any of the Italotian colonies."
  syracuse_4_2_reward_tt:0 "May liberate Italiote subjects as allies."
- syracuse_4_3:0 "Foothold in Italia"
+ syracuse_4_3:0 "イタリアにおける拠点"
  syracuse_4_3_DESC:0 "We must ensure our grip on the southern tip of Italia is secure and the crossing completely commanded before we make deeper forays into Italia."
  syracuse_4_3_allow_tt:0 "[me_syracuse_scope.GetName] or a subject own:\n#Y [me_syr_rhegion.GetName]#!, #Y [me_syr_lokroi.GetName]#!, and #Y [me_syr_hipponion.GetName]#!."
  syracuse_4_3_reward_tt:0 "Claims on all Italiotian cities in the Region of #Y Magna Graecia#!."

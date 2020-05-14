@@ -40,7 +40,7 @@
  dhe_rome.9.at:0 "[SCOPE.sC('dhe_rome_rome_scope').GetName] は支援要請を受けとります"
  dhe_rome.9.b:0 "神々が我々を護ってくださる。"
  dhe_rome.10.t:0 "[SCOPE.sC('dhe_rome_aid_caller').GetName]による対[SCOPE.sC('dhe_rome_carthage_scope').GetName]の支援要請"
- dhe_rome.10.desc:1 "小国である[SCOPE.sC('dhe_rome_aid_caller').GetName]より危急の使者が訪れた。[SCOPE.sC('dhe_rome_aid_caller').GetRuler.GetTitle]の[SCOPE.sC('dhe_rome_aid_caller').GetRuler.GetName]は、[SCOPE.sC('dhe_rome_carthage_scope').GetName]の横暴な侵攻に対して我々の迅速な支援を求めている。 \n\n使者は何時間にもわたって元老院で嘆願し続け、もし[SCOPE.sC('dhe_rome_aid_caller').GetName]の都市が陥落したならば、次に[SCOPE.sC('dhe_rome_carthage_scope').GetName]が[SCOPE.sC('dhe_rome_rome_scope').GetName]を侵略し破壊しようとするのは時間の問題だと熱心に主張した。\n\n地中海における[SCOPE.sC('dhe_rome_carthage_scope').GetName]との利害対立や彼らの継続的な拡大政策を考えれば、これは状況を我々に有利にできる機会かもしれない。どのように返答すべきだろうか?"
+ dhe_rome.10.desc:1 "小国である[SCOPE.sC('dhe_rome_aid_caller').GetName]より危急の使者が訪れた。[SCOPE.sC('dhe_rome_aid_caller').GetRuler.GetTitle]の[SCOPE.sC('dhe_rome_aid_caller').GetRuler.GetName]は、[SCOPE.sC('dhe_rome_carthage_scope').GetName]の横暴な侵攻に対して我々の迅速な支援を求めている。\n\n使者は何時間にもわたって元老院で嘆願し続け、もし[SCOPE.sC('dhe_rome_aid_caller').GetName]の都市が陥落したならば、次に[SCOPE.sC('dhe_rome_carthage_scope').GetName]が[SCOPE.sC('dhe_rome_rome_scope').GetName]を侵略し破壊しようとするのは時間の問題だと熱心に主張した。\n\n地中海における[SCOPE.sC('dhe_rome_carthage_scope').GetName]との利害対立や彼らの継続的な拡大政策を考えれば、これは状況を我々に有利にできる機会かもしれない。どのように返答すべきだろうか?"
  dhe_rome.10.a:0 "[SCOPE.sC('dhe_rome_carthage_scope').GetName]は破壊されねばならない。"
  dhe_rome.10.b:0 "今はまだ戦争の準備が整っていない。"
  dhe_rome.10.bt:0 "$CAR$に請求権を得ます"

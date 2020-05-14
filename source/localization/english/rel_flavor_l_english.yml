@@ -1,6 +1,6 @@
 ﻿l_english:
  rel_flavor_hellenic.1.t:0 "アスクレピオスの賢者"
- rel_flavor_hellenic.1.desc:0 "A man some say is [ROOT.GetCountry.Custom('get_medicine_god')] himself has been seen in [SCOPE.sP('randomized_country_province').GetName]. Rumors says he brings back people from the brink of death, no matter the disease or injury they might have. Though the man is probably not a living god as some rumors suggests, there might be benefits to bringing him to court."
+ rel_flavor_hellenic.1.desc:0 "[ROOT.GetCountry.Custom('get_medicine_god')] が自らを[SCOPE.sP('randomized_country_province').GetName]に現した化身であるとされる男がいる。噂では、彼は怪我も病も問題ではなく、人々を死の淵から連れ戻すという。噂のような生ける神ではないにせよ、廷臣として迎える価値はある。"
  rel_flavor_hellenic.1.a:0 "彼は[ROOT.GetCountry.GetRuler.GetName]の助けになるだろう。"
  rel_flavor_hellenic.1.b:0 "説得して我らの土地にとどまらせよう。"
  rel_flavor_hellenic.1.c:0 "それでも彼の手当は必要ない。"
@@ -16,7 +16,7 @@
  rel_flavor_hellenic.4.desc:2 "神々を宥めるための祝祭は数日間にも及び、そうしてついに我々が望む反応が返ってきた。[ROOT.GetCountry.Custom('get_god_of_light')]は我々の行いに満足し、神々の承認の下[ROOT.GetCountry.GetRuler.GetName]の統治が長く続くようにと力を発揮してくださったようだ。"
  rel_flavor_hellenic.4.a:0 "良い知らせだ！"
  rel_flavor_hellenic.5.t:0 "預言は続く"
- rel_flavor_hellenic.5.desc:0 "日々の営みが続く間、神々は黙り続ける。 結局、聖職者達は我らに悪い知らせをもたらす。 [ROOT.GetCountry.GetRuler.GetName]の救いは無いと、神々は本当にお決めになられたようだ。我々の統治に対するこれら２つの反論により、我らの現指導部を何者かによって打倒されるのは時間の問題だ。"
+ rel_flavor_hellenic.5.desc:0 "日々の営みが続く間、神々は黙り続ける。結局、聖職者達は我らに悪い知らせをもたらす。[ROOT.GetCountry.GetRuler.GetName]の救いは無いと、神々は本当にお決めになられたようだ。我々の統治に対するこれら２つの反論により、我らの現指導部を何者かによって打倒されるのは時間の問題だ。"
  rel_flavor_hellenic.5.a:0 "ちくしょう！"
  rel_flavor_hellenic.6.t:0 "デルポイの神託"
  rel_flavor_hellenic.6.desc:0 "デルポイの巫女の元から直接使者がやってきた。どうやら[ROOT.GetCountry.Custom('get_god_of_light')]のお告げによれば我が国には繁栄の未来が待ち受けているらしく、それは[ROOT.GetCountry.GetRuler.GetName]の統治下でますます勢いづくようだ。\n\nこの知らせを国内に向けて大々的に発表し、民衆に吉報を広めよう。"

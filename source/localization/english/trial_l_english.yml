@@ -44,7 +44,7 @@
  trial.6.desc:0 "[SCOPE.sChar('target').GetName]に対して、敵意に満ちた政敵たちによる低劣な誹謗中傷が嫌になるほど繰り返されながら数時間が経過した。[SCOPE.sChar('target').GetSheHe|U]は非難が繰り返される状況に対して明らかに心配の度を深めている。全ての出席者が驚愕したように、突然立ち上がって一番近い出口に向かって駆け出すまではの話だが。\n\n突然の大混乱はしかしすぐに収まった。[SCOPE.sChar('target').GetName]は偶然にも[ROOT.GetCountry.GetRulerTitle]の[ROOT.GetCountry.GetRuler.GetPraenomen]に衝突する形となり、両者は床の上に大の字になって倒れこんでしまったのだ。"
  trial.6.a:0 "何と不幸なことだ！有罪として裁かれよ。"
  trial.6.b:0 "[SCOPE.sChar('target').GetHerHim]にはいい教訓になっただろう。"
- legal_accident_death:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle] [SCOPE.GetRootScope.GetCountry.GetRuler.GetPraenomen]は#R 35#!の健康を失い、法廷での悲劇的な事故によって死亡します"
+ legal_accident_death:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle][SCOPE.GetRootScope.GetCountry.GetRuler.GetPraenomen]は#R 35#!の健康を失い、法廷での悲劇的な事故によって死亡します"
  trial.7.t:0 "裁判：自己負罪"
  trial.7.desc:0 "迂遠で、さらに率直に言えば未熟な弁明によって、[SCOPE.sChar('target').GetName]は[SCOPE.sChar('target').GetHerselfHimself]を非常に厄介な状況に追い込んでいた。我々は未だ彼の罪について確信を持っていなかったし、むしろ無罪であるとすら言えたのだが、[SCOPE.sChar('target').GetPraenomen]はまるで原告側であるかのように行動し、迂闊にも[SCOPE.sChar('target').GetHerselfHimself]を多岐にわたる罪で告発してしまったのだ。\n\n今こそが弱みに付け込む好機である。"
  trial.7.a:0 "数名を抱き込んでこの状況を成功に導くのだ。"

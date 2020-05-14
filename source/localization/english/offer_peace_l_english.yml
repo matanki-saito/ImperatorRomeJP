@@ -8,7 +8,7 @@
  OFFER_PEACE_SORT_BY_COST_TOOLTIP:0 "コストで並べ替え"
  OFFER_PEACE_SORT_BY_AE:0 "AE"
  OFFER_PEACE_SORT_BY_AE_TOOLTIP:0 "侵略的拡大で並び替え"
- OFFER_PEACE_TREATY_TOOLTIP:2 "「$NAME$」は$COST|Y$を支払い、$WHO|Y$の侵略的拡大が$AE|2-=$増加する。"
+ OFFER_PEACE_TREATY_TOOLTIP:2 "「$NAME$」に$COST|Y$を支払い、$WHO|Y$の侵略的拡大が$AE|2-=$増加する。"
  TOTAL_AE_TOOLTIP:0 "#T 侵略的拡大#!\nこの条約によって増大する侵略的拡大の値です。"
  GOLD_TOOLTIP:0 "財貨"
  SUGGEST_PEACE:0 "提案"

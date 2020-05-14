@@ -1,6 +1,6 @@
 ﻿l_english:
- ip_republic.46.t:0 "著名な議員が暗殺された"
- ip_republic.46.desc:0 "[GetDateString]、[ROOT.GetCountry.GetAdjective]の高官である[GetOffice('office_censor').GetCulturalName(ROOT.GetCountry)][SCOPE.sChar('prominent_lawmaker').GetName]が元老院での重要討論の後、自宅で惨殺された。\n\n[SCOPE.sChar('prominent_lawmaker').GetPraenomen]は[ROOT.GetCountry.GetName]における少数異民族の権利を強く主張し、[ROOT.GetCountry.GetAdjective]国内の全自由人への市民権の正式な拡大を提案さえもしていた。この美辞麗句は古代から続く現状を維持することに必死だった多くの保守的な元老院議員を怒らせた。\n\n[SCOPE.sChar('prominent_lawmaker').GetPraenomen]のイデオロギーの明確な後継者がいないため、下層階級の間で広く人気のある[SCOPE.sChar('prominent_lawmaker').GetHerHis]の運動が停止したところも出ている。遠方の州の間で不安が高まっており、元老院の声明が期待されている。"
+ ip_republic.46.t:0 "著名な議員の暗殺"
+ ip_republic.46.desc:0 "[GetDateString][ROOT.GetCountry.GetAdjective]の高官である[GetOffice('office_censor').GetCulturalName(ROOT.GetCountry)][SCOPE.sChar('prominent_lawmaker').GetName]が元老院での重要討論の後、自宅で惨殺された。\n\n[SCOPE.sChar('prominent_lawmaker').GetPraenomen]は[ROOT.GetCountry.GetName]における少数異民族の権利を強く主張し、[ROOT.GetCountry.GetAdjective]国内の全自由人への市民権の正式な拡大を提案さえもしていた。この美辞麗句は古代から続く現状を維持することに必死だった多くの保守的な元老院議員を怒らせた。\n\n[SCOPE.sChar('prominent_lawmaker').GetPraenomen]のイデオロギーの明確な後継者がいないため、下層階級の間で広く人気のある[SCOPE.sChar('prominent_lawmaker').GetHerHis]の運動が停止したところも出ている。遠方の州の間で不安が高まっており、元老院の声明が期待されている。"
  ip_republic.46.a:0 "[SCOPE.sChar('prominent_lawmaker').GetFamilyDisplayAdjective]のイデオロギーを非難する宣言を。"
  ip_republic.46.b:0 "[SCOPE.sChar('prominent_lawmaker').GetFamilyDisplayAdjective]の法案は必ず成立させよう。"
  ip_republic_46_tooltip_a:0 "#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]文化#!が#Y 支配的文化#!でない全ての州（#R [SCOPE.ScriptValue('ip_republic_46_tooltip_svalue')]#!州）は以下の効果を得ます："
