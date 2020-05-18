@@ -25,7 +25,7 @@
  LOGIN_JOIN_GAME: "ゲームに参加"
  LOGOUT: "ログアウト"
  NOT_LOGGED_IN: "ログインしていません"
- LOGGING_IN: "ログインしています..."
+ LOGGING_IN: "ログインしています…"
  UNKOWN: "不明"
  TERMS_OF_USE: "利用規約"
  PRIVACY_POLICY: "プライバシーポリシー"

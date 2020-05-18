@@ -218,7 +218,7 @@
  roman_flavor.11.c:0 "少し金を渡して別の解決策を探ってみよう。"
  roman_flavor.11.d:0 "[ROOT.GetCountry.GetRuler.GetPraenomen]ならば彼らを鎮めることができるはずだ。"
  roman_flavor.12.t:0 "独裁の要求"
- roman_flavor.12.desc:0 "[SCOPE.sCharacter('ambitious_general').GetName]は我々の下で長く苦しめられていたが、もはやそうではない。今[SCOPE.sCharacter('ambitious_general').GetSheHe]はローマの統治権そのものを要求しており、独裁官となることを求めている。苛立たしさが部屋の中に充満する中、多くの元老院議員が我々の選択肢について激しく議論している。\n\n最終的に、[ROOT.GetCountry.GetRulerTitle]の[ROOT.GetCountry.GetRuler.GetName]が演壇に上がり、静かにするように大声で声を出して元老院議員たちを落ち着かせた。[ROOT.GetCountry.GetRuler.GetSheHe|U]は深く一呼吸し、そして絶叫した。"
+ roman_flavor.12.desc:0 "[SCOPE.sCharacter('ambitious_general').GetName]は我々の下で長く苦しめられていたが、もはやそうではない。今[SCOPE.sCharacter('ambitious_general').GetSheHe]はローマの統治権そのものを要求しており、独裁官となることを求めている。苛立たしさが部屋の中に充満する中、多くの元老院議員が我々の選択肢について激しく議論している。\n\n最終的に、[ROOT.GetCountry.GetRulerTitle]の[ROOT.GetCountry.GetRuler.GetName]が演壇に上がり、静かにするように大声を出して元老院議員たちを落ち着かせた。[ROOT.GetCountry.GetRuler.GetSheHe|U]は深く一呼吸し、そして絶叫した。"
  roman_flavor.12.a:0 "この裏切り者の犬に引導を渡すのだ！"
  roman_flavor.12.a.tt:0 "#Y 地方の支持者#!の補正を持つ州は#R 内戦#!において[SCOPE.sCharacter('ambitious_general').GetName]の側に立ちます"
  roman_flavor.12.a.tt.2:0 "#Y 野心的な支持者#!の補正を持つ人物は#R 内戦#!において[SCOPE.sCharacter('ambitious_general').GetName]の側に立ちます"
