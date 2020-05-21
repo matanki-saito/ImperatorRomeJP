@@ -2,7 +2,7 @@
  generic_mission_home_infrastructure:0 "[SCOPE.sGovernorship('infra_governorship').GetName][SCOPE.sP('governorship_capital').Custom('get_generic_mission_title_type')]"
  generic_mission_home_infrastructure_DESCRIPTION:0 "[SCOPE.sGovernorship('infra_governorship').GetName][SCOPE.sP('governorship_capital').Custom('get_mission_desc')]"
  mission_colonia_desc:0 "には我々の支配の下に総督が派遣されているが、首都とは大きく異なった文化や伝統を持っている。この地域を発展させるとともに我々の文化に忠実な市民の移民を奨励してこの地域の核となるような忠実な従属国を設立すべきだろう。"
- centralization_desc:0 "is a region under our control with unrealized potential. We should send our administrators and procurators to this governorship to strengthen our hold over the area and grow the local economy."
+ centralization_desc:0 "は、我々の支配下にある未開拓地域である。ここの総督に行政官や法務官を派遣して、この地域への支配力を強化し、地域経済を成長させるべきだ。"
  capital_mission_desc:0 "は我々の本拠地であるとともに国家の中心である。この州の経済を発展させ、首都を刷新し、我が国の首都と呼ばれるにふさわしい輝かしい文明の中心地に仕立て上げなければいけない。"
  generic_mission_home_infrastructure_CRITERIA_DESCRIPTION:0 "このミッションは[SCOPE.sGovernorship('infra_governorship').GetName]州の開発について扱います。\nこれには次のタスクが含まれています：\n\n[SCOPE.sP('governorship_capital').GetName][SCOPE.sP('governorship_capital').Custom('get_central_branch_type')]\n[SCOPE.sP('governorship_capital').Custom('get_temple_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_food_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_mining_branch')][SCOPE.GetRootScope.GetCountry.Custom('get_port_branch')]"
  mission_colonia:0 "の安定化と発展"
