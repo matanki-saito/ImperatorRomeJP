@@ -847,7 +847,7 @@
  faction.8.a:0 "[SCOPE.sChar('current_tribune_target').GetPraenomen]を退職させる時だ。"
  faction.8.b:0 "それで？民衆は我々を熱愛しているぞ！"
  faction.9.t:0 "やっかいな頼み事"
- faction.9.desc:0 "[SCOPE.sChar('favor_party_leader').GetPartyName]は[ROOT.GetCountry.GetName]にとても忠実で、我々は彼に強い恩義を感じている。\n\n当然ながら、[SCOPE.sChar('favor_party_leader').GetName]は、最悪の場合でも、親友である[SCOPE.sChar('new_tribune_target').GetPraenomen]に、我が派閥の候補者の代わりとして大臣の地位を与えることを要求した。"
+ faction.9.desc:0 "[SCOPE.sChar('favor_party_leader').GetPartyName]は[ROOT.GetCountry.GetName]にとても忠実で、我々は彼に強い恩義を感じている。\n\n当然ながら、[SCOPE.sChar('favor_party_leader').GetName]は、最低の場合でも、親友である[SCOPE.sChar('new_tribune_target').GetPraenomen]に、我が派閥の候補者の代わりとして大臣の地位を与えることを要求した。"
  faction.9.a:0 "残念だが、仕方がないな。"
  faction.9.b:0 "実現できん、延期しろ！"
  faction.9.c:0 "うーん、より良い地位はどうだ？"
