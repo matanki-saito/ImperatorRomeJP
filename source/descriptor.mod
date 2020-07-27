@@ -1,4 +1,4 @@
-name="Japanese Language Mod"
+name="Japanese Language Mod test"
   tags={
   "Translation"
   "Localization"
