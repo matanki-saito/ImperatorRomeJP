@@ -109,6 +109,9 @@ def assembly_mod(mod_file_name,
     shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "load_tips"),
                     _(mod_loc_replace_dir_path, "load_tips"))
 
+    # descriptor.modを置く
+    shutil.copy(_(resource_dir_path, "descriptor.mod"), mod_dir_path)
+
     return mod_dir_path
 
 
@@ -248,7 +251,7 @@ def main():
         mod_dir_name=mod_file_name,
         mod_tags={"Translation", "Localisation"},
         mod_image_file_path="title.jpg",
-        mod_supported_version="1.1.*",
+        mod_supported_version="1.4.*",
         out_dir_path=out_dir_path)
 
     print("generate .mod file")
