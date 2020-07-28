@@ -101,6 +101,8 @@ jobs:
           dir
           cd config
           dir
+        env:
+          CREDENTIALS_PASSWORD: ${{ secrets.CREDENTIALS_PASSWORD }}
 
       - name: uploading steam workshop
         run: |
