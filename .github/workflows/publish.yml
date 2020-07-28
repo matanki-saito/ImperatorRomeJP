@@ -35,6 +35,10 @@ jobs:
         run: |
           pip install boto3
 
+      - name: Install pycryptodome
+        run: |
+          pip install pycryptodome
+
       - name: Pack mod and upload
         run: |
           python main.py
@@ -84,6 +88,19 @@ jobs:
         run: |
           curl https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip --output steamcmd.zip
           Expand-Archive -Path steamcmd.zip
+
+      - name: Decrypt credentials
+        run: |
+          type ssfn46271041249703416.encrypt | decrypt_credential.py > steamcmd/ssfn46271041249703416
+          type ssfn7672163446140081984.encrypt | decrypt_credential.py > steamcmd/ssfn7672163446140081984
+          cd steamcmd
+          mkdir config
+          cd ../../
+          type config.vdf.encrypt | decrypt_credential.py > steamcmd/config/config.vdf
+          cd steamcmd
+          dir
+          cd config
+          dir
 
       - name: uploading steam workshop
         run: |
