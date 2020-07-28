@@ -91,12 +91,12 @@ jobs:
 
       - name: Decrypt credentials
         run: |
-          type ssfn46271041249703416.encrypt | decrypt_credential.py > steamcmd/ssfn46271041249703416
-          type ssfn7672163446140081984.encrypt | decrypt_credential.py > steamcmd/ssfn7672163446140081984
+          type ssfn46271041249703416.encrypt | python decrypt_credential.py > steamcmd/ssfn46271041249703416
+          type ssfn7672163446140081984.encrypt | python decrypt_credential.py > steamcmd/ssfn7672163446140081984
           cd steamcmd
           mkdir config
           cd ../../
-          type config.vdf.encrypt | decrypt_credential.py > steamcmd/config/config.vdf
+          type config.vdf.encrypt | python decrypt_credential.py > steamcmd/config/config.vdf
           cd steamcmd
           dir
           cd config
