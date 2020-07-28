@@ -95,7 +95,7 @@ jobs:
           type ssfn7672163446140081984.encrypt | python decrypt_credential.py > steamcmd/ssfn7672163446140081984
           cd steamcmd
           mkdir config
-          cd ../../
+          cd ../
           type config.vdf.encrypt | python decrypt_credential.py > steamcmd/config/config.vdf
           cd steamcmd
           dir
