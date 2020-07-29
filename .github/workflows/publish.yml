@@ -89,20 +89,17 @@ jobs:
           curl https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip --output steamcmd.zip
           Expand-Archive -Path steamcmd.zip
 
-      - name: Decrypt credentials
+      - name: Set credentials
         run: |
-          type ssfn46271041249703416.encrypt | python decrypt_credential.py > steamcmd/ssfn46271041249703416
-          type ssfn7672163446140081984.encrypt | python decrypt_credential.py > steamcmd/ssfn7672163446140081984
-          cd steamcmd
-          mkdir config
-          cd ../
-          type config.vdf.encrypt | python decrypt_credential.py > steamcmd/config/config.vdf
+          python download_credentials.py
+          dir
           cd steamcmd
           dir
           cd config
           dir
         env:
-          CREDENTIALS_PASSWORD: ${{ secrets.CREDENTIALS_PASSWORD }}
+          AWS_S3_ACCESS_KEY: ${{ secrets.AWS_S3_ACCESS_KEY }}
+          AWS_S3_SECRET_ACCESS_KEY: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
 
       - name: uploading steam workshop
         run: |
