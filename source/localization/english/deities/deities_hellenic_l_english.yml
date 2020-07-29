@@ -185,7 +185,7 @@
  deity_helios:0 "$omen_helios$"
  omen_helios:1 "ヘーリオス"
  omen_helios_desc:4 "$helios_description$"
- helios_description:2 "A god who travels across the sky in his chariot every day, following and being followed by his sister, the moon goddess Selene. As he rises in the east, he brings light and prosperity all through the day, and finally disappears in the west at night.\n\nThough he is not one of the twelve Olympians, he plays a major role in several well known tales and legends. By some he has received the epithet "the all-seeing", as he sees everything that goes on among mortals and immortals both as he makes his journey across the sky."
+ helios_description:2 "A god who travels across the sky in his chariot every day, following and being followed by his sister, the moon goddess Selene. As he rises in the east, he brings light and prosperity all through the day, and finally disappears in the west at night.\n\nThough he is not one of the twelve Olympians, he plays a major role in several well known tales and legends. By some he has received the epithet \"the all-seeing\", as he sees everything that goes on among mortals and immortals both as he makes his journey across the sky."
  deity_selene:0 "$omen_selene$"
  omen_selene:1 "セレーネー"
  omen_selene_desc:2 "$selene_description$"
