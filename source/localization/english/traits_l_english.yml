@@ -340,3 +340,5 @@
  victorious_tooltip:0 "統治者が#Y 勝利者#!の特性を備えているのでこの行動を選ぶことができます"
  miserly_bad_tooltip:0 "統治者が#Y 守銭奴#!の特性を持っているため#Y この行動しか選べません#!"
  dementia_tooltip:0 "統治者が#Y 痴呆症#!の特性を備えているのでこの行動を選ぶことができます"
+ aeacidae:0 "Blood of Aiakos"
+ aeacidae_desc:0 "Aiakos was the grandfather of the greatest Greek hero, Achilles, and king of the island of Aigina in the Saronic Gulf. Neoptolemos, son of Achilles, came to be king of the Molossian Epirotes after he returned from the Trojan War, and his descendants have ruled ever since, uniting Epirus and contributing to the legacy of Alexander the Great through his mother Olympias.\n\n#G This trait can be passed on patrilineally.#!"

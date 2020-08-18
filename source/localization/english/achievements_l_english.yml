@@ -62,7 +62,7 @@
  ACHIEVEMENT_ach_antipaters_dream:0 "アンティパトロスの夢"
  ACHIEVEMENT_DESC_ach_antipaters_dream:0 "$MAC$として$greece_region$地域全体を領有する"
  ACHIEVEMENT_ach_the_besieger:0 "攻城者"
- ACHIEVEMENT_DESC_ach_the_besieger:0 "$PRY$として	$PROV918$、$PROV516$、$PROV350$、$PROV379$の四区域を略奪する"
+ ACHIEVEMENT_DESC_ach_the_besieger:1 "As the Antigonids, sack the territories of Babylon, Alexandria, Lysimacheia, and Pella."
  ach_the_besieger_tooltip:0 "$PROV918$、$PROV516$、$PROV350$、$PROV379$の四区域を略奪する"
  ACHIEVEMENT_ach_romans_are_crazy:0 "ローマ人は狂ってる"
  ACHIEVEMENT_DESC_ach_romans_are_crazy:0 "$GAUL_NAME$を建国する"

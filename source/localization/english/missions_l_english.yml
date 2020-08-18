@@ -337,7 +337,7 @@
  holy_site_meroe_desc:0 "The island of Meroe houses a great number of temples and palaces as well as the Pyramids of the Nubian kings."
  holy_site_jerusalem:0 "の第二神殿"
  holy_site_jerusalem_desc:0 "Rebuilt during the reign of Darius, and succeeding the older temple of Solomon, this is the most sacred temple in Judaism."
- holy_site_mount_sinai_desc:0 "Mount Sinai is where Moses recieved the commandments of god and its temples remain among the most revered in the Jewish faith."
+ holy_site_mount_sinai_desc:0 "Mount Sinai is where Moses received the commandments of god and its temples remain among the most revered in the Jewish faith."
  holy_site_shekhem:0 "のヨセフの墓"
  holy_site_shekhem_desc:0 "This is the final resting place of the Patriarch Joseph, his sons Ephraim and Manasseh as well as the location of the well of Jacob. A sanctuary most holy to Samaritans and Jews alike."
  holy_site_ekbatana:0 "のエステルの墓"
@@ -451,3 +451,4 @@
  get_trade_investment_mission_loc_1:0 "#R [SCOPE.ScriptValue('generic_infrastructure_mission_trade_investment_svalue')|0]#!"
  get_trade_investment_mission_loc_2:0 "#Y [SCOPE.ScriptValue('generic_infrastructure_mission_trade_investment_svalue')|0]#!"
  holy_site_uruk_anu_temple:0 "のアヌ寺院"
+ create_2_nobles_effect_tooltip:0 "2 #Y Nobles#! will appear in [THIS.GetProvince.GetName]."

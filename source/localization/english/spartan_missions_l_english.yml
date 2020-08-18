@@ -244,7 +244,7 @@
  spartan_mission_03_peloponnesian_league_task_12_trigger_thrace_tt:0 "There are no territories owned by #Y Thrace#! or any of their subjects in the Region of #Y $greece_region$#!. [SCOPE.GetRootScope.GetCountry.Custom('spartan_mission_03_peloponnesian_league_task_12_thrace_custom_loc')]"
  spartan_mission_03_peloponnesian_league_task_12_thrace_custom_loc_1:0 "(Currently: #R [SCOPE.ScriptValue('spartan_mission_03_peloponnesian_league_task_12_thrace_current')|0]#!)"
  spartan_mission_03_peloponnesian_league_task_12_thrace_custom_loc_2:0 ""
- spartan_mission_03_peloponnesian_league_task_12_trigger_phrygia_tt:0 "There are no territories owned by #Y Phrygia#! or any of their subjects in the Region of #Y $greece_region$#!. [SCOPE.GetRootScope.GetCountry.Custom('spartan_mission_03_peloponnesian_league_task_12_phrygia_custom_loc')]"
+ spartan_mission_03_peloponnesian_league_task_12_trigger_phrygia_tt:1 "There are no territories owned by #Y $PRY_DYN$#! or any of their subjects in the Region of #Y $greece_region$#!. [SCOPE.GetRootScope.GetCountry.Custom('spartan_mission_03_peloponnesian_league_task_12_phrygia_custom_loc')]"
  spartan_mission_03_peloponnesian_league_task_12_phrygia_custom_loc_1:0 "(Currently: #R [SCOPE.ScriptValue('spartan_mission_03_peloponnesian_league_task_12_phrygia_current')|0]#!)"
  spartan_mission_03_peloponnesian_league_task_12_phrygia_custom_loc_2:0 ""
  spartan_mission_03_peloponnesian_league_task_12_trigger_egypt_tt:0 "There are no territories owned by #Y Egypt#! or any of their subjects in the Region of #Y $greece_region$#!. [SCOPE.GetRootScope.GetCountry.Custom('spartan_mission_03_peloponnesian_league_task_12_egypt_custom_loc')]"

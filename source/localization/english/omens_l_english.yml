@@ -18,3 +18,7 @@
  apotheosis_defensive_effect_text:1 "#Y [deified_ruler.GetPraenomen]#!の祝祭に刺激され、信徒たちは母国の防衛に進んで参加しようとしている。"
  apotheosis_military_experience_text:1 "#Y [deified_ruler.GetPraenomen]#!への崇拝の念は、我々の軍に仕える兵士たちを大いに発奮させている。"
  prestige_deification_requirement:0 "統治者を神格化するためには、所属する一門の威信が少なくとも#Y 800#!必要です"
+ convert_to_nobles_deity_effect_3_tt:0 "Inspired by the Noble nature of #Y [deified_ruler.GetPraenomen]#! up to 3 #Y [deified_ruler.GetCulture.GetName]#! pops will ascend to Nobility."
+ convert_to_nobles_deity_effect_2_tt:0 "Inspired by the Noble nature of #Y [deified_ruler.GetPraenomen]#! up to 2 #Y [deified_ruler.GetCulture.GetName]#! pops will ascend to Nobility."
+ convert_to_nobles_deity_effect_1_tt:0 "Inspired by the Noble nature of #Y [deified_ruler.GetPraenomen]#! 1 #Y [deified_ruler.GetCulture.GetName]#! pop will ascend to Nobility."
+ convert_to_nobles_deity_effect_tt:0 "Inspired by the Noble nature of #Y [deified_ruler.GetPraenomen]#! 1 #Y pop will ascend to Nobility and assimilate to the [deified_ruler.GetHerHis] #Y [deified_ruler.GetCulture.GetName]#! culture."

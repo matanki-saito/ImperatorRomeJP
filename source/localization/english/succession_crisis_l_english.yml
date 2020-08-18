@@ -4,7 +4,7 @@
  crisis_general_3_tooltip:0 "[SCOPE.sChar('successor_general_3').GetName]は[SCOPE.sChar('successor_general_3').GetHerHis]の富を#Y [SCOPE.sP('sbgnq3').GetName]#!における反乱軍の蜂起に費やしました！"
  crisis_general_4_tooltip:0 "[SCOPE.sChar('successor_general_4').GetName]は[SCOPE.sChar('successor_general_4').GetHerHis]の富を#Y [SCOPE.sP('sbgnq4').GetName]#!における反乱軍の蜂起に費やしました！"
  disloyal_successor_cmod:0 "評判の良い後継者"
- desc_disloyal_successor_cmod:0 "この人物は現在の統治者に対して最も支持のある反乱側の主導者です。\n\n#G この補正はこの人物の忠誠が#!#Y 33#!#G に達すると消滅します。#!"
+ desc_disloyal_successor_cmod:1 "This character is the leader of a popular rebellion against our incumbent ruler.\n\n#G This modifier will be removed if the character reaches#! #Y 40#! #G loyalty.#!"
  special_successor_interactions_available:0 "\n#G 反乱した僭称者に対して新しい人物コマンドが使用可能になりました。#!"
  succession_crisis.1.t:0 "後継争い！"
  succession_crisis.1.desc:0 "[SCOPE.sChar('former_ruler').GetName]の死に伴う昨今の不安定な状況は権力の空白を作り出し、何人かの僭称者が策謀によってその空白を埋めようと暗躍している。その貪欲さをもって不満を持つ者たちを集め、玉座そのものを得ようと陰謀を企んでいる！\n\n我々は我が国の行く末をしかと見定め、[ROOT.GetCountry.GetName]をこの危機から守り通さねばならない。"

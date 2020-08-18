@@ -1,6 +1,6 @@
 ﻿l_english:
  DECLARE_WAR_ENEMY_ALLY_ALREADY_AT_WAR:0 "@[DEFENDER.GetFlag]![DEFENDER.GetName|Y]と戦争しているため、@[COUNTRY.GetFlag]![COUNTRY.GetName|Y]は参戦できません"
- DECLARE_WAR_ENEMY_TRIBUTARY_JOIN:0 "@[DEFENDER.GetFlag]![DEFENDER.GetName]の従属国であるため、@[COUNTRY.GetFlag]![COUNTRY.GetName]は参戦するでしょう"
+ DECLARE_WAR_ENEMY_TRIBUTARY_JOIN:1 "@[DEFENDER.GetFlag]![DEFENDER.GetName]の従属国であるため、@[COUNTRY.GetFlag]![COUNTRY.GetName]は参戦するでしょう"
  DECLARE_WAR_ENEMY_DEFENSIVE_LEAGUE_JOIN:0 "@[DEFENDER.GetFlag]![DEFENDER.GetName|Y]との防衛同盟に属しているため、@[COUNTRY.GetFlag]![COUNTRY.GetName]は参戦するでしょう"
  DECLARE_WAR_ENEMY_ALLY_JOIN:0 "@[DEFENDER.GetFlag]![DEFENDER.GetName|Y]と同盟しているため、@[COUNTRY.GetFlag]![COUNTRY.GetName|Y]は参戦するでしょう"
  DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER:0 "そして彼らは自らが@[DEFENDER.GetFlag]![DEFENDER.GetName|Y]より強力だと考えているので戦争主導国の地位を引き継ぎます"
@@ -14,3 +14,4 @@
  DECLARE_WAR_CONFIRMATION_STABHIT:1 "即時の影響："
  PRICE_ON_WAR_IMPACT_ENTRY:0 "$NAME$\n"
  DECLARE_WAR_ENEMY_FIGHTING_WAR_TOGETHER:0 "既に@[ATTACKER.GetFlag]![ATTACKER.GetName|Y]と戦争しているため、@[COUNTRY.GetFlag]![COUNTRY.GetName|Y]は参戦できません"
+ DEMAND_ACCESS_ALLIANCE:0 "@trigger_no!You may not demand Military Access from a country that you are allied with."

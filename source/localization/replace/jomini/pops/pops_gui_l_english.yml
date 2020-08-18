@@ -84,3 +84,5 @@
  POPS_LOGIN_username-exists: "ユーザー名が既に存在しています"
  POPS_LOGIN_LOGGED_IN: "ログインに成功しました"
  POPS_LOGIN_CHANGE_USERNAME: "ユーザー名を変更"
+ POPS_LOGIN_lower-limit:0 "ユーザー名は3文字以上でなければなりません"
+ POPS_LOGIN_upper-limit:0 "ユーザー名が長すぎます"
