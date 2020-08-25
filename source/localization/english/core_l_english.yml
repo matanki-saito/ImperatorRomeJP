@@ -43,7 +43,7 @@
  PROVINCE_NAME_HEADING:0 "州"
  GOVERNOR_NAME_HEADING:0 "総督"
  STATE_CAPITAL_IS:2 "#T 州の概要#!\n$NAME|Y$は$REGION|Y$地域の一部です。この州には$COUNT|Y$の区域が存在し、州都は$CAPITAL|Y$です。"
- PROV_ENTRY:0 "$NAME|Y$：人口$SIZE|Y$人および生産品：$GOOD|Y$"
+ PROV_ENTRY:0 "$NAME|Y$：$SIZE|Y$POP　生産品：$GOOD|Y$"
  BUILD_REVISION:0 "#B 建築：#!#TOOLTIP:SVN_REVISION [GetBuildRevision]#!"
  SVN_REVISION:0 "これは SVN リビジョンです"
  PORT_TOOLTIP:0 "$NAME|Y$ の港"
