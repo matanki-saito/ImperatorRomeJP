@@ -294,6 +294,6 @@
  SET_IGNORE_SENATE_APPROVAL_EFFECT:0 "[COUNTRY.GetName] ignores senate approval."
  SET_IGNORE_SENATE_APPROVAL_EFFECT_FALSE:0 "[COUNTRY.GetName] is governed by senate approval."
  ADD_MODIFIER_FOR:0 "$VALUE|Y$か月間"
- COLON_PER:0 "："
+ COLON_PER:0 "ゲーム終了まで"
  PICK_RANDOM_AGENDA_EFFECT:0 "[PARTY.GetName|Y] will pursue a different agenda."
  PICK_RANDOM_AGENDA_EFFECT_FALSE:0 "[PARTY.GetName|Y] will NOT pursue a different agenda."
