@@ -84,4 +84,4 @@
  senate_objective_province_city_generic:0 "開発"
  senate_objective_province_city_generic_DESC:0 "$democratic_party$は我が国の全ての民がどこに住んでいようと都市の生活や生活基盤を享受できることを求めている。"
  senate_objective_province_city_generic_tt:0 "#Y [sen_obj_pro_cit_target.GetName]#!に#Y 1#!以上の都市がある"
- law_change_category_tt:0 "A law in the same category has not recently been pushed as part of another party's agenda."
+ law_change_category_tt:0 "同じカテゴリーの法律が最近、他の派閥の議題の一部として提案されていない。"
