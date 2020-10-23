@@ -4,10 +4,8 @@
 name: Publish mod
 
 on:
-  push:
-    branches: [ master ]
   schedule:
-    - cron:  '30 12 * * tue'
+    - cron:  '0 1 * * fry'
   workflow_dispatch:
     inputs:
       info:
