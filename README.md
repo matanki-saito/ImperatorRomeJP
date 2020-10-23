@@ -4,7 +4,7 @@ This is a Japanese localization mod for Imperator: Rome.
 
 ## Publish Flow
 
-TBD
+See [Ck3jpmod](https://github.com/matanki-saito/Ck3JpMod)
 
 ## Mod tree
 
@@ -32,7 +32,7 @@ See source folder in reoisitory.
 
 ## Steam workshop
 
-[https://steamcommunity.com/sharedfiles/filedetails/?l=japanese&id=1725761398](https://steamcommunity.com/sharedfiles/filedetails/?l=japanese&id=1725761398)
+[https://steamcommunity.com/sharedfiles/filedetails/?id=2179073557](https://steamcommunity.com/sharedfiles/filedetails/?id=2179073557)
 
 ## Translation workspace
 
@@ -56,14 +56,12 @@ No support
 
 ## Auto update
 
-Yes: Every friday 12:30 (UTC)
+Yes: Every friday UTC 01:00(JST 10:00)
 
-## Github actions secrets
+## Manual release
 
-| name | description |
-|:---:|:---:|
-| AWS_S3_ACCESS_KEY | Amazon Web Service IAM access key. IAM must have a S3 write access authority|
-| AWS_S3_SECRET_ACCESS_KEY | Amazon Web Service IAM secret key|
-| PARATRANZ_SECRET | Your paratranz personal secret.|
-| STEAM_LOGIN_NAME | Your steam login name. You must have a target game.|
-| STEAM_LOGIN_PASSWORD | Your steam login password.|
+See [Ck3jpmod](https://github.com/matanki-saito/Ck3JpMod)
+
+## How to use auto update program for other project ?
+
+See [Ck3jpmod](https://github.com/matanki-saito/Ck3JpMod)
