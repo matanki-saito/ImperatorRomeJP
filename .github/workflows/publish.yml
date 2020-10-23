@@ -5,7 +5,7 @@ name: Publish mod
 
 on:
   schedule:
-    - cron:  '0 1 * * fry'
+    - cron:  '0 1 * * Fri'
   workflow_dispatch:
     inputs:
       info:
