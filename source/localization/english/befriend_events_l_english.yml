@@ -1,6 +1,6 @@
 ﻿l_english:
  befriend.1.t:0 "政治的野心"
- befriend.1.desc:0 "It is well known that [SCOPE.sChar('friend_target').GetName] has been seeking a particular government office for some time. Until now [SCOPE.sChar('friend_target').GetSheHe] has been passed over, unjustly, in favor of others.\n\nWith a well placed word and some wrangling we could achieve both [SCOPE.sChar('friend_target').GetFirstName] aims and our own."
+ befriend.1.desc:0 "[SCOPE.sChar('friend_target').GetName]が以前から政府の役職に就くことを望んでいたのはよく知られるところだ。不公平なことに、これまでは他の者が優先的に選ばれ、[SCOPE.sChar('friend_target').GetSheHe]は無視されてきた。\n\n上手い言い訳を考えることと、特定の誰かと口論することを厭わなければ、[SCOPE.sChar('friend_target').GetFirstName]の目標と我々の目標が同時に達成することは可能だろう。"
  befriend.1.a:0 "[SCOPE.sChar('friend_target').GetHerHim]が望むものを与えよう。"
  befriend.1.b:0 "それは良くないな。"
  befriend.2.t:0 "異国の贈り物"

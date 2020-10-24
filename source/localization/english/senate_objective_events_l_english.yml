@@ -6,7 +6,7 @@
  senate_objectives.1.a:0 "These changes are long overdue."
  senate_objectives.1.b:0 "Not on our watch."
  senate_objectives.2.t:0 "Democratic Legislation"
- senate_objectives.2.desc:0 "The political winds have brought the [sen_obj_cha_law_oli_party.GetName] to a majority in the [SCOPE.Custom('get_court_type')] of [ROOT.GetCountry.GetName], who waste no time composing legislation that will please their supporters. Their majority has only one possible foil: the veto of our [ROOT.GetCountry.GetRulerTitle]."
+ senate_objectives.2.desc:0 "The political winds have brought the [sen_obj_cha_law_dem_party.GetName] to a majority in the [SCOPE.Custom('get_court_type')] of [ROOT.GetCountry.GetName], who waste no time composing legislation that will please their supporters. Their majority has only one possible foil: the veto of our [ROOT.GetCountry.GetRulerTitle]."
  senate_objectives.2.a:0 "The people demand it."
  senate_objectives.2.b:0 "Not a chance."
  senate_objectives.3.t:0 "Traditionalist Legislation"

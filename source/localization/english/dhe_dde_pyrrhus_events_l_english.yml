@@ -207,7 +207,7 @@
  dhe_dde_pyrrhus.36.b:0 "'You must be more careful my king!'"
  dhe_dde_pyrrhus.36.c:0 "'You should not take such risks!'"
  dhe_dde_pyrrhus.37.t:0 "Throne of Jackals"
- dhe_dde_pyrrhus.37.desc:0 "To placate certain members of the aristocracy, Pyrrhos has been ruling as a joint king of sorts since his return from [pyrrhus_second_country_scope.GetName], sharing power with [neoptolemus.GetName] - though this has fast become untenable. Both see themselves as the rightful ruler of Epirus, and schemes have begun to unravel.\n\nUltimately influence rests with the Molossians, for without their support a king cannot hope to rule, even now..."
+ dhe_dde_pyrrhus.37.desc:1 "To placate certain members of the aristocracy, Pyrrhos has been ruling as a joint king of sorts sharing power with [neoptolemus.GetName] - though this has fast become untenable. Both see themselves as the rightful ruler of Epirus, and schemes have begun to unravel.\n\nUltimately influence rests with the Molossians, for without their support a king cannot hope to rule, even now..."
  dhe_dde_pyrrhus.37.a:0 "Pyrrhos is the true king."
  dhe_dde_pyrrhus.37.at:0 "#R [neoptolemus.GetPraenomen] will be killed to settle the dispute.#!"
  dhe_dde_pyrrhus.37.b:0 "Neoptolemos has the blood of Alexander."

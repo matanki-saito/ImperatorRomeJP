@@ -14,4 +14,4 @@
  DECLARE_WAR_CONFIRMATION_STABHIT:1 "即時の影響："
  PRICE_ON_WAR_IMPACT_ENTRY:0 "$NAME$\n"
  DECLARE_WAR_ENEMY_FIGHTING_WAR_TOGETHER:0 "既に@[ATTACKER.GetFlag]![ATTACKER.GetName|Y]と戦争しているため、@[COUNTRY.GetFlag]![COUNTRY.GetName|Y]は参戦できません"
- DEMAND_ACCESS_ALLIANCE:0 "@trigger_no!You may not demand Military Access from a country that you are allied with."
+ DEMAND_ACCESS_ALLIANCE:0 "@trigger_no!同盟国には軍事通行権を要求できません。"

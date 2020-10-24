@@ -37,4 +37,4 @@
  games.1.c:0 "見たか！[ROOT.GetCountry.GetRuler.GetFamilyDisplayName]家万歳！"
  games.1.d:0 "よし、皆この催しを楽しんだようだな。"
  event_chain_games_tt:0 "統治者は競技大会で競争することにより追加の人気を得ることができます。"
- scheme_influence_has_tt:1 "Has the Influence ambition active."
+ scheme_influence_has_tt:1 "「助力を請う：」の野望を持っている"

@@ -2,7 +2,7 @@
  me_syracuse_1_democracy:0 "Death to Tyrants"
  me_syracuse_1_democracy_BUTTON_TOOLTIP:0 "It is time to resurrect back the republic of old."
  me_syracuse_1_democracy_BUTTON_DETAILS:0 ""
- me_syracuse_1_democracy_DESCRIPTION:0 "Before the tyrants foisted themselves upon our great city and deformed it with their mercenary barracks, opulent palaces, and ruinous wars, it was the seat of a proud oligarchic republic for hundreds of years. There are still those who yearn to oust the tyrants deliver our people from the whims of strong men."
+ me_syracuse_1_democracy_DESCRIPTION:0 "Before the tyrants foisted themselves upon our great city and deformed it with their mercenary barracks, opulent palaces, and ruinous wars, it was the seat of a proud oligarchic republic for hundreds of years. There are still those who yearn to oust the tyrants and deliver our people from the whims of strong men."
  me_syracuse_1_democracy_CRITERIA_DESCRIPTION:0 "Restore popular government to Syracuse."
  me_syracuse_1_democracy_REWARD_DESCRIPTION:0 "Republican Government"
  me_syracuse_1_democracy_abort_tt:0 "[me_syracuse_scope.GetName] is no longer a monarchy or is a subject."

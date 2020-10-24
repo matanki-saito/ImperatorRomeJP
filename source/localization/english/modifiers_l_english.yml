@@ -2191,7 +2191,7 @@
  advisors_procured_cmod:0 "地方の土地管理者の斡旋"
  desc_advisors_procured_cmod:0 "成功をおさめた農業実践は、知識を持った者を国中に派遣することで再現されている。"
  agricultural_lessons_cmod:0 "農業の実践"
- desc_agricultural_lessons_cmod:0 "Our scribes have notated the novel farming practices of a well managed province and distributed them across the country."
+ desc_agricultural_lessons_cmod:0 "書記官によってよく管理された州の新しい農業実践方法が記録され、国全体に広められた。"
  MODIFIER_STATE_CONSTRUCTION_STATUS:0 "Performing State Upgrade"
  global_citizen_city_desired_pop_ratio:0 "都市の最適な市民比率"
  global_freemen_city_desired_pop_ratio:0 "都市の最適な自由民比率"
