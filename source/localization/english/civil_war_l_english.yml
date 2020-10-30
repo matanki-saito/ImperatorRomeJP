@@ -1,5 +1,5 @@
 ﻿l_english:
- civil_war.2.t:0 "[SCOPE.sC('victorious_side').GetAdjective]内戦終結"
+ civil_war.2.t:0 "[SCOPE.sC('victorious_side').GetName]内戦終結"
  civil_war.2.desc:1 "[SCOPE.sC('victorious_side').GetName]を分断した内戦はついに終わりを迎え、[SCOPE.sC('victorious_side').GetRuler.GetName]の正規軍は[SCOPE.sChar('resistance_ruler').GetName]と[SCOPE.sChar('resistance_ruler').GetHerHis]の狡猾な大隊によって率いられた反乱軍を完膚なきまでに叩きのめした。\n\n"
  civil_war.2.descOpinionGood:0 "\n\n我々の使者は、[SCOPE.sC('victorious_side').GetName]において味方が勝ったという喜ぶべき報告を持ってきた。我々は再び交流を開き、彼らが国を治めていくための支援を申し出るべきかもしれない。"
  civil_war.2.descOpinionBad:0 "\n\n我々の顧問はこの戦争の結果を呪っており、敵である[SCOPE.sC('victorious_side').GetAdjective]人がさらなる混乱の中に飲まれることを望んでいる。どちらにせよ、彼らを再び警戒すべきだ。"
@@ -8,7 +8,7 @@
  civil_war.2.descSIEGE2:0 "[SCOPE.sP('fort_flavor_location').GetName]の包囲戦はこの戦争の天王山だった。正規軍が恐ろしい数の犠牲者を出しつつも壁を破壊することに成功したのだ。"
  civil_war.2.descBATTLE:0 "[SCOPE.sP('fort_flavor_location').GetName]の血まみれの戦いは戦争の行方を決定づけた。正規軍が反乱軍の戦列を突破した時、一人残らず彼らを虐殺したのだ。"
  civil_war.2.descBATTLE2:0 "[SCOPE.sP('fort_flavor_location').GetName]の壮絶な戦いはほぼ反乱軍側の勝利で終わろうとしていたが、[SCOPE.sC('victorious_side').GetRuler.GetName]の作戦が決定打となって正規軍側に今日の勝利をもたらした。"
- civil_war.4.t:0 "[SCOPE.sC('victorious_side').GetAdjective]内戦終結"
+ civil_war.4.t:0 "[SCOPE.sC('victorious_side').GetName]内戦終結"
  civil_war.4.desc:1 "[SCOPE.sC('victorious_side').GetName]における内戦はついに終わりを迎え、[SCOPE.sC('victorious_side').GetRuler.GetName]の反乱軍が[SCOPE.sChar('resistance_ruler').GetName]と[SCOPE.sChar('resistance_ruler').GetHerHis]の反抗的な共謀者たちに率いられた正規軍を完膚なきまでに叩きのめす結果となった。\n\n"
  civil_war.4.descOpinionGood:0 "\n\n我々の使者は、[SCOPE.sC('victorious_side').GetName]において味方が勝ったという喜ぶべき報告を持ってきた。我々は、新しい[SCOPE.sC('victorious_side').GetAdjective]の政府に対して、彼らが戦いに傷ついた国を治めていくための支援を申し出るべきかもしれない。"
  civil_war.4.descOpinionBad:0 "\n\n我々の顧問はこの戦争の結果を呪っており、[SCOPE.sC('victorious_side').GetAdjective]人の反乱軍が彼らの古い仲間を打倒するのに失敗することを望んでいる。この状況を注視すべきだ。"

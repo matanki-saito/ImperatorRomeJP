@@ -51,7 +51,7 @@
  me_roman_8_greece.13.desc:0 "[ROOT.GetCountry.GetName]の力はついにギリシアのほとんどを征服するまでになり、我々の目は後継者たちの王国と古代ペルシアの土地に向けられている。軍事行動をさらに東へと進めるにあたって、我々がギリシアの征服を確実なものにしたことを知っておくことが重要であり、場合によってはギリシャ人に対していくらかの譲歩を与えることも考えておかなくてはならない。"
  me_roman_8_greece.13.a:0 "我々は東へと向かう。"
  me_roman_8_greece.13.a.tt.crete:1 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#! gains claims on all territories in the Province of #Y Crete#! neither they nor a subject of theirs own"
- me_roman_8_greece.13.a.tt.aegean_islands:1 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#! gains claims on all territories in the Province of #Y Aegean Islands#! neither they nor a subject of theirs own"
+ me_roman_8_greece.13.a.tt.aegean_islands:1 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!は自国および従属国が領有していない#Y $aegean_islands_area$#!州のすべての区域に請求権を得ます"
  me_roman_greek_client_state_tt:0 "#Y [SCOPE.sP('current_province').GetName]#!は#Y $ROM$#!の#Y 属国#!となります"
  me_roman_declined_client_state_tt:0 "#Y [SCOPE.sP('current_province').GetName]#!は我々の領土として残ります"
  me_roman_9_eastern_glory.1.t:0 "Client Demands - [SCOPE.sCountry('possible_ionian_client').GetName]"

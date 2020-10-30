@@ -48,5 +48,5 @@
  SETTING_FOCUS_ON_COMBAT_TOOLTIP:0 "戦闘を観察しているときにゲーム速度を制限するかどうかを設定します。"
  SETTING_PAUSE_ON_EVENTS:0 "イベント発生時に一時停止する"
  SETTING_OUTLINER_PROVINCEMODIFIER:0 "区域の改善を表示する"
- SETTING_ADVICE:0 "Advice on alert"
- SETTING_ADVICE_TOOLTIP:0 "Determines if advice and highlights will be shown when clicking an alert icon"
+ SETTING_ADVICE:0 "アドバイスをアラートに表示"
+ SETTING_ADVICE_TOOLTIP:0 "アラートアイコンをクリックしたときに、アドバイスとハイライトを表示するかどうかを設定します。"

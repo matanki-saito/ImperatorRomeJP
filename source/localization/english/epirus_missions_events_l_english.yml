@@ -577,7 +577,7 @@
  me_epirus_3_greece.21.desc:0 "We were unable to maintain control of the battlefield of Ilion, putting a stop to dreams of promoting the cult of Achilles there..."
  me_epirus_3_greece.21.a:0 "'The roaring seas and many a dark range of mountains lie between us.'"
  me_epirus_3_greece.21.at:0 "$mission_task_completed_tt_1$$epirus_3_greece_10$#!' has been #R Bypassed#!!"
- me_epirus_3_greece.22.t:0 "$epirus_3_greece_6$: Blood of Alexander"
+ me_epirus_3_greece.22.t:0 "$epirus_3_greece_6$：アレクサンドロスの血筋"
  me_epirus_3_greece.22.desc:0 "It is widely agreed that the Macedonian king Alexandros III, now known as 'the Great', was one of the most extraordinary Greeks ever to have lived. However, his achievements stem as much from his mother's ancestry as his fathers, and thus the fruits of his success owe themselves to Epirote seeds.\n\nThe destruction of his family by the successors has removed all direct familial claimants to the throne, barring the descendants of Olympias and her family."
  me_epirus_3_greece.22.a:0 "Only an Aiakid can rule the Macedonians."
  me_epirus_3_greece.22.at:0 "$me_epi_task_start_tt_1$ pressing [me_epirus_scope.GetRuler.GetHerHis] claim to the throne of Macedon."

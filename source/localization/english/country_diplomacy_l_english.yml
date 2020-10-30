@@ -20,7 +20,7 @@
  country_diplomacy.5.t:0 "欲張りな宗主国"
  country_diplomacy.5.desc:0 "[SCOPE.sCountry('overlord_country').GetName]の政治課題上の要請として[SCOPE.sCharacter('overlord_vassal').GetName]が伝えてきたのは、彼らが今抱える赤字を解消するために我々に多額の資金を供出せよというものだった。[SCOPE.sCountry('overlord_country').GetName]の庇護下にあるとは言え、これは非常識で不当な要求であり、人々もこの件に関して大きな声を上げている。\n\n[SCOPE.sCountry('overlord_country').GetName]とその手先である[SCOPE.sCharacter('overlord_vassal').GetName]は、我々がこれを拒否することに大層苛立つであろうが、要求に屈すれば住民は憤慨するに違いない。"
  country_diplomacy.5.a:0 "[SCOPE.sCountry('overlord_country').GetName]の機嫌を取っておくほうがよいだろうな。"
- country_diplomacy.5.b:0 "しったことか、暴君に分け与える資金などない。"
+ country_diplomacy.5.b:0 "知ったことか、暴君に分け与える資金などない。"
  country_diplomacy.6.t:0 "従順な従属国"
  country_diplomacy.6.desc:0 "この件に関しては喧々諤々の議論があったようだが、最終的には我々が[SCOPE.sCountry('random_vassal').GetName]に要求した支払いを受け取れる運びとなった。[SCOPE.sCountry('random_vassal').GetName]との関係について繰り返し前向きな姿勢を見せていた[SCOPE.sCharacter('overlord_vassal').GetName]の助けもあり、指導者の[SCOPE.sCountry('random_vassal').GetRuler.GetName]はついに諦めて資金を供出することとしたのだ。"
  country_diplomacy.6.a:0 "我々の権利だからな。"

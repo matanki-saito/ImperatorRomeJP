@@ -53,7 +53,7 @@
  tutorial.16.desc:1 "おめでとうございます！あなたはImperator: Romeのチュートリアルを終了させました。\n\nもしこのまま色んなところを見回りたい、もしくは単純にプレイし続けたければ、難易度がチュートリアル用に調整されていることに注意してください。国々があなたにどう関わってくるかに慣れる為にも通常モードでプレイすることをお勧めします。"
  tutorial.16.b:0 "チュートリアルモードを継続する。"
  tutorial_increase_stability:0 "$ROM$の安定"
- tutorial_increase_stability_desc:3 "#W Perform a Divine Sacrifice.#!\n\nTo increase stability, open the #Y Religion#! window, and click on the #Y Perform Divine Sacrifice#! interaction.\n\nStability trends towards #Y 50#!; a stability value of less than this represents a nation getting closer to turmoil."
+ tutorial_increase_stability_desc:3 "#W 神々に生贄を捧げよ。#!\n\n安定度を高める為には、#Y 宗教#!画面を開き、#Y 生贄の儀式を行う#!をクリックします。\n\n安定度は#Y 50#!に向かって動きます。安定度がこの値未満であることは、国家が混乱に近づいていることを意味します。"
  build_30_heavy_infantry:2 "12大隊から成る軍を持つ"
  build_30_heavy_infantry_desc:3 "#W 軍の規模が12,000以上になるまで、大隊を編成せよ。#!\n\nあなたは自国のいずれかで大隊を訓練できます。訓練はいくつかの方法により始められます：\n\n- 画面左上に表示されている#Y マクロビルダー#!を使用する。\n\n- 区域を選択し、#Y 大隊の雇用#!ボタンをクリックする。\n\n- 軍を選択し、#Y ユニットの雇用#!ボタンをクリックする。\n\nさぁ、最低12の大隊を雇用しましょう。"
  build_20_triremes:2 "船を10隻保有する"

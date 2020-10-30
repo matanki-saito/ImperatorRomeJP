@@ -92,7 +92,7 @@
  greek_2_3_allow_tt:0 "Reconquer a Greek territory from a diadochi, foreign invader, or their subjects."
  greek_2_3_reward_tt:1 "May release the territory as a #Y feudatory#! subject.\n$hellenic$ countries in Greece will gain opinion of [gm_2_greek_scope.GetName]."
  greek_2_4:0 "Restore Oligarchy"
- greek_2_4_DESC:0 "The democrats of Hellas have weakened and led astray the Greek people for too long; it is time to extend reasonable government over the Hellenic world."
+ greek_2_4_DESC:0 "ヘラスの共和制は、あまりにも長い間、ギリシャの人々を弱体化させ、混乱させてきた; ヘレニズム世界に適正な政体を拡大する時が来たのだ。"
  greek_2_4_reward_tt:1 "[gm_2_greek_scope.GetName] will receive claims on all $hellenic$ non-oligarchic republics in Greece."
  greek_2_5:0 "Restore Democracy"
  greek_2_5_DESC:0 "The oligarchs, monarchs, and tyrants of Greece have undermined the liberty of our people for too long; it is time to bring our brothers into freedom and self-government."

@@ -37,7 +37,7 @@
  flavor_sel.7.desc:1 "セレウコスは我々が寛大にも提案してやった休戦を拒絶した。代わりに奴らの軍隊が我らの駐屯地に進軍している。\nセレウコスへの支持はインダスのギリシャ都市でも湧き上がっている。"
  flavor_sel.7.a:0 "後悔させてやる！"
  flavor_arm.1.t:0 "カッパドキアの王位"
- flavor_arm.1.desc:1 "Years ago the Macedonian general Eumenes took over the kingdom of Cappadocia from its native dynast, the Persian satrap Ariarathes I. Since that time Ariarathes heir and nephew, also named Ariarathes, has been in our custody.\nEumenes has since been ousted by Antigonos the One-Eyed, who has placed the region under the control of the Macedonian satrap Amyntas. Amyntas now stands alone and forgotten as Antigonos battles the other successor kingdoms in Egypt and Mesopotamia.\n\nHas the time come to send Ariarathes back to Cappadocia?"
+ flavor_arm.1.desc:1 "十数年前にマケドニアの将軍エウメネスが、ペルシアのサトラップであった土着の王家のアリアラテス1世からカッパドキア王国を奪い取った。それ以来アリアラテスの同名の甥にして後継者であるアリアラテスは我が国の保護下にいる。\n隻眼のアンティゴノスはエウメネスを追いやった後、かの地にマケドニア人のアミュンタスをサトラップに置いて統治させている。しかしアンティゴノスはエジプトやメソポタミアで他の後継者の王国と戦っており、アミュンタスは今や孤立して忘れ去られている。\n\nアリアラテスをカッパドキアに送り返す時が来たのではないか？"
  flavor_arm.1.a:0 "素晴らしい考えだ！"
  installing_foreign_king_in_cappadocia_tooltip:0 "$Ariarathes$が成功すれば、$CAP$（@[THIS.GetCountry.GetFlag]!）の新たな王となります"
  flavor_arm.1.b:0 "アミュンタスを怒らせないようにしよう。"

@@ -112,7 +112,7 @@
  SELLPROV_TOOLTIP_HEADER:1 "$NAME$に区域を売却する"
  SELLPROV_FLAVOR:1 "他国に区域を売却すると、同意した金額で区域の施政権がその国に移ります。"
  SUPPORTREB_TOOLTIP_HEADER:0 "$NAME$の反乱を支援する"
- SUPPORTREB_FLAVOR:0 "反乱支援とは、対象国の異文化民族の不満を増大させ、反乱や内線の可能性を高めることで、戦うことなくひそかに弱体化させることを試みるものですが、実行中はその国に我々に対する開戦事由を与えます。"
+ SUPPORTREB_FLAVOR:0 "反乱支援とは、対象国の異文化民族の不満を増大させ、反乱や内戦の可能性を高めることで、戦うことなくひそかに弱体化させることを試みるものですが、実行中はその国に我々に対する開戦事由を与えます。"
  SUPPORTREBSTOP_TOOLTIP_HEADER:0 "$NAME$における反乱支援を中止する"
  SUPPORTREBSTOP_FLAVOR:1 "反乱支援を中止すると、対象国の異文化POPの幸福度が改善し、反乱支援を行っていたことによる開戦事由を失わせます。"
  RANSOM_TOOLTIP_HEADER:0 "$NAME$に囚われた人質の身代金を支払う"

@@ -3006,7 +3006,7 @@
  OFFER_TRANSFER_SUBJECT_AT_WAR:0 "@trigger_no![COUNTRY.GetDescriptiveName]が平時である必要があります。"
  DEIFIED_CHAR_FORGOTTEN_REASON:0 "This Deified Ruler has been forgotten by the people of $COUNTRY$."
  DEIFIED_CHAR_FORGOTTEN_HOLY_SITE_FALLEN:0 "The holy site belonging to [CHARACTER.GetName] at $PROVINCE$, has fallen into disuse."
- INDEPENDANCE_JOINED_SETUP:1 "When there is a Rebellion in our nation"
+ INDEPENDANCE_JOINED_SETUP:1 "我々の国内で反乱が発生したとき"
  INDEPENDANCE_JOINED_HEADER:0 "Herald from"
  INDEPENDANCE_JOINED_1:0 "$ACTOR$"
  INDEPENDANCE_JOINED_2:0 "They are joining a war of independence against us!"
