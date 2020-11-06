@@ -108,5 +108,5 @@
  overlooked_sacking:0 "聖地の冒涜に対する寛容な態度"
  sacked_holy_site:0 "聖地を冒涜した"
  sacked_our_holy_site:0 "我々の聖地を冒涜した"
- neighboring_border_province_tt:0 "Territory is adjacent to an owned territory."
- military_colonies_capital_tooltip:0 "Unit location is not within capital province."
+ neighboring_border_province_tt:0 "区域が我々の領土に隣接している。"
+ military_colonies_capital_tooltip:0 "ユニットの位置が首都州の外である。"

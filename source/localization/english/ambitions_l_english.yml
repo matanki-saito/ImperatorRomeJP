@@ -159,7 +159,7 @@
  scheme.4.b:0 "[SCOPE.sChar('thief').GetPraenomen]は恐らく…金に興味があるのだろう？"
  scheme.4.c:0 "この件は、そうだな…闘技場で話すとしようか！"
  scheme.5.t:0 "法的な詐欺"
- scheme.5.desc:0 "今日の午後、[ROOT.GetCharacter.GetName]の私領の所有権に対して、[SCOPE.sChar('thief').GetName]がずうずうしいほど不誠実な態度を見せて異議申し立てを行った。[SCOPE.sChar('thief').GetHerHis]の主張を裏付けているのは明らかに捏造された一式の文書で、手続きは速やかに終了した。\n\n我々は謝礼でも要求するべきではないだろうか？"
+ scheme.5.desc:0 "今日の午後、[ROOT.GetCharacter.GetName]の私領の所有権に対して、[SCOPE.sChar('thief').GetName]が図々しいほど不誠実な態度を見せて異議申し立てを行った。[SCOPE.sChar('thief').GetHerHis]の主張を裏付けているのは明らかに捏造された一式の文書で、手続きは速やかに終了した。\n\n我々は謝礼でも要求するべきではないだろうか？"
  scheme.5.a:0 "時間の無駄だ。"
  scheme.5.b:0 "あの土地は昔から我が一族の土地だ！"
  scheme.5.c:0 "お仕置きが必要なようだ。"
