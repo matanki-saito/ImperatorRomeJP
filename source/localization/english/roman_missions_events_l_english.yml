@@ -29,7 +29,7 @@
  me_roman_1_roman_italia.6.t:0 "エトルリアの脅威"
  me_roman_1_roman_italia.6.desc:0 "[SCOPE.sChar('expansion_encourager').GetName]は立ち上がり、大きく咳払いをした。\n\n「エトルリアの都市国家は幾度となくローマへの敵対心を示してきた。奴らは毎回蛇のようにウンブリア人やサムニウム人と共謀している。我々のウァディモ湖における偉大な勝利は彼らの弱さを明らかにした。侵攻の機は熟しているのだ！」"
  me_roman_1_roman_italia.6.a:0 "エトルリア人は滅ぼされるべきである。"
- me_roman_1_roman_italia.6.at:1 "$me_rome_gains_claims_on$ #Y Etruscan#! Territories in the Provinces of #Y $south_etruria_area$#! and #Y $north_etruria_area$#!."
+ me_roman_1_roman_italia.6.at:1 "$me_rome_gains_claims_on$#Y $south_etruria_area$#!および#Y $north_etruria_area$#!州において#Y $ETR$#!が領有する区域に請求権を得ます"
  me_roman_1_roman_italia.6.b:0 "いずれにせよ、我々は自らの身を守らねばならない。"
  me_roman_1_roman_italia.7.t:0 "イタリアの運命"
  me_roman_1_roman_italia.7.desc:0 "[SCOPE.sChar('expansion_encourager').GetName]はクリア集会場に静粛を呼び掛けた。\n\n「ローマはこの地に割拠することに成功した。そして神々はローマにその愛を示している。細々とした議論を脇に置いて、我らの力を大義の元に結集させることができれば、我々には全イタリアを支配する準備が整ったと言えるだろう。好機を掴む勇気さえ持てば、不朽の栄光と名誉は見返りのほんの一部分に過ぎない程であろう！」"
