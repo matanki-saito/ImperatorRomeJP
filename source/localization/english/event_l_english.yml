@@ -301,7 +301,7 @@
  character_events.2.b.tooltip:0 "遺された財産は[SCOPE.sChar('target').GetName]の子供たちに分配されます"
  character_events.2.c:0 "請求者たちで山分けにしよう。国も含めて。"
  character_events.3.t:0 "醜聞！"
- character_events.3.desc:1 "残念なことだが[ROOT.GetCountry.GetAdjective]の[ROOT.GetCountry.Custom('get_court_type')]では醜聞が日常茶飯事である。\n\n通常であれば、このようなつまらない口論などは単に無視すれば良いのだが、この件の場合、尊敬される人物である[SCOPE.sChar('character_events_3_target').GetName]が愛人の[SCOPE.sChar('character_events_3_lover').GetName]と一緒にいるところを、[SCOPE.sChar('character_events_3_target').GetHerHis]の配偶者の[SCOPE.sChar('character_events_3_spouse').GetName]に「現行犯で」見つかってしまったのだ。\n\n配偶者の[SCOPE.sChar('character_events_3_spouse').GetName]は絶望に打ちひしがれて、[SCOPE.sChar('character_events_3_target').GetName]は公共に醜態を晒した咎で職を解かれるべきだ、と[ROOT.GetCountry.Custom('get_court_type')]に訴えを起こしている。"
+ character_events.3.desc:1 "残念なことだが[ROOT.GetCountry.GetName]の[ROOT.GetCountry.Custom('get_court_type')]では醜聞が日常茶飯事である。\n\n通常であれば、このようなつまらない口論などは単に無視すれば良いのだが、この件の場合、尊敬される人物である[SCOPE.sChar('character_events_3_target').GetName]が愛人の[SCOPE.sChar('character_events_3_lover').GetName]と一緒にいるところを、[SCOPE.sChar('character_events_3_target').GetHerHis]の配偶者である[SCOPE.sChar('character_events_3_spouse').GetName]に「現行犯で」見つかってしまったのだ。\n\n配偶者の[SCOPE.sChar('character_events_3_spouse').GetName]は絶望に打ちひしがれて、[SCOPE.sChar('character_events_3_target').GetName]は公共に醜態を晒した咎で職を解かれるべきだ、と[ROOT.GetCountry.Custom('get_court_type')]に訴えを起こしている。"
  character_events.3.a:0 "この件に関わる気はない・・・"
  character_events.3.b:0 "不貞行為は容認できない。"
  character_events.3.c:0 "[SCOPE.sChar('character_events_3_target').GetHerHim]にはむち打ち刑が適切であろう。"

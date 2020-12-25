@@ -1681,7 +1681,7 @@
  SHOW_DECISIONS:0 "決断を表示"
  PEACE_TREATY_BLOCKED_WAR_GOAL:0 "The war goal $NAME|Y$ blocks this treaty."
  SENATE_APPROVAL_TITLE:1 "#T 元老院の支持#!\n"
- SENATE_APPROVAL_DESC:1 "The seats in the Senate are divided between its three parties. The parties willingness to vote in our favor depends on how much they approve of our past actions.\n\nThis is the percentage of votes that would fall in our favor, should we take a decision that requires the Senate.\nBy Party:"
+ SENATE_APPROVAL_DESC:1 "元老院の議席は、3つの派閥に分割されています。派閥が我々への支持を投票するかどうかは、我々の過去の行動にどの程度賛同するかによります。\n\n以下は、元老院での決定を必要とする場合、賛成票がどれくらいになるかの割合です。\n派閥別："
  SENATE_APPROVAL_ENTRY:0 "[PARTY.GetName]：$APPROVAL|%Y$"
  SENATORIAL_INFLUENCE_TITLE:0 "#T 元老院影響力#!"
  PRIMARY_CULTURE_HAPPINESS_TITLE:0 "#T 主要文化の幸福度#!"
