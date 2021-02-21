@@ -11,7 +11,7 @@
  pirate_events.2.b:0 "海軍に経験を積ませたい。"
  pirate_events.3.t:0 "海賊の活用"
  pirate_events.3.desc:1 "海賊たちと共に連携すると決定されたあと、[ROOT.GetCountry.GetName]は外交関係を結ぶために使者を海賊の船長の元に送った。海賊たちは連携についての我々の提案に興味がある雰囲気で、我々による保護と引き換えに連携に応じると快諾したのである。\nしかしながらまだ残っている問題があり、それは海賊たちの技量をどのように用いるのが最善であるのかということだ。つまり、[SCOPE.sP('pirate_cove').GetState.GetShortName]全体を海賊の安全な避難港として指定し、引き換えに彼らは我々の交易を守り、隣国の交易船を我々の港へ「エスコート」させるか、あるいは彼らの専門知識や経験を我々の船大工や船員と共有してもらうのか、である。"
- pirate_events.3.a:0 "彼らは付近を通る船を我々の港へと親切にも招待してくれるそうだ！"
+ pirate_events.3.a:1 "They will kindly invite passing trade ships to stop in our ports!"
  pirate_events.3.b:1 "彼らに我が艦隊を強化してもらおう！"
  pirate_events.4.t:0 "隣国に隠れる海賊たち"
  pirate_events.4.desc:0 "領内の海岸が頻繁に海賊に荒らされているという話が[ROOT.GetCountry.GetRuler.GetName]の耳に入った。一般人にとってこれはいささか迷惑な話であろうということで[ROOT.GetCountry.GetRuler.GetSheHe]は偵察を差し向けることにした。その偵察の報告によれば、海岸を荒らしまわっている海賊たちが隣国[SCOPE.sState('pirate_state').GetCountry.GetName]の港に停泊していたというのである！これを自身への侮辱と捉えた[ROOT.GetCountry.GetRuler.GetName]は[ROOT.GetCountry.GetRuler.GetHerHis]の顧問たちにどのように対処すべきなのか意見を募った。"

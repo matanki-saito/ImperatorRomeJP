@@ -1,5 +1,5 @@
 ﻿l_english:
- trial_consequences:0 "#Y [SCOPE.sChar('target').GetName]#!を有罪にできなかった場合、この人物は内戦を始めようとする可能性があります"
+ trial_consequences:1 "If we fail to convict #Y [SCOPE.sChar('target').GetName]#!, [target.GetSheHe] may seek to start a #R Civil War#!."
  trial.1.t:0 "裁判：告発"
  trial.1.desc_republic:0 "被疑者の[SCOPE.sChar('target').GetName]が彼らの前に引き出されると、元老院の議場はゆっくりと静寂に包まれていった。[ROOT.GetCountry.GetName]においてかつて例のないほど[SCOPE.sChar('target').Custom('random_character_adjective_negative')][SCOPE.sChar('target').GetWomanMan]だと議場の面々は口々に非難している。\n\n非難の声が未だ飛び交う中、判事は前に進み出ると元老院に対して[SCOPE.sChar('target').GetPraenomen]がいかなる罪によって告訴されているのかを高らかに読み上げた。"
  trial.1.desc_monarchy:0 "被告人の[SCOPE.sChar('target').GetName]が俯いたまま[ROOT.GetCountry.GetRulerTitle]の前に引き出されてくると、法廷は暗い雰囲気に包まれた。[SCOPE.sChar('target').Custom('get_council_1_descriptor')]、[SCOPE.sChar('target').GetPraenomen|U]は最後の最後で勇み足を踏み出してしまった。\n\n裁判を進行するため、判事は[ROOT.GetCountry.GetRulerTitle]である[ROOT.GetCountry.GetRuler.GetPraenomen]の公的な称号を読み上げ、[SCOPE.sChar('target').GetPraenomen]の告訴事由について尋問を開始した。"
@@ -60,3 +60,5 @@
  trial.8.o_failure:0 "終わりだ…"
  trial.8.o_civil_war:0 "武器を取れ！"
  trial.8.o_civil_war_b:0 "$friend_rival.6.b$"
+ trial_gets_better_inv:0 "This increases success chance of all #Y Trials#! by #Y 10%#!."
+ corruption_sanctions_improved:0 "Imposing #Y Corruption Sanctions#! will no longer impose a loyalty malus upon the target."

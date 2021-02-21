@@ -27,7 +27,7 @@
  me_athens_01_foreign_rulership.7.a.tt:0 "A small delegate is sent to [mission_overlord_scope.GetCapital.GetName] in [mission_overlord_scope.GetName]."
  me_athens_01_foreign_rulership.8.t:0 "The [mission_overlord_scope.GetAdjective] Choice"
  me_athens_01_foreign_rulership.8.desc:0 "Though we have grown closer to [mission_overlord_scope.GetName], our diplomats are politely told they are unable to freely send aid to [ROOT.GetCountry.GetCapital.GetName]. If we want something from our overlord, we will have to pay for it."
- me_athens_01_foreign_rulership.8.a:0 "Our goal was to attain experienced troops for [ROOT.GetCountry.GetName]."
+ me_athens_01_foreign_rulership.8.a:1 "Our goal was to return our overseas troops to [ROOT.GetCountry.GetName]."
  me_athens_01_foreign_rulership.8.b:0 "Military expertise, is what we need."
  me_athens_01_foreign_rulership.8.c:0 "We want nothing, only to offer up a gift to our overlord."
  me_athens_01_foreign_rulership.8.d:0 "What a disappointment."

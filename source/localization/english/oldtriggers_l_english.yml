@@ -24,7 +24,7 @@
  HAVE_LESS_MANPOWER_THAN:0 "人的資源が右記未満である："
  HAVE_MORE_MANPOWER_THAN:0 "人的資源が右記より高い："
  TRIGGER_ALLY:0 "いずれかの同盟国"
- TRIGGER_OWNER:0 "州の保有者"
+ TRIGGER_OWNER:0 "州の所有国"
  TRIGGER_CONTROLLER:0 "州の支配者"
  TRIGGER_CAPITAL:0 "首都"
  TRIGGER_SEA_ZONE:0 "海洋ゾーンの外部"

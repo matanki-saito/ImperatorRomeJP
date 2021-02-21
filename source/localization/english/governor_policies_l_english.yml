@@ -11,7 +11,7 @@
  GOVPOL_JUST_DO_IT:1 "$WHERE$における政策を$POLICY|Y$に変更するには$COST$のコストがかかります。"
  GOVPOL_DO_IT:1 "#T 統治政策#!\nクリックして$WHERE|Y$における新たな政策を選択します。これには$COST$のコストがかかります。"
  GOVPOL_TOOLTIP:0 "[GetChangeGovernorPoliciesTooltip(ProvinceWindow.GetState)]\n\n[ProvinceWindow.GetState.GetGovernorPoliciesTooltip]"
- OVERVIEW_GOVPOL_TOOLTIP:0 "[GetChangeGovernorPoliciesTooltip(StateItem.GetState)]\n\n[StateItem.GetState.GetGovernorPoliciesTooltip]"
+ OVERVIEW_GOVPOL_TOOLTIP:1 "[GetChangeGovernorPoliciesTooltip(StateItem.GetState)]\n"
  acquisition_of_wealth:0 "富の獲得"
  acquisition_of_wealth_desc:1 "この政策は総督の収入を犠牲にして州全体の税収や商業収入を増やします。悪辣な人物の中には、自身のポケットの中身にしか興味が無いような者もいます。"
  religious_conversion:0 "改宗"

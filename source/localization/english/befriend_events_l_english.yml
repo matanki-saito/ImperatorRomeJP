@@ -1,6 +1,6 @@
 ﻿l_english:
  befriend.1.t:0 "政治的野心"
- befriend.1.desc:0 "[SCOPE.sChar('friend_target').GetName]が以前から政府の役職に就くことを望んでいたのはよく知られるところだ。不公平なことに、これまでは他の者が優先的に選ばれ、[SCOPE.sChar('friend_target').GetSheHe]は無視されてきた。\n\n上手い言い訳を考えることと、特定の誰かと口論することを厭わなければ、[SCOPE.sChar('friend_target').GetFirstName]の目標と我々の目標が同時に達成することは可能だろう。"
+ befriend.1.desc:0 "[SCOPE.sChar('friend_target').GetName]が以前から政府の役職に就くことを望んでいたのはよく知られるところだ。不公平なことに、これまでは他の者が優先的に選ばれ、[SCOPE.sChar('friend_target').GetSheHe]は無視されてきた。\n\n上手い言い訳を考えることと、特定の誰かと口論することを厭わなければ、我々の目標と[SCOPE.sChar('friend_target').GetFirstName]のそれが同時に達成することは可能だろう。"
  befriend.1.a:0 "[SCOPE.sChar('friend_target').GetHerHim]が望むものを与えよう。"
  befriend.1.b:0 "それは良くないな。"
  befriend.2.t:0 "異国の贈り物"
@@ -63,4 +63,4 @@
  befriend.12.t:0 "友情を勝ち取った！"
  befriend.12.desc:0 "[SCOPE.sChar('target').GetEmployer.GetName]の[SCOPE.sChar('target').GetEmployer.GetRulerTitle]は、諸手を挙げて我々と友人関係になることを受け入れた！\n\n両国が相互的な繁栄を得ることは間違いないだろう。"
  befriend.12.a:0 "素晴らしい。"
- befriend_costs_tt:0 "人物と友人になるには一連の出来事の中で幾らかのコストを要求されます"
+ befriend_costs_tt:1 "人物と友人になるには一連の出来事の中で幾らかのコストを要求されます\n\n成功した場合："

@@ -18,7 +18,7 @@
  senate_objectives.4.a:0 "The gods will it."
  senate_objectives.4.b:0 "Give peace a chance."
  senate_objectives.5.t:0 "Benefits of Power"
- senate_objectives.5.desc:0 "The fatted [sen_obj_gra_hol_party.GetName] dominate the [ROOT.GetCountry.GetAdjective] [SCOPE.Custom('get_court_type')], and now move to bring a motion that will see public lands granted to the most notable members of the nobility - as if the benches did not already creak under the weight of their avarice. Only our [ROOT.GetCountry.GetRulerTitle] has the power to block the bill, by invoking [ROOT.GetCountry.GetHerHis] power of veto."
+ senate_objectives.5.desc:1 "The fatted [sen_obj_gra_hol_party.GetName] dominate the [ROOT.GetCountry.GetAdjective] [SCOPE.Custom('get_court_type')], and now move to bring a motion that will see public lands granted to the most notable members of the nobility - as if the benches did not already creak under the weight of their avarice. Only our [ROOT.GetCountry.GetRulerTitle] has the power to block the bill, by invoking [ROOT.GetCountry.GetRuler.GetHerHis] power of veto."
  senate_objectives.5.a:0 "These are much deserved rewards."
  senate_objectives.5.at:0 "Each Head of Family will receive a Holding and #G 10#!@loyalty_icon!Loyalty."
  senate_objectives.5.b:0 "These lands belong to the people!"

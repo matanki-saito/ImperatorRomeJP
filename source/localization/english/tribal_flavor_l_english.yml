@@ -10,3 +10,7 @@
  string_statue:0 "像"
  string_amphora:0 "アンフォラ"
  string_goblet:0 "ゴブレット"
+ tribal_flavour_events.3.t:0 "Collapse of the [SCOPE.sC('origin_crisis').GetAdjective]"
+ tribal_flavour_events.3.desc:0 "News has reached us by word of mouth, that the once-powerful [SCOPE.sC('origin_crisis').GetAdjective] have fallen to internal bickering, strife, and wanton power struggles.\n\nNumerous local chiefdoms have arisen from the ashes of the crisis, perhaps affording an opportunity to their watchful neighbors. The [SCOPE.sC('origin_crisis').GetAdjective] still retain a nominal leadership of some of the disparate clans, desperately clinging to their laughable hegemony."
+ tribal_flavour_events.3.a:0 "Barbarians..."
+ target_fallen_tfe3:0 "[SCOPE.sC('origin_crisis').GetName] has splintered into numerous sub-clans."

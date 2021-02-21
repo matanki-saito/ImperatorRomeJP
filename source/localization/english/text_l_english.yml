@@ -10,7 +10,7 @@
  EV_SHE_S:0 "彼女"
  OR:0 "または"
  NORMAL_WAR_NAME:0 "第$NUM$次$FIRST$-$SECOND$戦争"
- INDEPENCED_WAR_NAME:2 "第$NUM$次対$SECONDNAME$反乱"
+ INDEPENCED_WAR_NAME:3 "$NUM$$ORDER$ $FIRST$ rebellion against $SECOND$"
  AGRESSION_WAR_NAME:0 "第$NUM$次$ORDER$$FIRST$侵略戦争"
  CIVIL_WAR_NAME:0 "第$NUM$次$ORDER$$FIRST$内戦"
  roman_pantheon:0 "ギリシャ宗教"

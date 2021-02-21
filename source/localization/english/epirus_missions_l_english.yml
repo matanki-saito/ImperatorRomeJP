@@ -181,7 +181,7 @@
  epirus_1_epirus_17_DESC:0 "The old mountain capital of the Molossians has served her kings well, but the changing tides call for a modern urban city on the coast if we are to rival our neighbors in pomp and scale."
  epirus_1_epirus_17_allow_tt:0 "[GetProvince('(int32)465').GetName] is not already a city and has no ongoing construction."
  epirus_1_epirus_18:0 "Apollo Aktiakos"
- epirus_1_epirus_18_DESC:0 "Founded by the Corinthians who founded the settlement of Anaktorion, the sanctuary of Apollo Aktiakos has become perhaps the foremost religious center of the Ambrakia gulf. Restoring its edifice will sit well."
+ epirus_1_epirus_18_DESC:1 "Consecrated by the Corinthians who founded the settlement of Anaktorion, the sanctuary of Apollo Aktiakos has become perhaps the foremost religious center of the Ambrakia gulf. Restoring its edifice will sit well."
  epirus_1_epirus_18_reward_tt:0 "Unlocks the deity '#Y $deity_apollo_aktiakos$#!'."
  epirus_2_magna:0 "Alexandrine Ambition"
  epirus_2_magna_BUTTON_TOOLTIP:0 "The rich lands of Magna Graecia await for any strong enough to claim them."

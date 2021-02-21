@@ -879,3 +879,5 @@
  me_syracuse_4_magna.25.a:0 "We deserve better than this!"
  me_syracuse_4_magna.25.b:0 "It is too dangerous."
  me_syr_4_25_car_claims_tt:0 "Our overlord will gain claims on our territory."
+ syr_foreign_levy_cmod:0 "Foreign Support"
+ desc_syr_foreign_levy_cmod:0 "Friendly forces from abroad have converged to aid our cause against the tyrant."

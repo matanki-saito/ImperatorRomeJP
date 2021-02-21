@@ -10,3 +10,7 @@
  DISBAND_NOT_IN_COMBAT:0 "戦闘中のユニットは解散できません"
  REORGANIZE_WINDOW_TITLE:0 "再編成"
  SELECT_UNIT:0 "このユニットを選択"
+ GOVERNORSHIP_TITLE:0 "#T [GOVERNORSHIP.GetName]#!\n"
+ LEGION_UNIT_TITLE:0 "#T [UNIT.GetName]#!\n"
+ NEW_LEGION_MAINTENANCE:0 "$VALUE|2=-$ @gold!\n"
+ ASSAULT_TOO_FEW_COHORTS:0 "There is not enough men in this siege to do an assault."

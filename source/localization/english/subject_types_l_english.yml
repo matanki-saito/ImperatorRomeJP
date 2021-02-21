@@ -12,3 +12,6 @@
  create_merc_state_price:0 "傭兵国家の創設"
  owned_by_us_tt:0 "Owned by us."
  MERC_CITY_MONARCHY_EFFECT:0 "#Y 君主制#!の政体を採用している場合、#Y 5#!年に一度だけ現在の統治者を退位させ、#Y 傭兵国家#!の統治者に据えることができます。これは#Y 人物行動#!から行うことができ、#Y 傭兵契約法#!が制定されている必要があります。\n\n"
+ LEAGUE_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y] will become a free league city, led by a republican government.\nThey will become our subject, with a bonus to their state trade routes and tradegoods produced. They will not join us in wars, but will not cost a diplomatic relations slot, and cannot be integrated."
+ league_city_title:0 "Create League City"
+ league_city_desc:0 "Are you sure you want to create a League City? This will create a subject out of [SCOPE.GetRootScope.GetProvince.GetName|Y]."

@@ -86,3 +86,5 @@
  POPS_LOGIN_CHANGE_USERNAME: "ユーザー名を変更"
  POPS_LOGIN_lower-limit:0 "ユーザー名は3文字以上でなければなりません"
  POPS_LOGIN_upper-limit:0 "ユーザー名が長すぎます"
+ POPS_LOGIN_MESSAGE:0 "$MESSAGE$"
+ POPS_LOGIN_UNKNOWN_ERROR:1 "不明なエラーが発生しました：$ERROR$"

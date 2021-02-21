@@ -20,7 +20,7 @@
  ADVICE_DISLOYAL_CHAR_FALLBACK_TITLE:0 "有効な助言が無い"
  ADVICE_DISLOYAL_CHAR_DONOTHING:0 "我々にできるのは[SCOPE.sChar('target').GetName]が心変わりするか、または老衰によって息を引き取るのを待つことだけです。"
  ADVICE_DISLOYAL_CHAR_DONOTHING_TITLE:0 "放っておく"
- ADVICE_PRETENDER_TITLE:0 "僭称者の支持：[SCOPE.sChar('target').GetName]"
+ ADVICE_PRETENDER_TITLE:0 "請求者の支持：[SCOPE.sChar('target').GetName]"
  ADVICE_PRETENDER_SUMMARY:0 "恩知らずなことに、自らの傀儡を玉座に据えようと企んでいる貴族がいます。身の程を弁えさせてやりましょう！"
  ADVICE_PRETENDER_DONOTHING:0 "我々にできるのは[SCOPE.sChar('target').GetName]が心変わりするか、または老衰によって息を引き取るのを待つことだけです。"
  ADVICE_PRETENDER_DONOTHING_TITLE:0 "放っておく"

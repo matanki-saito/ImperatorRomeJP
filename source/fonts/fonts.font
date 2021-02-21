@@ -75,7 +75,20 @@ fontfiles = {
         files = { "fonts/LusitanaCyr-Regular.ttf" "fonts/Cinzel-Bold.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
     }
 }
-
+#fontfiles = {
+#    name = "IMFellDoublePicaSC-Regular"
+#	always_load = yes
+#
+#    group = {
+#        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" }
+#        files = { "fonts/IMFellDoublePicaSC-Regular.ttf" "fonts/IMFellDoublePicaSC-Regular.ttf" "fonts/IMFellDoublePicaSC-Regular.ttf" }
+#    }
+#
+#    group = {
+#        languages = { "l_russian" }
+#        files = { "fonts/LusitanaCyr-Regular.ttf" "fonts/Lusitana-Bold.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
+#    }
+#}
 
 font = {
 	name = "Debug"
@@ -146,6 +159,15 @@ font = {
 	}
 }
 
+font = {
+	name = "HeaderFont"
+	
+	fontstyle = {
+		style = regular
+		fontfiles = "IMFellDoublePicaSC-Regular"
+	}
+}
+
 #MAP
 font = {
 	name = "map_province_name_font"
@@ -173,3 +195,15 @@ font = {
 		fontfiles = "Cinzel-Bold"
 	}
 }
+fontfiles = {
+    name = "IMFellDoublePicaSC-Regular"
+    always_load = yes
+
+    group = {
+        languages = { "l_english" "l_french" "l_german" "l_spanish" "l_simp_chinese" }
+        files = { "fonts/IMFellDoublePicaSC-Regular.ttf" "fonts/IMFellDoublePicaSC-Regular.ttf" "fonts/IMFellDoublePicaSC-Regular.ttf" }
+        files = { "fonts/Cinzel-Bold.ttf" "fonts/Hellenism-SemiBold.ttf" "fonts/LusitanaCyr-Regular.ttf" }
+    }
+}
+
+

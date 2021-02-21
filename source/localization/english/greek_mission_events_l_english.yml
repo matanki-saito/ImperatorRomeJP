@@ -546,7 +546,7 @@
  me_greek_3_italiote.24.desc_3:0 "The Illyrian coastline has been secured in places, providing us with new avenues for trade and piracy. The incomes alone should be substantial, and many see this as a brave new era for our people across the waves."
  me_greek_3_italiote.24.at:0 "$mission_task_completed_tt_1$$greek_3_6$$mission_task_completed_tt_2$"
  me_greek_3_italiote.25.t:0 "$greek_3_15$"
- me_greek_3_italiote.25.desc:0 "The turbulent era of Syracuse is at last over, along with the invasions she inflicted on the Italiote cities of Calabria. Under our rule, the Siceliotes will come to despise those days as a bitter past compared to our benevolent rule."
+ me_greek_3_italiote.25.desc:1 "The turbulent era of Syracuse is at last over, along with the invasions she inflicted on the Italiote cities of $croton_area$. Under our rule, the Siceliotes will come to despise those days as a bitter past compared to our benevolent rule."
  me_greek_3_italiote.25.a:0 "The Siceliotes deserved better."
  me_greek_3_italiote.25.at:0 "$mission_task_completed_tt_1$$greek_3_15$$mission_task_completed_tt_2$"
  me_greek_3_italiote.26.t:0 "$greek_3_italiote$: The Rise of [gm_family_head_3.GetName]"
