@@ -3,5 +3,5 @@ tags={
 "Translation"
 "Localization"
 }
-supported_version="1.5.*"
+supported_version="2.0.*"
 remote_file_id="2179073557"
