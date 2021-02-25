@@ -21,7 +21,7 @@
  senate_objective_change_law_populares_DESC:0 "$populares_party$は法改正を求める煽動者に説得されている。どちらが、要求した演説者なのかそれとも彼の気まぐれに従う大衆なのか、得をするのかは言い難い。"
  senate_objective_revoke_holdings_populares:1 "Confiscation"
  senate_objective_revoke_holdings_populares_DESC:0 "Reducing the wealth of the elite has been a recurring priority for the $populares_party$, as they seek to even out the rights and wealth of the people of our nation."
- senate_objective_revoke_holdings_populares_finished_tt:0 "[THIS.GetCountry.GetName] has revoked at least #Y [SCOPE.ScriptValue('senate_objective_revoke_holding_optimates_svalue')|0]#! holdings from Heads of Families. [THIS.GetCountry.Custom('senate_objective_revoke_holdings_populares_custom_loc')]"
+ senate_objective_revoke_holdings_populares_finished_tt:0 "[THIS.GetCountry.GetName]が少なくとも#Y [SCOPE.ScriptValue('senate_objective_revoke_holding_optimates_svalue')|0]#!の私領を一門の長から剥奪している[THIS.GetCountry.Custom('senate_objective_revoke_holdings_populares_custom_loc')]"
  senate_objective_revoke_holdings_populares_custom_loc_1:0 "(#R [SCOPE.ScriptValue('senate_objective_revoke_holding_optimates_current_svalue')|0]#!/#Y [SCOPE.ScriptValue('senate_objective_revoke_holding_optimates_svalue')|0]#!)"
  senate_objective_revoke_holdings_populares_custom_loc_2:0 "(#Y [SCOPE.ScriptValue('senate_objective_revoke_holding_optimates_current_svalue')|0]#!/#Y [SCOPE.ScriptValue('senate_objective_revoke_holding_optimates_svalue')|0]#!)"
  senate_objective_grant_holdings_populares:1 "Bestowments"

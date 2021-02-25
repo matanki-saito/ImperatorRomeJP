@@ -32,7 +32,7 @@
  senate_objective_grant_holdings_generic_custom_complete:1 "（[SCOPE.ScriptValue('sen_obj_gra_hol_current_svalue')|Y0]/[SCOPE.ScriptValue('sen_obj_gra_hol_max_svalue')|Y0]）"
  senate_objective_revoke_holdings_generic:2 "Confiscation"
  senate_objective_revoke_holdings_generic_DESC:1 "The $democratic_party$ seek to weaken the grip of the $oligarchic_party$ by stripping them of assets they have appropriated from the common property of the state."
- senate_objective_revoke_holdings_generic_tt:1 "[sen_obj_rev_hol_party.GetCountry.GetName] has revoked [SCOPE.ScriptValue('sen_obj_rev_hol_max_svalue')|Y0] holdings from Heads of Families. [THIS.GetCountry.Custom('senate_objective_revoke_holdings_generic_custom')]"
+ senate_objective_revoke_holdings_generic_tt:1 "[sen_obj_rev_hol_party.GetCountry.GetName]が[SCOPE.ScriptValue('sen_obj_rev_hol_max_svalue')|Y0]の私領を一門の長から剥奪している[THIS.GetCountry.Custom('senate_objective_revoke_holdings_generic_custom')]"
  senate_objective_revoke_holdings_generic_custom_ongoing:1 "([SCOPE.ScriptValue('sen_obj_rev_hol_current_svalue')|R0]/[SCOPE.ScriptValue('sen_obj_rev_hol_max_svalue')|Y0])"
  senate_objective_revoke_holdings_generic_custom_complete:1 "([SCOPE.ScriptValue('sen_obj_rev_hol_current_svalue')|Y0]/[SCOPE.ScriptValue('sen_obj_rev_hol_max_svalue')|Y0])"
  senate_objective_lengthen_terms_generic:1 "任期の長さ"

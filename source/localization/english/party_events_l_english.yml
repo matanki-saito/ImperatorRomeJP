@@ -99,4 +99,4 @@
  party_events_default.10.bt:0 "Every member of the [SCOPE.GetRootScope.GetCountry.GetRuler.GetFamilyDisplayName|Y] family will lose #R 5#!@loyalty_icon!Loyalty ([SCOPE.ScriptValue('family_republic_family_count')|0Y] characters)"
  party_events_default.10.c:0 "You must learn to relax, [party_hof_opposition.GetPraenomen]..."
  party_events_default.10.ct:0 "This option is available because [party_hof_opposition.GetPraenomen|Y] is corrupt."
- declaring_war_on_same_rank_or_higher_tt:0 "Declaring war on a country of same Rank or Higher:"
+ declaring_war_on_same_rank_or_higher_tt:0 "国家ランクが自国と同格または格上の国に対する宣戦布告："

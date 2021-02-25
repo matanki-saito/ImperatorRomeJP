@@ -165,7 +165,7 @@
  scheme.5.c:0 "お仕置きが必要なようだ。"
  gladiatorial_combat_scheme:0 "[SCOPE.sChar('thief').GetPraenomen]と[SCOPE.GetRootScope.GetCharacter.GetName]はどちらかが死ぬまで戦います"
  scheme.6.t:0 "後援者を探して"
- scheme.6.desc:1 "熱心だが政治的に未熟な[SCOPE.sChar('patronage_requester').GetName]、[SCOPE.sChar('patronage_requester').GetName]が礼儀正しくお辞儀をしながら会いに来て、我々の正式な後援を求めてきた。\n\nこうした要求には実際的な義務はほとんどないのだが、[SCOPE.sChar('patronage_requester').GetPraenomen]の同格者間での立場を向上させる可能性はある。また、こうした慈善活動は[ROOT.GetCharacter.GetEmployer.GetAdjective]の上流階級において感心される行為でもあるだろう。"
+ scheme.6.desc:1 "熱心だが政治的に未熟な[SCOPE.sChar('patronage_requester').GetName]が礼儀正しくお辞儀をしながら会いに来て、我々の正式な後援を求めてきた。\n\nこうした要求には実際的な義務はほとんどないのだが、[SCOPE.sChar('patronage_requester').GetPraenomen]の同格者間での立場を向上させる可能性はある。また、こうした慈善活動は[ROOT.GetCharacter.GetEmployer.GetAdjective]の上流階級において感心される行為でもあるだろう。"
  scheme.6.a:0 "協力するとしよう。"
  scheme.6.b:0 "ああ、すまない、髪を洗うのにちょっと忙しいんだ。"
  stunning_puns_tt:0 "[SCOPE.GetRootScope.GetCharacter.GetEmployer.Custom('get_court_type')]全体がこの素晴らしい冗談に感銘を受けます："
