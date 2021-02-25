@@ -44,7 +44,7 @@ See source folder in reoisitory.
 
 ## Game wiki
 
-[https://imperator-rome.wiki/doku.php?id=start](https://imperator-rome.wiki/doku.php?id=start)
+- TDB
 
 ## Paradox Ironman mode
 
