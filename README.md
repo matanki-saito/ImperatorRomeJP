@@ -32,7 +32,7 @@ See source folder in reoisitory.
 
 ## Steam workshop
 
-[https://steamcommunity.com/sharedfiles/filedetails/?id=2179073557](https://steamcommunity.com/sharedfiles/filedetails/?id=2179073557)
+[https://steamcommunity.com/sharedfiles/filedetails/?id=2407040628](https://steamcommunity.com/sharedfiles/filedetails/?id=2407040628)
 
 ## Translation workspace
 
