@@ -314,6 +314,6 @@
  DEIFY_CHARACTER_EFFECT:0 "[CHARACTER.GetName|Y] will be worshiped as the [TARGET_DEITY.GetReligion.GetName] Deity of [TARGET_DEITY.GetDeityCategory.GetName] [TARGET_DEITY.GetName]"
  MOVE_LEGION_EFFECT:0 "[LEGION.GetName] will move to the Governorship of [TARGET_GOVERNORSHIP.GetName] in @[TARGET_GOVERNORSHIP.GetOwner.GetFlag]! [TARGET_GOVERNORSHIP.GetOwner.GetName|Y]"
  REMOVE_FROM_WAR_EFFECT:0 "[TARGET_COUNTRY.GetName] leaves [WAR.GetName]"
- FORCE_WHITE_PEACE_EFFECT:0 "[WAR.GetName] will end in a white peace"
+ FORCE_WHITE_PEACE_EFFECT:0 "[WAR.GetName]は白紙和平にて終結するでしょう。"
  mil_exp_anitext_effect:0 "@military_experience_icon! #G 0.15#!"
  exp_from_sieging_legions:0 "Successful city sieges by your #Y Legions#! will now generate @military_experience_icon! #Y 0.1#!."

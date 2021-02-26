@@ -266,7 +266,7 @@
  IMPROVE_RELATION_CATEGORY:0 "関係行動"
  IMPROVE_RELATION_ALREADY:1 "@trigger_no!既に我々に対する評価を改善中です。"
  IMPROVE_RELATION_DESC:0 "我々に対する評価が時間とともに最大で$VAL|+=$改善します！"
- IMPROVE_RELATIONDESC:0 "Do you wish to improve opinion with $COUNTRY$? This will improve their opinion of us by $VAL|+=$ over time!"
+ IMPROVE_RELATIONDESC:0 "$COUNTRY$の評価を改善させますか？これにより時間をかけて彼らの評価が$VAL|+=$まで向上します！"
  CANCEL_IMPROVE_RELATIONDESC:0 "$COUNTRY$の評価改善の取り組みを中止しますか？"
  CANCEL_IMPROVE_RELATIONTITLE:0 "評価の改善の中止"
  CANCEL_IMPROVE_RELATION_DESC:0 "これにより彼らの評価改善の取り組みを取りやめます。"
