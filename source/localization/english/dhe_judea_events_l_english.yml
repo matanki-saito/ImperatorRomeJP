@@ -34,7 +34,7 @@
  dhe_judea.6.b:0 "彼らの願いをかなえよう。"
  dhe_judea.6.bt:0 "$judea_area$州を#Y 属国#!として解放し、[SCOPE.sC('dhe_judea_owner_scope').GetName]のユダヤ教の人物が$judea_area$に帰還します"
  dhe_judea.6.c:0 "このままでは対処不能に陥ってしまう。"
- dhe_judea.6.ct:0 "#Y Judea#! will become #Y independent#! and any Judean characters in [SCOPE.sC('dhe_judea_owner_scope').GetName] will return to Judea."
+ dhe_judea.6.ct:0 "#Y $judea_area$#!州は#Y 独立国#!となり、[SCOPE.sC('dhe_judea_owner_scope').GetName]のユダヤ教の人物が$judea_area$に帰還します"
  dhe_judea.7.t:0 "もう一度自由に"
  dhe_judea.7.desc_1:1 "ユダヤ信仰の砦、ユダヤ王国は、進貢国としてではあるが念願であった自立を回復した。イェルサレムの神殿は清められたのち再びエホバを戴き、異教徒の偶像は公共広場で破壊された。我らが民族の苦闘を忘れることがないように、今日この日を永遠の祝日として蝋に火を灯そう。\n\nこれは我が民の新たな出発であり、我々は隣人とどのように付き合うのか、我々の国は何を目指すべきなのかを決断しなければならない。"
  dhe_judea.7.desc_2:1 "ユダヤ信仰の砦、ユダヤ王国は、念願であった独立を達成した。イェルサレムの神殿は清められたのち再びエホバを戴き、異教徒の偶像は公共広場で破壊された。我らが民族の苦闘を忘れることがないように、今日この日を永遠の祝日として蝋に火を灯そう。\n\nこれは我が民の新たな出発であり、我々は隣人とどのように付き合うのか、我々の国は何を目指すべきなのかを決断しなければならない。"

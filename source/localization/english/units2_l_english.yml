@@ -13,4 +13,4 @@
  GOVERNORSHIP_TITLE:0 "#T [GOVERNORSHIP.GetName]#!\n"
  LEGION_UNIT_TITLE:0 "#T [UNIT.GetName]#!\n"
  NEW_LEGION_MAINTENANCE:0 "$VALUE|2=-$ @gold!\n"
- ASSAULT_TOO_FEW_COHORTS:0 "There is not enough men in this siege to do an assault."
+ ASSAULT_TOO_FEW_COHORTS:0 "この包囲網には強襲するための十分な人員がいません。"

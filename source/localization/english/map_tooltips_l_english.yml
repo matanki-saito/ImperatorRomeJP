@@ -1,5 +1,5 @@
 ﻿l_english:
- PROVINCE_TOOLTIP:4 "#t [PROVINCE.Custom('get_city_status_cloc')] of [PROVINCE.GetName] in [PROVINCE.GetArea.GetName]#! $OWNERSHIP$"
+ PROVINCE_TOOLTIP:4 "#t [PROVINCE.GetName] ([PROVINCE.Custom('get_city_status_cloc')])#!\n$OWNERSHIP$[PROVINCE.GetArea.GetName]州"
  IMPASSIBLE_COLORED_PROVINCE_TOOLTIP:1 "#T 通行不可能#! [PROVINCE.GetName|T]"
  IMPASSIBLE_UNCOLORED_PROVINCE_TOOLTIP:1 "#T 通行不可能#! [PROVINCE.GetName|T]"
  UNINHABITABLE_PROVINCE_TOOLTIP:1 "#T 居住不可能#! [PROVINCE.GetName|T]"
@@ -49,4 +49,4 @@
  PROVINCE_TOOLTIP_holdings:1 "私領"
  PROVINCE_TOOLTIP_province_rank:0 ""
  PROVINCE_TOOLTIP_government:0 "[PROVINCE.GetOwner.GetName]の政体は#Y [PROVINCE.GetOwner.GetGovernment.GetName]#!です。"
- CHARACTER_DEBUG:0 "$NAME$ #D ( ID: $ID$ )#!"
+ CHARACTER_DEBUG:0 "$NAME$#D （ID：$ID$）#!"

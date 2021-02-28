@@ -224,7 +224,7 @@
  SET_AMBITION_EFFECT:1 "[CHARACTER.GetNameForEffects] will [CHARACTER.Custom('clear_scheme_custom_tt')]begin '#Y $AMBITION$#!'."
  CLEAR_AMBITION_EFFECT:1 "[CHARACTER.GetNameForEffects]は「[CHARACTER.GetAmbitionName|Y]」を諦めます"
  CLEAR_COMMAND_EFFECT:0 "[CHARACTER.GetNameForEffects]は指揮官の職を解かれます"
- ADD_NICKNAME_EFFECT:1 "[CHARACTER.GetNameForEffects] gains the '$NAME|Y$' nickname."
+ ADD_NICKNAME_EFFECT:1 "[CHARACTER.GetNameForEffects]は「$NAME|Y$」という添え名を得ます"
  ADOPT_EFFECT:0 "[CHARACTER.GetNameForEffects]は[TARGET_CHARACTER.GetNameForEffects]を養子として迎えます"
  REMOVE_SUBUNIT_LOYALTY:0 "[SUBUNIT.GetName|Y]は人物への忠誠を失います"
  SET_SUBUNIT_LOYALTY:0 "[SUBUNIT.GetName|Y]が[TARGET_CHARACTER.GetNameForEffects]に忠誠を誓うようになります"

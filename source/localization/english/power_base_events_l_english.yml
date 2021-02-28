@@ -6,7 +6,7 @@
  pbc_event.1.c:0 "[SCOPE.sChar('power_character').GetHerHis]の増長を止める良い方法がある。"
  pbc_event.1.d:0 "[SCOPE.sChar('power_character').GetSheHe|U]はお金が好きなのだな？"
  pbc_event.2.t:0 "[SCOPE.sChar('power_character').GetPraenomen]二度目の侮辱"
- pbc_event.2.desc:1 "A few months have passed since [SCOPE.sChar('power_character').GetPraenomen] came into a tidy sum of gold, and the first time we heard about [SCOPE.sChar('power_character').GetHerHis] insults to our rulership of [ROOT.GetCountry.GetName]. \n\nNow, during a large gathering at one of [SCOPE.sChar('power_character').GetHerHis] villas just outside of [ROOT.GetCountry.GetCapital.GetName], [SCOPE.sChar('power_character').GetSheHe] has apparently compared [ROOT.GetCountry.GetRuler.GetName] to an incapable farm animal, and called the [ROOT.GetCountry.GetCapital.Custom('get_city_type_loc')] of [ROOT.GetCountry.GetCapital.GetName] a ruined husk of a capital."
+ pbc_event.2.desc:1 "[SCOPE.sChar('power_character').GetPraenomen]が相当な財力を持つようになってから、また[ROOT.GetCountry.GetName]の統治者を侮辱するような発言をするようになってから数か月が経過した。\n\nそして今、[ROOT.GetCountry.GetCapital.GetName]の郊外にある[SCOPE.sChar('power_character').GetHerHis]の別荘では大集会が開かれており、[SCOPE.sChar('power_character').GetSheHe]は[ROOT.GetCountry.GetRuler.GetName]を無能な家畜に例え、[ROOT.GetCountry.GetCapital.GetName]を無価値な廃村も同然であると言い放っているらしい。"
  pbc_event.2.a:0 "多分それは言葉の綾というものだろう…"
  pbc_event.2.b:1 "Let us see if [SCOPE.sChar('power_character').GetSheHe] prefers the dungeon to [ROOT.GetCountry.GetCapital.GetName]."
  pbc_event.2.c:0 "全く君は学ばないなあ、[SCOPE.sChar('power_character').GetPraenomen]？"

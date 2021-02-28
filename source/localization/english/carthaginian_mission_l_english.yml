@@ -119,7 +119,7 @@
  carthaginian_magna_graecia_expansion_mission_task_tarentum_opinion_tt:0 "#Y [SCOPE.sP('tarentum_province').GetName]#!（#Y [SCOPE.sP('tarentum_province').GetOwner.GetName]#!）の所有者の[SCOPE.sCountry('mission_country').GetName]に対する評価が#Y [SCOPE.ScriptValue('carthaginian_magna_graecia_expansion_mission_ports_of_magna_graecia_opinion_value')|0]#!以上である"
  carthaginian_magna_graecia_expansion_mission_task_5:0 "カルタゴの地域拠点"
  carthaginian_magna_graecia_expansion_mission_task_5_DESC:0 "我々の文化と伝統を頑固なギリシャ人たちに積極的に広めても敵対心と抵抗しか生み出さないのに対して、友好的で自立した立場の者を住まわせた場合は我々の提案に彼らも興味を持つということが分かってきた。遠からずマグナ・グラエキアの人々はカルタゴの理念により慣れ親しんでいくことだろう。"
- carthaginian_magna_graecia_expansion_mission_task_5_trigger_tooltip:4 "[SCOPE.sCountry('mission_country').GetName] owns at least one territory with a port and dominant #Y Punic#! culture in the areas of #Y $croton_area$#!, #Y Lucania#! or #Y Tarentum#! (#Y [SCOPE.ScriptValue('carthaginian_magna_graecia_expansion_local_punic_center_svalue')|0]#!/#Y 1#!)"
+ carthaginian_magna_graecia_expansion_mission_task_5_trigger_tooltip:4 "[SCOPE.sCountry('mission_country').GetName]が#Y $croton_area$#!、#Y $heraclea_area$#!もしくは#Y $tarentum_area$#!州において少なくとも一つ、#Y ポエニ#!文化が支配的である港湾区域を領有する（#Y [SCOPE.ScriptValue('carthaginian_magna_graecia_expansion_local_punic_center_svalue')|0]#!/#Y 1#!）"
  carthaginian_magna_graecia_expansion_mission_task_5_tt:4 "Release your largest port city with dominant #Y Punic#! culture in the areas of #Y $croton_area$#!, #Y Lucania#! or #Y Tarentum#! as a #Y Colony#! of [SCOPE.sCountry('mission_country').GetName]"
  carthaginian_magna_graecia_expansion_mission_task_6:0 "カルタゴのポンペイ"
  carthaginian_magna_graecia_expansion_mission_task_6_DESC:0 "山がちなマグナ・グラエキア北西部の沿岸に位置するポンペイは、ラテンやイタリアの中枢部に道を拓くうえで間違いなく要所だと言えるだろう。"

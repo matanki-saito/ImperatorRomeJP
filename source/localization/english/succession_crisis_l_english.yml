@@ -22,7 +22,7 @@
  family_revolt.2.desc:0 "[SCOPE.sChar('revolt_target').GetName]によって召集された部隊は武器を下ろし、彼らの土地へと帰っていった。幸運にも[SCOPE.sChar('revolt_target').GetPraenomen]は誇りある[ROOT.GetCountry.GetName]に対して、以前よりも明らかに忠誠心を感じているようだ。"
  family_revolt.2.a:0 "危機は回避されたようだな。"
  family_revolt.3.t:0 "[SCOPE.sChar('revolt_target').GetFamilyDisplayAdjective]が軍隊を動員"
- family_revolt.3.desc:1 "The head of the [SCOPE.sChar('revolt_target').GetFamilyDisplayAdjective] family, [SCOPE.sChar('revolt_target').GetName]; utterly fed up of [SCOPE.sChar('revolt_target').GetHerHis] situation, has begun mobilizing local forces in the [sbgnq1.Custom('get_city_type_loc')] of [SCOPE.sP('sbgnq1').GetName].\n\nWhilst matters are not hostile as yet, such an act could provoke civil war, if left unattended."
+ family_revolt.3.desc:1 "自分の待遇にうんざりした[SCOPE.sChar('revolt_target').GetFamilyDisplayAdjective]一門の長[SCOPE.sChar('revolt_target').GetName]は、[SCOPE.sP('sbgnq1').GetName]で地元の兵士たちを動員し始めた。\n\nそれらの軍はまだ敵対するには至っていないが、このような行為を放置すれば内戦の火種になりかねない。"
  family_revolt.3.a:0 "なんてことだ！"
  family_troops_mobilized_tooltip:1 "#Y [SCOPE.sChar('revolt_target').GetFamilyDisplayAdjective]#!一門は彼らの目的に忠実な#R 退役兵#!を集めるために自らの資金を投じました！\nもし内戦が発生すればこれらの退役兵たちは彼らの軍に加わるでしょう。"
  family_revolt_averted_tt:0 "#Y [SCOPE.sChar('revolt_target').GetFamilyDisplayAdjective]#!一門に雇われていた退役兵たちは#G 解散#!させられました"

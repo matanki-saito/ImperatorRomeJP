@@ -111,7 +111,7 @@
  neighboring_border_province_tt:0 "区域が我々の領土に隣接している。"
  military_colonies_capital_tooltip:0 "ユニットの位置が首都州の外である。"
  holy_site_deity_bonus_lost_tt:0 "[shrine_location.GetName|Y] will lose Holy Site $HOLY_SITE_PROVINCE_BENEFITS_TT$\n[provincial_deity.GetName|Y] will lose their #G 25%#! bonus to [deity|E] modifiers."
- road_building_invalid_province_tt:0 "The unit is in a territory where it cannot build a road."
+ road_building_invalid_province_tt:0 "ユニットは道路を建設できない区域にいます。"
  BUILD_ROADS_ENGINEERS_TT:0 "Every Road Costs: @gold! #R [SCOPE.ScriptValue('build_roads_engineers_svalue')|0]#!"
  BUILD_ROADS_TT:0 "Every Road Costs: @gold! #R [SCOPE.ScriptValue('build_roads_svalue')|0]#!"
  BUILD_ROADS_EXPENSIVE_TT:0 "Every Road Costs: @gold! #R [SCOPE.ScriptValue('build_roads_expensive_svalue')|0]#!"

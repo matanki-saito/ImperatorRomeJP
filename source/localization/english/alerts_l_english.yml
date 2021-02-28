@@ -11,7 +11,7 @@
  ALERT_NO_GOVERNOR:1 "#T 総督不在#!\n以下の地域には総督がいません"
  ALERT_NO_LEADER:1 "#T 指揮官不在#!\n以下のユニットには指揮官がいません"
  ALERT_DISLOYAL_STATES:2 "#T 不忠な州#!\n以下の州はもはや忠実ではありません。\nもし州の忠誠が#R 0#!になると、州は反乱を企てるかもしれません。"
- ALERT_DISLOYAL_CHARACTERS:2 "#T 不忠な人物#!"
+ ALERT_DISLOYAL_CHARACTERS:2 "#T 不忠な人物#! － "
  ALERT_DISLOYAL_CHARACTERS_CHARACTER:0 "[CHARACTER.GetFullName]"
  ALERT_DEFICIT:0 "#T 国庫に財貨がない#!"
  ALERT_BAD_RESEARCH:0 "#T 非効率な研究#!"
