@@ -13,22 +13,24 @@ See source folder in reoisitory.
 - localization
 - descriptor.mod
 - fonts
-  - fonts.font
-  - Hellenism-Kana-SemiBold.ttf
-  - Hellenism-SemiBold.ttf
-  - font license texts and readme.txt
+    - fonts.font
+    - Hellenism-Kana-SemiBold.ttf
+    - Hellenism-SemiBold.ttf
+    - font license texts and readme.txt
 - title.jpg
-  - english
-    - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\game\localization\english
-  - replace
-    - clausewitz
-      - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\clausewitz\localization
-    - jomimi
-      - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\jomini\localization
-    - load_tips
-      - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\game\localization\load_tips
-    - gui
-      - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\game\localization\gui
+    - english
+        - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\game\localization\english
+    - replace
+        - clausewitz
+            - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\clausewitz\localization
+        - jomimi
+            - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\jomini\localization
+        - load_tips
+            - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\game\localization\load_tips
+        - gui
+            - C:\Program Files (x86)\Steam\steamapps\common\ImperatorRome\game\localization\gui
+        - english
+            - cultures_l_english.yml
 
 ## Steam workshop
 

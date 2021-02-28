@@ -76,6 +76,7 @@ def assembly_mod(mod_file_name,
         shutil.rmtree(mod_dir_path)
     os.makedirs(mod_dir_path, exist_ok=True)
     os.makedirs(mod_loc_replace_dir_path, exist_ok=True)
+    os.makedirs(_(mod_loc_replace_dir_path, "english"), exist_ok=True)
 
     # zip展開する
     with zipfile.ZipFile(resource_paratranz_main_zip_file_path) as existing_zip:
@@ -99,6 +100,11 @@ def assembly_mod(mod_file_name,
     shutil.copytree(_(ext_paratranz_main_dir_path, "utf8", "jomini", "localization"),
                     _(mod_loc_replace_dir_path, "jomini"))
 
+    # cultures_l_english.ymlを移動する
+    shutil.move(
+        _(ext_paratranz_main_dir_path, "utf8", "game", "localization", "english", "cultures_l_english.yml"),
+        _(mod_loc_replace_dir_path, "english"))
+
     # gameを移す
     shutil.copytree(src=_(ext_paratranz_main_dir_path, "utf8", "game", "localization", "english"),
                     dst=_(mod_loc_root_dir_path, "english"),
@@ -107,7 +113,8 @@ def assembly_mod(mod_file_name,
                                                   "macroregions_l_english.yml",
                                                   "nicknames_l_english.yml",
                                                   "provincenames_l_english.yml"
-                                                  "regionnames_l_english.yml"
+                                                  "regionnames_l_english.yml",
+                                                  "cultures_l_english.yml"
                                                   ))
 
     # ダウンロードしたファイルから
@@ -178,6 +185,7 @@ def generate_distribution_file(url,
 
     with open(out_file_path, "w", encoding="utf-8") as fw:
         json.dump(d_new, fw, indent=2, ensure_ascii=False)
+
 
 def update_source(mod_folder_path):
     shutil.rmtree("source", ignore_errors=True)
