@@ -270,7 +270,7 @@
  paralysis:0 "麻痺"
  paralysis_desc:0 "部分麻痺は神経や脳の損傷を含むさまざまな要因によって引き起こされる。"
  brain_damaged:0 "脳損傷"
- brain_damaged_desc:1 "Brain damage is a terrible affliction that can render the victim a shell of their former self. Resulting from many inflammatory or physical injuries, the bearer will usually require constant care during the time they have left."
+ brain_damaged_desc:1 "脳損傷は、被害者を言わば自身の抜け殻のようにしてしまう恐ろしい症状である。多くの炎症性または身体的損傷の結果として、罹患者に残された時間のあいだ、通常は継続的な介護が必要とされる。"
  seeking_treatment_trait:0 "治療中"
  seeking_treatment_trait_desc:0 "医術は神秘的な技術だが、ともかく苦しみがなくなるなら何だっていい。"
  mourning:0 "喪中"

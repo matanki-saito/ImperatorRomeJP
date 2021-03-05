@@ -89,7 +89,7 @@
  trade_access_impact:0 "$TARGET$に対する交易権の交渉"
  barbarian_demand_surrender_impact:0 "降伏の要求"
  barbarian_create_client_impact:0 "属国化の提案"
- barbarian_payoff_impact:0 "Pay Off Barbarians"
+ barbarian_payoff_impact:0 "蛮族の買収"
  barbarian_settle_impact:0 "蛮族の定住の許可"
  fabricate_claim_impact:0 "$TARGET$に対する請求権の捏造"
  invite_to_defensive_league_impact:0 "$TARGET$に対する防衛同盟への招待"

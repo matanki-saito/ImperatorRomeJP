@@ -311,7 +311,7 @@
  me_greek_2_greece.22.desc:0 "The need for soldiers to serve in the Hellenic armies and protect the borders and interests of all Greece has never been greater.\n\nNow our politicians put forward a suggestion to better integrate our brother cities into our military, to ensure a steady supply of recruits."
  me_greek_2_greece.22.a:0 "The safety of Greece requires it."
  me_greek_2_greece.22.at:0 "$me_gre_task_start_tt_2$ demanding feudatory levies."
- me_greek_2_greece.23.t:0 "$greek_2_15$: The Levy"
+ me_greek_2_greece.23.t:0 "$greek_2_15$：召集兵"
  me_greek_2_greece.23.desc:0 "[gm_2_greek_scope.GetRulerTitle] [gm_2_greek_scope.GetRuler.GetPraenomen] has completed legislation that will demand larger contributions of manpower from our Hellenic subject states.\n\n$me_greek_2_greece_own_good_desc$"
  me_greek_2_greece_own_good_desc:0 "They may not like it, but it is for their own good and that of Greeks everywhere."
  me_greek_2_greece.23.a:0 "It is merely the price of freedom..."

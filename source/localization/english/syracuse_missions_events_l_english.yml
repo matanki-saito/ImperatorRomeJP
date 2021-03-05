@@ -418,7 +418,7 @@
  me_syracuse_1_democracy.61.desc_4:0 "\n\n[me_syr_deal_with_devil_scope.GetName] is clearly impatient to hear our response, and we must not keep them waiting any longer."
  me_syracuse_1_democracy.61.a:0 "We will keep our promises."
  me_syracuse_1_democracy.61.b:0 "They will have to fight for it."
- me_syracuse_1_democracy.61.bt:0 "Carthage gains claims on our territory."
+ me_syracuse_1_democracy.61.bt:0 "$CAR$は我が国の区域に請求権を得ます"
  me_syracuse_1_democracy.62.t:0 "$syracuse_1_9_taking_stock$: The Debt"
  me_syracuse_1_democracy.62.desc:0 "In the aftermath of their civil war, our envoys have approached the new [me_syracuse_scope.GetAdjective] leader to request repayment."
  me_syracuse_1_democracy.62.desc_1:0 "They have wisely agreed to the keep their promises and made the arrangements. They may turn out to be useful after all."

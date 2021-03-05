@@ -52,4 +52,4 @@
  government_MAPMODE:0 "政体マップモード"
  government_MAPMODE_DESC:0 "#T 政体マップモード#!\n国ごとの政体を表示します。"
  levies_MAPMODE:0 "召集兵マップモード"
- levies_MAPMODE_DESC:0 "#T 招集兵マップモード#!\nこのマップモードでは自国の総督領の#Y 招集兵#!を表示し、マップ上から動員することができます。"
+ levies_MAPMODE_DESC:0 "#T 召集兵マップモード#!\nこのマップモードでは自国の総督領の#Y 召集兵#!を表示し、マップ上から動員することができます。"

@@ -22,4 +22,4 @@
  riverine_terrain:0 "河川"
  riverine_terrain_desc:0 "大半の河川は船が航行するには適していないが、中には小型船が航行するのに十分な広さや深さを持つところもあります。"
  impassable_terrain:1 "通行不可能"
- impassable_terrain_desc:1 "Some types of terrain were just not meant to be traversed. Uneven, inhospitable, dangerous, or simply ill suited for navigation."
+ impassable_terrain_desc:1 "人が通行することを想定していない地形もあります。急峻な地、荒れ果てた地、危険な地、あるいは単純に航海に適していない地などです。"

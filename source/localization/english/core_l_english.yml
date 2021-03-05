@@ -51,7 +51,7 @@
  OCCUPATION_FINISHED_IN_X_DAYS:1 "占領はあと$VAL|Y$日で終わります\n占領期間は以下の理由によります：\n$WHY$"
  LONGSTATE_OF:0 "$REGION$地域　$NAME$州"
  STATE_OF:0 "$NAME$州"
- BUILDING_LEVEL_TOOLTIP:2 "#T 建設可能な建物#!\n各都市は最低#H 1#!つ、さらに都市$NAME|Y$の$POP|Y$POPごとに#H 1#!つの建物を建設できます。現在のPOP数は$CURR|Y$です。"
+ BUILDING_LEVEL_TOOLTIP:2 "#T 建設可能な建造物#!\n各都市は最低#H 1#!つ、さらに都市$NAME|Y$の$POP|Y$POPごとに#H 1#!つの建物を建設できます。現在のPOP数は$CURR|Y$です。"
  BUILDING_LEVEL_ADDITIONAL:1 "\n追加で$VAL|=+$個の建物：\n"
  EVENT_DEBUG_CHARACTER_EVENT:0 "イベント：$EVENT$ 人物：$NAME$ [$ID$]\n"
  SCOPE_DEBUG_CHARACTER:0 "人物 $NAME$[$ID$]"

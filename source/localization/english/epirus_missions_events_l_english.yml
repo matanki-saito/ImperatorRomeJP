@@ -615,7 +615,7 @@
  me_epirus_3_greece.29.desc_3:0 "[me_epi_3_4_claimant_scope.GetSheHe|U] is a mere petty noble, with only the most tenuous of links to the royal branch of the [me_epi_3_4_claimant_emp_scope.GetRuler.GetFamilyDisplayAdjective] family, but enough to rally a mob behind with promises of riches."
  me_epirus_3_greece.29.desc_4:0 "\n\n[me_epirus_scope.GetRulerTitle] [me_epirus_scope.GetRuler.GetPraenomen] of [me_epirus_scope.GetName] has clearly lost all sense of propriety, and is using our petty disputes to justify [me_epirus_scope.GetRuler.GetHerHis] own hubristic ambitions!"
  me_epirus_3_greece.29.a:0 "Outrageous!"
- me_epirus_3_greece.29.at:0 "[me_epirus_scope.GetName] gains claims on #Y [me_epi_3_4_claimant_emp_scope.GetName]#!."
+ me_epirus_3_greece.29.at:0 "[me_epirus_scope.GetName]は#Y [me_epi_3_4_claimant_emp_scope.GetName]#!に請求権を得ます"
  me_epirus_3_greece.30.t:0 "$epirus_3_greece_4$: The [me_epi_3_4_claimant_emp_scope.GetAdjective] Claimant"
  me_epirus_3_greece.30.desc:0 "[me_epi_3_4_claimant_scope.GetName] has accepted our support for [me_epi_3_4_claimant_scope.GetHerHis] claim to the throne of [me_epi_3_4_claimant_emp_scope.GetName], and has arrived in [me_epirus_scope.GetName] seeking our protection.\n\n"
  me_epirus_3_greece.30.desc_1:0 "\n\nThe outraged [me_epi_3_4_claimant_emp_scope.GetAdjective] state has of course denounced our illegitimate meddling, but we have achieved our aims nonetheless."

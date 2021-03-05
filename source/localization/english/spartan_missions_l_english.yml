@@ -1,9 +1,9 @@
 ﻿l_english:
- spartan_mission_01_laconia:0 "Spartan Restoration"
- spartan_mission_01_laconia_BUTTON_TOOLTIP:0 "Sparta have by many been tossed aside like an artifact of the past. It is time for us to rise up and prove them all wrong."
+ spartan_mission_01_laconia:0 "スパルタの復興"
+ spartan_mission_01_laconia_BUTTON_TOOLTIP:0 "スパルタはまるで過去の遺物のように隅に追いやられていた。今こそ立ち上がりそれが間違いだったと思い知らせる時だ。"
  spartan_mission_01_laconia_DESCRIPTION:0 "We have been ravaged by ambitious foreign warlords jealous of the might of Sparta, leaving us weakened and without our allies and subjects of old. If we are to become an important regional actor in Greece again, we need to restore the city of Sparta to its former glory and put an end to our local rivals."
- spartan_mission_01_laconia_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when you have conquered and consolidated all of Laconia."
- spartan_mission_01_laconia_task_1:0 "Spartan Resurgence"
+ spartan_mission_01_laconia_CRITERIA_DESCRIPTION:0 "このミッションはラコニア全土を征服し併合したときに完了したとみなされます。"
+ spartan_mission_01_laconia_task_1:0 "スパルタの復活"
  spartan_mission_01_laconia_task_1_DESC:0 "The first step in preparing the new rise of Sparta is to rebuild our home."
  spartan_mission_01_laconia_task_2:0 "Laconian Food"
  spartan_mission_01_laconia_task_2_DESC:0 "When we lost Messenia during Thebes' invasion, we had to make do with what we had. After that painful ordeal, we must learn to make the most out of the farmland in Laconia."

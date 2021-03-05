@@ -250,7 +250,7 @@
  italian_flavor.4.desc:0 "使者がタレントゥムから良い知らせを持って帰還した。タレントゥムの元老院は我々の属国の一つになるという提案を承諾すると決定したのだ。\n\nこれよりタレントゥム人はローマの同盟者として知られることになり、彼らを我々自身であるかのように保護しなければならない。"
  italian_flavor.4.a:0 "そうあるべきであろうな。"
  italian_flavor.5.t:0 "タレントゥムの攻勢"
- italian_flavor.5.desc:0 "The messenger returns from Tarentum, with bad news. Not only have the Tarantines rejected our offer, but they have gathered their armies to oppose Rome.\n\nSupposedly, the [SCOPE.sCountry('tarentum_country').GetRulerTitle] of Tarentum has declared that Rome will burn and our people be crushed underneath the hooves of the Tarantine cavalry."
+ italian_flavor.5.desc:0 "使者はタレントゥムから悪い知らせをもって帰還した。タレントゥムは我々の提案を拒否しただけではなく、ローマと対抗するために軍を招集しているという。\n\nタレントゥムの[SCOPE.sCountry('tarentum_country').GetRulerTitle]は、ローマは炎上し、ローマの民はタレントゥム騎兵の蹄に踏み潰されることになる、と宣言していることであろう。"
  italian_flavor.5.a:0 "はっ、来るなら来てみろ。"
  italian_flavor.6.t:0 "ローマの要求"
  italian_flavor.6.desc:0 "我々がローマの属国となることに合意してから数年が過ぎた。人々は我々が再び尊厳をもって扱われるべきであるとして、宗主国との協定を破棄するように主張し始めている。ローマ人は我々に戦闘における支援と、我が民を彼らの軍に仕えさせることを期待しているが、いまだにマルシアには何も見返りが与えられていない。"

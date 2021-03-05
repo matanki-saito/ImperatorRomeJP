@@ -52,7 +52,7 @@
  athenian_mission_01_foreign_rulership_task_11_custom_loc_desc_1:0 "#R [SCOPE.ScriptValue('athenian_mission_01_foreign_rulership_task_11_current')|0]#!"
  athenian_mission_01_foreign_rulership_task_11_custom_loc_desc_2:0 "#Y [SCOPE.ScriptValue('athenian_mission_01_foreign_rulership_task_11_current')|0]#!"
  athenian_mission_01_foreign_rulership_task_11_effect_tt:0 "#Y [loyalist_family.GetName]#!一門のすべての人物が#Y [SCOPE.GetRootScope.GetCountry.GetName]#!から追放されます"
- athenian_mission_01_foreign_rulership_task_11_effect_tt_2:1 "Every $PRY_DYN_ADJ$ overseer will be killed."
+ athenian_mission_01_foreign_rulership_task_11_effect_tt_2:1 "$PRY_DYN_ADJ$のすべての監督官が殺害されます"
  athenian_mission_01_foreign_rulership_task_final_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!はミッション完了時に大きな恩恵を受け取ります"
  athenian_mission_01_foreign_rulership_task_final_tt_2:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!はミッション完了時に独立国になります"
  athenian_mission_02_attica:0 "アッティカの復興"

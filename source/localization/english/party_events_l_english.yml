@@ -1,5 +1,5 @@
 ﻿l_english:
- party_events_rome.1.t:0 "Corruption in the [ROOT.GetCountry.Custom('get_court_type')|U]"
+ party_events_rome.1.t:0 "[ROOT.GetCountry.Custom('get_court_type')|U]の腐敗"
  party_events_rome.1.desc:0 "The leadership of [ROOT.GetCountry.GetName] has become increasingly unpopular among the $populares_party$, often finding themselves at odds with the faction led by [populares_leader.GetName]. After a particularly exhausting [ROOT.GetCountry.Custom('get_court_type')|U] discussion, [populares_leader.GetPraenomen] wants to talk to [ROOT.GetCountry.GetRuler.GetPraenomen] in private, to find some common ground between them."
  party_events_rome.1.a:0 "We all know what [populares_leader.GetPraenomen] really wants."
  party_events_rome.1.a.tt:0 "This option is available because #Y [populares_leader.GetName]#! is corrupt."
