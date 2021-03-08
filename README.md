@@ -36,6 +36,14 @@ See source folder in reoisitory.
 
 [https://steamcommunity.com/sharedfiles/filedetails/?id=2407040628](https://steamcommunity.com/sharedfiles/filedetails/?id=2407040628)
 
+## Other install
+
+1. Click the Green "Code" button in this page
+2. Click "Download ZIP" on modal
+3. Unzip the downloaded zip file
+4. Move the contents of the `source` folder to the `mod` folder. The `mod` folder is following
+  `C:\Users\!!!YOUR_USER_NAME!!!\Documents\Paradox Interactive\Imperator\mod`
+
 ## Translation workspace
 
 [https://paratranz.cn/projects/335](https://paratranz.cn/projects/335)
