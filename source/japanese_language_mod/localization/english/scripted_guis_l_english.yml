@@ -176,7 +176,7 @@
  SCHEME_FAILURE:0 "前回の計画：失敗！"
  SCHEME_SUCCESS:0 "前回の計画：成功！"
  make_into_tributary_state_tt:0 "#Y [SCOPE.sState('target_state').GetState.GetShortName]#!を#Y 進貢国#!とする"
- LEAGUE_CITY_BUTTON:0 "#T Create League City#!\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( ProvinceWindow.GetProvince.MakeScope ).AddScope('player', Player.MakeScope ).End )]"
+ LEAGUE_CITY_BUTTON:0 "#T 都市同盟の作成#!\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( ProvinceWindow.GetProvince.MakeScope ).AddScope('player', Player.MakeScope ).End )]"
  NOMINATE_HEIR_BUTTON:0 "選定"
  confirm_anoint_heir_t:0 "[SCOPE.GetRootScope.GetCharacter.GetName]を選定する"
  confirm_anoint_heir_desc:0 "[SCOPE.GetRootScope.GetCharacter.GetName]を後継者として選定してもよろしいですか？\n\nこれにより、[SCOPE.GetRootScope.GetCharacter.GetHerHim]は[SCOPE.GetRootScope.GetCharacter.GetCountry.GetRuler.GetName]が亡くなった後の統治者となります。"
