@@ -188,9 +188,8 @@ def generate_distribution_file(url,
 
 
 def update_source(mod_folder_path):
-    shutil.rmtree("source", ignore_errors=True)
-    shutil.copytree(mod_folder_path, _("source"))
-
+    shutil.rmtree(_("source","japanese_language_mod"), ignore_errors=True)
+    shutil.copytree(mod_folder_path, _("source", "japanese_language_mod"))
 
 def main():
     # 一時フォルダ用意
