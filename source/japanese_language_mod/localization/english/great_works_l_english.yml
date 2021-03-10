@@ -124,7 +124,7 @@
  GREAT_WORK_LOCATOR_IS_FREE:0 "Has space for this wonder"
  GREAT_WORK_LOCATOR_IS_NOT_FREE:0 "Has no space for this wonder"
  BUILD_GREAT_WORK_EFFECT:0 "$NAME|Y$ will be built in [PROVINCE.GetName|Y]"
- BEGIN_GREAT_WORK_CONSTRUCTION_EFFECT:0 "Starts the construction of $NAME|Y$ in [PROVINCE.GetName|Y]"
+ BEGIN_GREAT_WORK_CONSTRUCTION_EFFECT:0 "Starts the construction in [PROVINCE.GetName|Y]"
  FINISH_GREAT_WORK_CONSTRUCTION_EFFECT:0 "Completes the construction of $NAME|Y$ in [PROVINCE.GetName|Y]"
  GW_CONSTRUCTION_IN_PROGESS:0 "The construction of [GreatWork.GetName] is progressing!"
  tower:0 "塔"

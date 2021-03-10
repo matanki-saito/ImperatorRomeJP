@@ -395,7 +395,7 @@
  flavor_egy.19.a:0 "今日では誰もがアレクサンドロスになり得る。"
  flavor_egy.19.at:0 "$CYR$は独立国になります。"
  flavor_syr.2.t:0 "才人アルキメデス"
- flavor_syr.2.desc:0 "[syracuse_scope.GetName]の宮廷では[archimedes_scope.GetPraenomen]なる人物の名前が頻繁に聞こえてくる。[archimedes_scope.GetHerHis]は熟達した数学者であり、斬新な発想の持ち主として多くの人々の印象に残っているようだ。\n\n[archimedes_scope.GetSheHe]は天文学者の息子で、エジプトのアレクサンドリアで学問を修めたそうだ。[archimedes_scope.GetHerHis|U]の才能は、単なる理論の応用よりもむしろ…"
+ flavor_syr.2.desc:0 "[syracuse_scope.GetName]の集会場では[archimedes_scope.GetPraenomen]なる人物の名前が頻繁に聞こえてくる。[archimedes_scope.GetHerHis]は熟達した数学者であり、斬新な発想の持ち主として多くの人々に知られているようだ。\n\n天文学者の息子であり、エジプトのアレクサンドリアで学問を修めた[archimedes_scope.GetHerHis|U]の才能は、単なる理論の応用よりもむしろ…"
  flavor_syr.2.a:0 "[archimedes_scope.GetSheHe]の更なる発見に期待しよう。"
  flavor_syr.2.at:0 "[archimedes_scope.GetPraenomen]が[archimedes_scope.GetEmployer.GetName]に現れます"
  seleucid_maurya_start.5.b.tt:0 "#Y $MRY$#!は以下を受け取ります：\n"

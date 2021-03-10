@@ -87,7 +87,7 @@
  game_concept_governorship:0 "総督領"
  game_concept_governorships:0 "総督領"
  game_concept_governorship_desc:1 "総督領は最も大きな行政区分です。特定の[country|E]における[region|E]の一種であり、1またはそれ以上の[provinces|E]によって形成されています。\n\nそれぞれの[governor|E]は、自分が治める総督領で動員された召集兵たちの指揮官となります。[legions|E]もまた[governorships|E]単位で動員されますが、その指揮官となるのは任命された[legates|E]と[tribunes|E]です。"
- GAME_GOVERNORSHIP_TOOLTIP:0 "地域：[Governorship.GetRegion.GetName]\n首都：[Governorship.GetCapital.GetName]\n所有国：[Governorship.GetOwner.GetName]\n総督：[Governorship.GetGovernor.GetName]\n州：[Governorship.GetStatesLink]"
+ GAME_GOVERNORSHIP_TOOLTIP:1 "Region: [Governorship.GetRegion.GetName]\nCapital: [Governorship.GetCapital.GetName]\nOwner: [Governorship.GetOwner.GetName]\nGovernor: [Governorship.GetGovernorOrRuler.GetName]\nProvinces: [Governorship.GetStatesLink]"
  GAME_GOVERNORSHIP_STATES_TITLE:0 "Provinces in [Governorship.GetNameWithNoTooltip]"
  game_concept_governor:0 "総督"
  game_concept_governors:0 "総督"
@@ -205,3 +205,4 @@
  game_concept_legion_commanders_desc:0 "特定の[legion|E]の指揮権を与えられた[characters|E]です。彼らは[legate|E]または[tribune|E]のどちらかとなります。また必要に応じて、他のユニットの[Concept( 'legion_reassignment', 'assume control' )|E]となることもあります。"
  game_concept_legion_reassignment:0 "Legion Reassignment"
  game_concept_legion_reassignment_desc:0 "Because coordination is critical to the success of a [legion|E], [Concept( 'legion_commanders', 'Commanders' )|E] without [units|E] may rise to the occasion and assume control of a unit on extraordinary occasions, such as the previous commander's death, to ensure no units are left to their own devices."
+ READ_MORE_ABOUT:0 "Read more about"

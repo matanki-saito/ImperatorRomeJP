@@ -47,7 +47,7 @@
  me_epirus_1_epirus.7.b:0 "Fools."
  me_epirus_1_epirus.7.bt:0 "We receive all Taulantian territories south of #Y Epidamnos#! and #Y Parthos#!."
  me_epirus_1_epirus.8.t:0 "$epirus_1_epirus_8$: The Rise of [berenicis_scope.GetName]"
- me_epirus_1_epirus.8.desc:0 "Our workers have finally finished establishing the major buildings and infrastructure of our new city on the Ionian coast. Settlers from nearby settlements and across [me_epirus_scope.GetName] have begun to descend on their on their plots and begin their new lives in the city."
+ me_epirus_1_epirus.8.desc:0 "Our workers have finally finished establishing the major buildings and infrastructure of our new city on the Ionian coast. Settlers from nearby settlements and across [me_epirus_scope.GetName] have begun to descend on their plots and begin their new lives in the city."
  me_epirus_1_epirus.8.a:0 "Even the greatest things have small beginnings."
  me_epirus_1_epirus.8.tt:0 "$mission_task_completed_tt_1$$epirus_1_epirus_8$$mission_task_completed_tt_2$"
  me_epirus_1_epirus.9.t:0 "$epirus_1_epirus_9$: Secure the Coast"

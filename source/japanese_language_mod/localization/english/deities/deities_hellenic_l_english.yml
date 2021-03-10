@@ -296,7 +296,7 @@
  omen_apollo_nabu_desc:0 "Apollo-Nabû is a syncretic deity worshiped by Greek emigrants to Babylonia and Mesopotamia, who saw the local Nabû and merged it with their own Apollo. With the rulers of the Seleukid Empire claiming to be descendants of the Greek Apollo, they in particular have promoted the syncretic deity in lands they have ruled."
  deity_zeus_belos:0 "$omen_zeus_belos$"
  omen_zeus_belos:0 "Zeus Belos"
- omen_zeus_belos_desc:0 "Zeus Belos is a syncretic deity worshiped in Babylonia and Mesopotamia in some of the flourishing Greek cities in the area. After the syncretic Apollo-Nabû started becoming more popular in Seleukid lands, the locals started treating the two fathers of Apollo and Nabû, Zeus and Marduk, as a syncretic deity as well. [GetDeityDefinition('omen_zeus').GetName]"
+ omen_zeus_belos_desc:0 "Zeus Belos is a syncretic deity worshiped in Babylonia and Mesopotamia in some of the flourishing Greek cities in the area. After the syncretic Apollo-Nabû started becoming more popular in Seleukid lands, the locals started treating the two fathers of Apollo and Nabû, Zeus and Marduk, as a syncretic deity as well."
  deity_dionysos_kathegemon:0 "$omen_dionysos_kathegemon$"
  omen_dionysos_kathegemon:0 "Dionysos Kathegemon"
  omen_dionysos_kathegemon_desc:0 "$dionysus_description$\n\n#Y Kathegemon#!: The epithet 'the Leader' is given to Dionysos in the region around Aeolia and Pergamon in Asia, where he takes on a more prominent role as the chief deity of some cities."

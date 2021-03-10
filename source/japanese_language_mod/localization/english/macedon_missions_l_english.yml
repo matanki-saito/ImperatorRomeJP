@@ -44,7 +44,7 @@
  macedon_01_legacy_12_DESC:0 "With [GetCharacter('(int32)39').GetPraenomen]'s sons no longer a threat, the line of [GetCharacter('(int32)287').GetPraenomen], his half-sister, is the closest link to the Argead dynasty and the legitimacy their bloodline bestows."
  macedon_01_legacy_12_allow_tt:0 "Our [me_macedon_scope.GetRulerTitle] ([me_macedon_scope.GetRuler.GetName]) has the trait '#Y $argeads$#!'."
  macedon_01_legacy_13:0 "The Illyrian Question"
- macedon_01_legacy_13_DESC:0 "The Taulantians continue to pose a threat on our eastern border, scheming with the Epirotes and Dardanians to avenge their defeats to [GetCharacter('(int32)35').GetPraenomen] and [GetCharacter('(int32)39').GetPraenomen]; they must be brought to heel."
+ macedon_01_legacy_13_DESC:0 "The Taulantians continue to pose a threat on our western border, scheming with the Epirotes and Dardanians to avenge their defeats to [GetCharacter('(int32)35').GetPraenomen] and [GetCharacter('(int32)39').GetPraenomen]; they must be brought to heel."
  macedon_01_legacy_13_allow_tt:0 "@[GetCountry('TLN').GetFlag]! [GetCountry('TLN').GetName|Y] no longer exists or is a subject of @[GetCountry('MAC').GetFlag]! [GetCountry('MAC').GetName|Y]."
  mac_01_11_pmod:0 "$macedon_01_legacy_11$"
  desc_mac_01_11_pmod:0 "The mines which once funded the mercenaries and pensions of Macedon's great army have been steadily drying up."

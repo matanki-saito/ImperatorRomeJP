@@ -51,3 +51,4 @@
  game_invention_struct:0 "#TOOLTIP:INVENTION,$DESC_KEY$ $KEY_LOC|L$#!"
  game_levy_breakdown_struct:0 "#TOOLTIP:LEVY_BREAKDOWN,$TEMPLATE_ID$,$SUBUNIT_ID$ $PERCENTAGE|0%E$#!"
  game_military_bonus_struct:0 "#TOOLTIP:MILITARY_TRADITION,$DESC_KEY$ $KEY_LOC|L$#!"
+ game_unit_assault_power_struct:0 "#TOOLTIP:UNIT_ASSAULT_POWER,$DESC_KEY$ $KEY_LOC|L$#!"

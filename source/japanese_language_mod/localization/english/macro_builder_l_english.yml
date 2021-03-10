@@ -32,3 +32,4 @@
  MACRO_BUILDER_SORT_BUILD_AMOUNT_TT:0 "#t 建造可能数で並べ替え#!"
  construct_city_buildings_TOOLTIP:0 "#t 都市建造物を建築#!"
  construct_city_buildings:0 "都市建造物を建築"
+ MARCO_BUILDER_BUILD_BUILDING_INSTRUCTIONS_TOOLTIP:0 "\n#G Left-Click#! will construct a building.\n#G Right-Click#! will cancel a queued building, or destroy a building if there are none queued."

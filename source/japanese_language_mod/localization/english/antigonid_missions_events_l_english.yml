@@ -176,7 +176,7 @@
  me_antigonid_1_vision.94.t:0 "$antigonid_01_vision_9$: [me_antigonids_scope.GetAdjective] Colonists"
  me_antigonid_1_vision.94.desc:1 "[me_antigonids_scope.GetAdjective] representatives have been spinning tales of a new life in every Greek agora, encouraging our people to venture new lives in the east. Some call them traitors, others desperate cases, but either way our population has suffered."
  me_antigonid_1_vision.94.a:0 "Good luck to them..."
- me_antigonid_1_vision.94.tt:0 "[ROOT.GetCountry.MakeScope.GetVariable('me_ant_01_9_sub_pop_contributor')|0Y]"
+ me_antigonid_1_vision.94.tt:1 "[SCOPE.GetRootScope.GetCountry.MakeScope.GetVariable('me_ant_01_9_sub_pop_contributor').GetValue|0Y] Pops have moved to @[SCOPE.GetRootScope.GetCountry.GetOverlord.GetFlag]! [SCOPE.GetRootScope.GetCountry.GetOverlord.GetName]"
  me_antigonid_1_vision.95.t:0 "$antigonid_01_vision_9$: [me_ant_01_9_sub_scope.GetAdjective] Colonists"
  me_antigonid_1_vision.95.desc:0 "Our attempts to attract Greek colonists have found enthusiasm in the agora of [me_ant_01_9_sub_scope.GetCapital.GetName] and beyond, where citizens and subjects of our clients in [me_ant_01_9_sub_scope.GetName] yearn for opportunities of a new life in the east. However, their government may resent our coaxing, which has not always been genial..."
  me_antigonid_1_vision.95.a:0 "Perfect."

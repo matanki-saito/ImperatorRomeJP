@@ -39,3 +39,6 @@
  warfare.9.t:0 "海での行方不明"
  warfare.9.desc:0 "実のところ何が起きたのか目撃した者はいないのだが、どうやら[ROOT.GetCharacter.GetName]は戦闘中に飛んできた物体に衝突されたようだ。[ROOT.GetCharacter.GetSheHe]は[battle_location.GetName]で指揮を執っていた。\nその衝撃は致命的だったらしく、[ROOT.GetCharacter.GetSheHe]は生命の兆候を示していない。"
  warfare.9.a:0 "[ROOT.GetCharacter.GetSheHe]を弔おう。"
+ warfare.17.t:0 "...What's That?"
+ warfare.17.desc:0 "Surveying the successful siege of Argos, the divine, multitalented Pyrrhos, casts his passionless eyes about the carnage. As he strides with lion-like grace into the city's main square, something glints on a rooftop...\n\nAs he scans the horizon, another movement catches his eye. Fearing an ambush, he signals his loyal men, who fan out into a defensive formation with consummate discipline.\n\nThen - another sound - this time from behind.\n\n'What's that?', he cries..."
+ warfare.17.a:0 "No! Struck down in his prime!?"
