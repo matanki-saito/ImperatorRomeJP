@@ -284,7 +284,7 @@
  carthaginian_rome_expansion_mission_task_10_DESC:0 "今こそ強情なことで有名なローマの男女を効率的な奴隷として彼らが所属することになる我々の田畑へと向かわせる時だ。"
  carthaginian_rome_expansion_mission_task_10_trigger_tt:0 "[SCOPE.sCountry('mission_country').GetCapital.GetName]に#Y ローマ#!文化の#Y 奴隷#!が#Y [SCOPE.ScriptValue('carthaginian_rome_expansion_roman_blood_max_svalue')|0]#!以上存在している（#Y [SCOPE.ScriptValue('carthaginian_rome_expansion_roman_blood_current_svalue')|0]#!/#Y [SCOPE.ScriptValue('carthaginian_rome_expansion_roman_blood_max_svalue')|0]#!）"
  carthaginian_rome_expansion_mission_task_11:0 "永遠なる都"
- carthaginian_rome_expansion_mission_task_11_DESC:0 "Some claimed the grand city of Rome would stand the test of time, a sight to behold for millennia to come. They were wrong."
+ carthaginian_rome_expansion_mission_task_11_DESC:0 "ローマは時の試練に耐え得る都市であり、千年期の到来はさぞ見ものだろうと言う者もいたが、誤りだったようだ。"
  carthaginian_rome_expansion_mission_task_11_tt:1 "#Y [SCOPE.sCountry('rome_country').GetName]#!が[GetProvince('(int32)1').GetArea.GetRegion.GetName|Y]州と[GetProvince('(int32)84').GetArea.GetRegion.GetName|Y]州のいかなる区域も領有していない"
  carthaginian_rome_expansion_mission_task_12:0 "カルタゴのオスティア"
  carthaginian_rome_expansion_mission_task_12_DESC:0 "オスティアの港は長くローマ共和国の主要港であり、かつてなく欲深い文明のために知りうるすべての世界から交易品を輸入していた。"

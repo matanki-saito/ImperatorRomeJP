@@ -205,4 +205,4 @@
  game_concept_legion_commanders_desc:0 "特定の[legion|E]の指揮権を与えられた[characters|E]です。彼らは[legate|E]または[tribune|E]のどちらかとなります。また必要に応じて、他のユニットの[Concept( 'legion_reassignment', 'assume control' )|E]となることもあります。"
  game_concept_legion_reassignment:0 "Legion Reassignment"
  game_concept_legion_reassignment_desc:0 "Because coordination is critical to the success of a [legion|E], [Concept( 'legion_commanders', 'Commanders' )|E] without [units|E] may rise to the occasion and assume control of a unit on extraordinary occasions, such as the previous commander's death, to ensure no units are left to their own devices."
- READ_MORE_ABOUT:0 "Read more about"
+ READ_MORE_ABOUT:0 "詳細："
