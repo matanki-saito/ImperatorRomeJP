@@ -54,5 +54,5 @@
  eurymenai_history:0 "[CHARACTER.GetPraenomen|E]は[LEGION.GetName|E]を指揮し、[PROVINCE.GetName|E]近郊のエウリメナイにて[GetCharacter('(int32)32').GetPraenomen]配下のアカルナニア総督リュキスコスに敗北した。"
  oeniadae_epi_history:0 "[CHARACTER.GetPraenomen|E]は[LEGION.GetName|E]を指揮し、[PROVINCE.GetName|E]にて[GetCharacter('(int32)32').GetPraenomen]の弟[GetCharacter('(int32)149').GetPraenomen]に敗北した。"
  epirote_passes_history:0 "[CHARACTER.GetPraenomen|E]は[LEGION.GetName|E]を指揮し、マケドニアに向かう峠で[GetCharacter('(int32)32').GetPraenomen]の将軍アタリアスに敗北した。"
- legion_history_relocated:0 "[LEGION.GetName|E] was relocated to [LEGION.GetCountry.GetName|E]'s new capital [PROVINCE.GetName|E]."
- legion_history_migrated:0 "[LEGION.GetName|E] moved to [PROVINCE.GetName|E]"
+ legion_history_relocated:0 "[LEGION.GetName|E]は[LEGION.GetCountry.GetName|E]の新たな首都である[PROVINCE.GetName|E]に再配置されました。"
+ legion_history_migrated:0 "[LEGION.GetName|E]は[PROVINCE.GetName|E]に移動しました"

@@ -62,7 +62,7 @@
  city_output_reduced_tt:0 "都市開発が調整されている#Y 2#!年間にわたり、#Y [SCOPE.GetRootScope.GetProvince.GetName]#!の産出が#R 減少#!します。\n\n#Y 2#!年後："
  increase_civilization_cap_button_title_tt:0 "#T 都市開発を調整する#!"
  reduce_investments_by_1:0 "[SCOPE.sC('player').GetName]は無償の州投資を#R 1#!消費します（残り#Y [SCOPE.ScriptValue('free_investments_svalue')|/0]#!）\n\n"
- STATE_FREE_INVESTMENTS_TOOLTIP:1 "#T Free Province Investments#!\n#TF Various actions may grant you free Province Investments, which may be used in place of Influence to improve any of your Provinces."
+ STATE_FREE_INVESTMENTS_TOOLTIP:1 "#T 無償の州投資#!\n#TF 様々な行動によって無償の州投資が与えられます。これは州を改善するための影響力の代替として使用できます。"
  gain_1_free_investment_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!は無償の州投資を#Y 1#!獲得します"
  gain_2_free_investment_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!は無償の州投資を#Y 2#!獲得します"
  gain_3_free_investment_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!は無償の州投資を#Y 3#!獲得します"

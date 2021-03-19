@@ -300,7 +300,7 @@
  ADD_INNOVATIONS_EFFECT:0 "[COUNTRY.GetName] gains $VALUE|Y$ Innovations."
  mission_claim_area_tooltip:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!は[THIS.GetProvince.GetArea.GetName]への請求権を得ます"
  ADD_LEGION_HISTORY_EFFECT:0 "[LEGION.GetName|Y] will be remembered for this."
- ADD_DISTINCTION_EFFECT:0 "[LEGION.GetName|Y] will be awarded $DISTINCTION|E$"
+ ADD_DISTINCTION_EFFECT:0 "[LEGION.GetName|Y]は$DISTINCTION|E$を獲得します"
  UNIT_ADD_TO_LEGION_EFFECT:0 "[UNIT.GetName] will be added to [TARGET_LEGION.GetName]"
  CHARACTER_ADD_TO_LEGION_EFFECT:0 "[CHARACTER.GetName] will be added to [TARGET_LEGION.GetName]"
  RAISE_LEGION_EFFECT:0 "[GOVERNORSHIP.GetName] raises $NAME$"

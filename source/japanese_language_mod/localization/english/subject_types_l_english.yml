@@ -10,7 +10,7 @@
  mg_recruit_cooldown_string:0 "[SCOPE.sC('actor').GetVariableExpiry('mg_recruit_cooldown')|Y]までは再びこの行動を行うことができません"
  recruit_character_mg_syr:0 "傭兵王の選出"
  create_merc_state_price:0 "傭兵国家の創設"
- owned_by_us_tt:0 "Owned by us."
+ owned_by_us_tt:0 "我々が所有している"
  MERC_CITY_MONARCHY_EFFECT:0 "#Y 君主制#!の政体を採用している場合、#Y 5#!年に一度だけ現在の統治者を退位させ、#Y 傭兵国家#!の統治者に据えることができます。これは#Y 人物行動#!から行うことができ、#Y 傭兵契約法#!が制定されている必要があります。\n\n"
  LEAGUE_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y]は自由都市同盟となり、共和制となります。\n我が国の従属国となり、交易路と交易品の生産にボーナスを得ることができます。戦争に呼び出されることはなく、外交スロットを使用しませんが、外交的に統合することはできません。"
  league_city_title:0 "都市同盟の作成"

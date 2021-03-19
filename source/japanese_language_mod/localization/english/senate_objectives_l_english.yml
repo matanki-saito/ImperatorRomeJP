@@ -60,7 +60,7 @@
  senate_objective_increase_stability_generic:3 "Ensure Calm"
  senate_objective_increase_stability_generic_DESC:1 "The $traditionalist_party$ are distraught at the instability of our country and seek to ensure peace and concord are returned."
  senate_objective_convert_province_generic:2 "改宗"
- senate_objective_convert_province_generic_DESC:1 "The $traditionalist_party$ seek to ensure that the state religion is not superseded by that of our subjects or neighbors by encouraging its practice."
+ senate_objective_convert_province_generic_DESC:1 "$traditionalist_party$は国家の宗教が慣例の奨励などによって従属国や隣国の宗教に取って代わられぬよう努めている。"
  senate_objective_convert_province_generic_tt:0 "Dominant Religion of at least [SCOPE.ScriptValue('sen_obj_con_pro_max_svalue')|Y0] owned territories in the [sen_obj_con_pro_gen_state.GetName|Y] is [sen_obj_con_pro_gen_party.GetCountry.GetReligion.GetName|Y]. [THIS.GetCountry.Custom('senate_objective_convert_province_generic_custom')]"
  senate_objective_convert_province_generic_custom_ongoing:0 "([SCOPE.ScriptValue('sen_obj_con_pro_current_svalue')|R0]/[SCOPE.ScriptValue('sen_obj_con_pro_max_svalue')|Y0])"
  senate_objective_convert_province_generic_custom_complete:0 "([SCOPE.ScriptValue('sen_obj_con_pro_current_svalue')|Y0]/[SCOPE.ScriptValue('sen_obj_con_pro_max_svalue')|Y0])"

@@ -33,7 +33,7 @@
  succession_crisis.5.t:0 "氏族の会合"
  succession_crisis.5.desc:0 "[SCOPE.sChar('former_ruler').GetName]の死後、[ROOT.GetCountry.GetName]の氏族長たちは、この絶え間なく変化する時代に我々の民を導く情熱的で強力な指導者を選出するために集まった。濃密な議論を経たのち、[SCOPE.sChar('new_ruler').GetName]がすべての氏族要人が招待された盛大な儀式に召喚された。\n\nしかしながら多くの者が不満に思っており、彼ら自身あるいは別の者の方が上座により相応しいと望んでいる。我々はこの亀裂を修復し、[ROOT.GetCountry.GetName]の統治のためにすべての氏族長たちを束ねるよう取り組まねばならない。"
  succession_crisis.5.a:0 "いずれは彼らもこの状況を受け入れることだろう。"
- succession_veteran_tt:0 "[guy.GetName] gains up to [SCOPE.ScriptValue('country_size_revolt_value')|R0] Loyal Veterans"
+ succession_veteran_tt:0 "[guy.GetName]は最大[SCOPE.ScriptValue('country_size_revolt_value')|R0]の忠実な退役兵を得ます。"
  succession_crisis.6.t:0 "Pretender Placated"
  succession_crisis.6.desc:0 "Despite recent alarming moves, [placated_pretender.GetName] seems to have abandoned [placated_pretender.GetHerHis] ambitions to contest the throne of [placated_pretender.GetEmployer.GetName] and - at least publicly - avowed [placated_pretender.GetHerHis] loyalty to [placated_pretender.GetEmployer.GetRulerTitle] [placated_pretender.GetEmployer.GetRuler.GetName]."
  succession_crisis.6.a:0 "心配事がひとつ減ったな..."
