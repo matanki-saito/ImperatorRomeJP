@@ -175,5 +175,5 @@
  monarchy_events.45.b:0 "アレクサンドロスがもたらした多くの仕組みについて語ろう。"
  monarchy_events.45.c:1 "Bringing together people from all across the known world."
  monarchy_events.45.d:0 "彼の神性について語ろう。"
- monarchy_events.11.at:0 "#Y [SCOPE.sChar('spouse_scope').GetFamily.GetName]#!一門に属するすべての人物が#R 15#!の忠誠@loyalty_icon!を失います"
- monarchy_events.11.bt:0 "#Y [SCOPE.sChar('spouse_scope').GetFamily.GetName]#!一門に属する全ての人物が#R 5#!の忠誠@loyalty_icon!を失います"
+ monarchy_events.11.at:0 "#Y [SCOPE.sChar('spouse_scope').GetFamily.GetName]#!一門の全成員が忠誠@loyalty_icon!を#R 15#!失います"
+ monarchy_events.11.bt:0 "#Y [SCOPE.sChar('spouse_scope').GetFamily.GetName]#!一門の全成員が忠誠@loyalty_icon!を#R 5#!失います"

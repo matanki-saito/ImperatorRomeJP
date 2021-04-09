@@ -10,7 +10,7 @@
  POSSIBLE_SUCCESSORS:0 "後継者候補"
  CURRENT_SUCCESSORS:0 "現在の後継者"
  INFLUENCE_FROM_OFFICE:0 "$WHO$：$VAL|+=2$"
- MONTHLY_PARTY_SUPPORT_FOR:2 "#T $PARTY$への賛同#!\n現在の$PARTY|Y$への賛同は$CUR|2Y$で、以下の理由により毎月$VAL|+=$変化します：\n\n$WHY$"
+ MONTHLY_PARTY_SUPPORT_FOR:2 "#T $PARTY$の賛同#!\n現在の$PARTY|Y$の賛同は$CUR|2Y$で、以下の理由により毎月$VAL|+=$変化します：\n\n$WHY$"
  PARTY_IN_POWER_TT:0 "現在$NAME|Y$が権力を握っています！"
  PARTY_TOOLTIP:2 "#T $NAME$#!\n統治者がこの派閥に属しているとき、次の補正の影響を受けます：\n$BONUS$\n\n#TF $DESC$#!"
  PARTY_LEADER_CHARISMA:0 "[SCOPE.sChar('actor').GetName]@oratory_icon!：$VALUE|+=$"

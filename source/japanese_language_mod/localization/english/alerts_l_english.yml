@@ -1,7 +1,7 @@
 ﻿l_english:
  ALERT_CAN_AFFORD_INVENTION:0 "#T 発明#!\n新しい発明を得ることが出来ます"
  ALERT_AT_WAR_WITH:0 "#T 戦争#!\n$DATA$と戦争中です"
- ALERT_CIVIL_WAR:0 "#T 内戦#!\n内戦中です。制圧された区域は反乱軍の領土となります！"
+ ALERT_CIVIL_WAR:0 "#T 内戦#!\n内戦中です。制圧された区域はすべて反乱軍の領土となります！"
  ALERT_CAN_BUY_MILITARY_TRADITION:0 "#T 軍事伝統#!\n新たな軍事伝統を得る事が出来ます"
  ALERT_CAN_CALL_OMEN:0 "#T 啓示#!\n啓示を受けることができます！"
  ALERT_CALL_ALLY:0 "#T 参戦要請#!\n以下の国に参戦を要請することができます：\n$DATA$"
@@ -11,7 +11,7 @@
  ALERT_NO_GOVERNOR:1 "#T 総督不在#!\n以下の地域には総督がいません"
  ALERT_NO_LEADER:1 "#T 指揮官不在#!\n以下のユニットには指揮官がいません"
  ALERT_DISLOYAL_STATES:2 "#T 不忠な州#!\n以下の州はもはや忠実ではありません。\nもし州の忠誠が#R 0#!になると、州は反乱を企てるかもしれません。"
- ALERT_DISLOYAL_CHARACTERS:2 "#T 不忠な人物#! － "
+ ALERT_DISLOYAL_CHARACTERS:2 "#T 不忠な人物#!－"
  ALERT_DISLOYAL_CHARACTERS_CHARACTER:0 "[CHARACTER.GetFullName]"
  ALERT_DEFICIT:0 "#T 国庫に財貨がない#!"
  ALERT_BAD_RESEARCH:0 "#T 非効率な研究#!"

@@ -360,7 +360,7 @@
  formable_not_euboea_exists:0 "#Y $EUBOEA_NAME$#!が存在しない"
  form_euboea:0 "エウボイアの形成"
  form_euboea_desc:0 "エウボイアには、様々な集団が島に定住し、島の支配権を握ろうとしてきた歴史がある。ギリシアの他の多くの地域がそうであるように、エウボイアの都市国家を同盟の下に集めることができれば、そこに住む人々のためにこの地域を確保することができるだろう。"
- horde_war_goal_tt:0 "For the next #Y 20#! years we will have access to the #Y Imperial Challenge# War Goal against all countries that are of the rank #Y Major Power#! or above, allowing us to instantly annex any territory we occupy from them."
+ horde_war_goal_tt:0 "#Y 20#!年間、#Y 主要国#!以上の国家すべてに対し戦争目標#Y 帝国への挑戦#!を行使できるようになります。これにより占領した区域の即時併合ができるようになります。"
  formable_not_chrysaoric_exists:0 "#Y Chrysaoric League#! must NOT exist."
  CHRYSAORIC_NAME:0 "Chrysaoric League"
  CHRYSAORIC_ADJ:0 "Chrysaoric"

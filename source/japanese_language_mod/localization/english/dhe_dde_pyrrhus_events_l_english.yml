@@ -44,7 +44,7 @@
  dhe_dde_pyrrhus.5.b:0 "ピュロス王万歳！"
  dhe_dde_pyrrhus.5.c:0 "彼は王にはなれぬ。"
  dhe_dde_pyrrhus.5.at:0 "$EPI$と[SCOPE.sC('pyrrhus_second_country_scope').GetName]は互いに評価が#G 100#!上昇します\n$EPI$は#Y 重歩兵#!を数部隊入手します"
- dhe_dde_pyrrhus.5.bt:0 "$EPI$と[SCOPE.sC('pyrrhus_second_country_scope').GetName]は互いに評価が#G 100#!上昇します\n$EPI$は#Y 重歩兵#!を数部隊と#Y  戦象#!を1部隊入手します"
+ dhe_dde_pyrrhus.5.bt:0 "$EPI$と[SCOPE.sC('pyrrhus_second_country_scope').GetName]は互いに評価が#G 100#!上昇します\n$EPI$は#Y 重歩兵#!を数部隊と#Y 戦象#!を1部隊入手します"
  dhe_dde_pyrrhus.5.ct:1 "$EPI$は#Y 重歩兵#!を数部隊入手し、[SCOPE.sC('pyrrhus_second_country_scope').GetName]からの評価を#R 50#!失います"
  dhe_dde_pyrrhus.6.t:0 "[SCOPE.sC('dhe_dde_pyrrhus_rome_scope').GetAdjective]の侵略"
  dhe_dde_pyrrhus.6.desc:1 "我々ギリシャ人は常にイタリアの隣人から強い圧力を受けていたが、何とかマグナ・グラエキアを保ち続けることができている。[SCOPE.sC('dhe_dde_pyrrhus_rome_scope').GetName]は拡張に向けてかなり積極的になって来ており、我々が戦争へ巻き込まれるのは避けられないだろう。彼の国は我々よりはるかに強大で、揃えられる軍は、たとえ我々に助けがあったとしても大きな脅威となるだろう。\n\n大昔、エペイロスのアレクサンドロス1世はマグナ・グラエキアに軍と共に遠征し、タレントゥムを攻略していたブルッティア人とルカニア人を打ち負かした。彼の兄弟の孫息子であるピュロスは皆の話によると有能な君主だと言う。もしかしたら、彼をして祖先の足跡を辿るよう誘い込めるかもしれない…"

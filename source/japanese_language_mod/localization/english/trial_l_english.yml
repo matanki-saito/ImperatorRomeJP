@@ -60,5 +60,5 @@
  trial.8.o_failure:0 "終わりだ…"
  trial.8.o_civil_war:0 "武器を取れ！"
  trial.8.o_civil_war_b:0 "$friend_rival.6.b$"
- trial_gets_better_inv:0 "This increases success chance of all #Y Trials#! by #Y 10%#!."
+ trial_gets_better_inv:0 "すべての#Y 裁判#!の成功率を#Y 10#!%上昇させます"
  corruption_sanctions_improved:0 "Imposing #Y Corruption Sanctions#! will no longer impose a loyalty malus upon the target."

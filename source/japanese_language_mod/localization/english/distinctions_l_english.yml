@@ -74,5 +74,5 @@
  legion_history_mutineers:3 "The mark of [GetLegionDistinction('distinction_dishonor_mutineers').GetName] was accorded for betraying their government in the revolt of [CHARACTER.GetName]."
  legion_history_impious:2 "The dishonor of [GetLegionDistinction('distinction_dishonor_impious').GetName] was bestowed after the sacking of [PROVINCE.GetName|E]."
  legion_history_lost:2 "For losing their commander in [PROVINCE.GetName], the dishonor of [GetLegionDistinction('distinction_dishonor_lost').GetName] was recorded."
- distinction_legion_default:0 "Legion Dedication"
- distinction_legion_default_desc:0 "The founding of any standing legion is a monumental day in the history of our nation. With pride and honor, our loyal troops shall remember the oaths they swore whenever they do battle against our foes."
+ distinction_legion_default:0 "軍団の献身"
+ distinction_legion_default_desc:0 "常備軍団の創設は、我が国の歴史上、記念すべき日である。誇りと名誉をもって、我らが忠実なる軍隊は、敵との戦いのたびに、彼らが誓った誓いを忘れてはならない。"

@@ -197,7 +197,7 @@
  me_diadochi_empire_events.20.t:0 "Technological Progress"
  me_diadochi_empire_events.20.desc:0 "The process of restoring agricultural productivity after years of conflict could be much improved if we let natural philosophers and scribes document and ponder how the work could be improved. This is at least what [researcher.GetName] and a group of other thinkers argue. They now implore [ROOT.GetCountry.GetRuler.GetName] to consider letting them survey and analyze the farming methods and the farms themselves. Creating a set of clearly delineated lots and providing the needy farmers with the latest technological inventions and methods they can offer. Of course such an undertaking would not be cheap."
  me_diadochi_empire_events.20.a:0 "Money is no object."
- agricultural_technological_progress:0 "Agricultural Innovation"
+ agricultural_technological_progress:0 "農業の革新"
  desc_agricultural_technological_progress:0 "Investment in the development of the latest agricultural technologies has spurred a general frenzy of scientific effort."
  food_tech_officer:0 "Agricultural Research Grant"
  no_food_progress_tt:0 "This option does not significantly improve the availability of food."

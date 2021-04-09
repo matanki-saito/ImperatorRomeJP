@@ -1,6 +1,6 @@
 ﻿l_english:
  GOV_POLICY_TT:0 "#T $NAME$#!\n$DETAILS$\n\n#TF $DESC$#!"
- GOVPOL_FOR_PROVINCES:1 "州の全ての区域は以下の効果を得ます：\n$DATA$"
+ GOVPOL_FOR_PROVINCES:1 "州の全区域は以下の効果を得ます：\n$DATA$"
  GOVPOL_FOR_GOVERNOR:0 "総督は以下を得ます：\n$DATA$"
  GOV_POLICY_MONTHLY_CHANCE:0 "毎月、次の効果が確率で発生します："
  GOVPOL_CAPITAL_PROVINCE:2 "#T 統治政策#!\nクリックして$NAME|Y$における新たな政策を選択します。これには$COST$のコストがかかります。"

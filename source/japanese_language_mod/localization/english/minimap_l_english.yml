@@ -1,7 +1,7 @@
 ﻿l_english:
  MAPMODE_TERRAIN:1 "$terrain_MAPMODE_DESC$"
  MAPMODE_POLITICAL:1 "$political_MAPMODE_DESC$"
- MAPACTION_FIND_PROVINCE:2 "#T 場所を探す#!\n#I  クリックすることで国や州、区域を検索することができます！#!"
+ MAPACTION_FIND_PROVINCE:2 "#T 場所を探す#!\n#I クリックすることで国や州、区域を検索することができます！#!"
  MAPACTION_GO_TO_CAPITAL:1 "#T 首都へズーム#!\n#I クリックすることで首都に移動しズームします。#!"
  MAPMODE_PLAYERS:1 "$players_MAPMODE_DESC$"
  terrain_MAPMODE:0 "地形マップモード"
@@ -21,7 +21,7 @@
  diplomacy_MAPMODE:0 "外交マップモード"
  diplomacy_MAPMODE_DESC:1 "#T 外交マップモード#!\nこのモードでは選択した国を#G 緑#!で表示し、その国と外交関係があるすべての国を外交関係の種類で色分けして表示します。"
  opinion_MAPMODE:0 "評価マップモード"
- opinion_MAPMODE_DESC:1 "#T 評価マップモード#!\nこのモードでは選択した国に対するすべての国の#Y 評価#!を表示します。選択した国は青、そして評価の高低は#G  緑#!から#R  赤#!の範囲でそれぞれ表示されます。"
+ opinion_MAPMODE_DESC:1 "#T 評価マップモード#!\nこのモードでは選択した国に対するすべての国の#Y 評価#!を表示します。選択した国は青、そして評価の高低は#G 緑#!から#R 赤#!の範囲でそれぞれ表示されます。"
  unrest_loyalty_MAPMODE:0 "不穏度と忠誠マップモード"
  unrest_loyalty_MAPMODE_DESC:2 "#T 不穏度と忠誠マップモード#!\nこのモードでは個々の区域の不穏度のレベルを表示します。不穏度がない区域は#G 緑#!、不穏度の高さは#R 赤#!の濃淡の違いで表示されます。"
  population_MAPMODE:0 "人口マップモード"

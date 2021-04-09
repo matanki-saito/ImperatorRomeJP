@@ -22,7 +22,7 @@
  GW_LACKING_EFFECTS:0 "@trigger_no!You must choose at least one effect."
  GW_LACKING_GOLD:0 "@trigger_no!Construction requires $COST|-2$@gold!"
  GW_LACKING_GOLD_EDIT:0 "@trigger_no!That change requires $COST|-2$@gold!"
- GW_LACKING_BUILDING_SLOTS:0 "@trigger_no!There are no available building slots in $NAME$."
+ GW_LACKING_BUILDING_SLOTS:0 "@trigger_no!$NAME$に利用可能な建築物スロットがありません"
  GW_GOLD_COST:0 "$COST|+2$@gold!"
  GW_POLITICAL_COST:0 "$COST|+$@political_influence_icon!"
  GW_STABILITY_COST:0 "$COST|+$@stability!"
