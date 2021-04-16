@@ -543,7 +543,7 @@
  SHIPS_LOST_THIS_COMBAT:0 "#T 船の損失#!\nこの戦闘で失われた船の数です"
  PRICE_gold_LONG_COST_VALUE:0 "$VAL|Y$@$ICON$!ゴールド"
  PER_POINT_DESC:0 "Multiplied by"
- ASSIGNING_OFFICER_WILL:0 "Assigning an Officer will grant"
+ ASSIGNING_OFFICER_WILL:0 "役職を任命すると"
  SELECT_PROVINCE_TOOLTIP:0 "[Province.GetName|T]\nランク：[Province.GetRank.GetName]\n人口：[Province.GetPopulation('total')|Y]\n交易品：[Province.GetTradeGoods.GetName]"
  MEMBER_OF_FAMILY_PORTRAIT_TOOLTIP:0 "#T 名家#!\n[Character.GetPraenomen]は[Character.GetFamily.GetName]一門の成員です。\nこの一門は現在#Y [Character.GetFamily.GetNumberOfJobs]/[Character.GetFamily.GetNumberOfExpectedJobs]#!の[Character.GetEmployer.GetName]で期待している職務を有しています。"
  HEAD_OF_FAMILY_PORTRAIT_TOOLTIP:0 "#T 名家の長#!\n[Character.GetPraenomen]は[Character.GetFamily.GetName]一門の長です。\nこの一門は現在#Y [Character.GetFamily.GetNumberOfJobs]/[Character.GetFamily.GetNumberOfExpectedJobs]#!の[Character.GetEmployer.GetName]で期待している職務を有しています。"

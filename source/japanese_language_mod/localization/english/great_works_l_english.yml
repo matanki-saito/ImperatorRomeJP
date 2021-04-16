@@ -32,7 +32,7 @@
  GW_CANNOT_CHANGE_LEADER:0 "Great wonder leader cannot be changed for another $DAYS$ days."
  GW_CHARACTER_ALREADY_LEADING:0 "$NAME$ is already leading construction of $OTHER_WORK$"
  GW_REMOVE_LEADER:0 "Removing [CHARACTER.GetName] as construction leader"
- GW_ASSIGN_LEADER:0 "Assigning [CHARACTER.GetName] as construction leader"
+ GW_ASSIGN_LEADER:0 "[CHARACTER.GetName]を建設指揮者に任命"
  GW_CURRENTLY_LEADING:0 "[CHARACTER.GetName] is currently leading the construction"
  GREAT_WORK_EFFECT:0 "Following benefits granted in $LOCATION|Y$:\n$EFFECTS$\n\n"
  GREAT_WORK_EFFECT_CHANGE:0 "Changes $OLD_EFFECT|V$ to $NEW_EFFECT|V$"

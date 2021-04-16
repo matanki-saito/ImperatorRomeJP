@@ -178,6 +178,6 @@
  country_diplomacy.40.desc:0 "[SCOPE.sCountry('tributary_enough').GetName]から貢物が届かなくなった。[SCOPE.sCountry('tributary_enough').GetName]の人々は庇護を受ける代わりに対価を支払うという現在の関係が割に合っていないと考えるようになり、自らを守るための他の方法を模索しているようだ。"
  country_diplomacy.40.a:0 "後悔するぞ。"
  country_diplomacy.56.t:0 "影響圏"
- country_diplomacy.56.desc:0 "The [SCOPE.sC('guarantee_target').GetAdjective] people cry out for firmer leadership than that which their paltry government offers. If we are to truly live up to the standards expected of us as a scion of justice and equity, we must take them into our fold, ensuring safety and fair treatment for their citizenry."
- country_diplomacy.56.a:0 "In the name of peace, we hear their plea."
+ country_diplomacy.56.desc:0 "[SCOPE.sC('guarantee_target').GetAdjective]の人々は、彼らの無価値の政府が提供するものよりも、より強固なリーダーシップを求めている。我々が正義と公平の子孫として期待される基準に真に応えるためには、彼らを我々の仲間に迎え入れ、彼ら市民の安全と公平な扱いを確保しなければならない。"
+ country_diplomacy.56.a:0 "平和の名のもとに、彼らの願いを聞きいれる。"
  country_diplomacy.56.b:0 "別の計画がある..."

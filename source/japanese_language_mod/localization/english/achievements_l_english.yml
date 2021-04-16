@@ -189,7 +189,7 @@
  ach_gazophylax.tt:0 "Kill the ruler of the Antigonid Kingdom by completing the 'Poetic Justice' mission task."
  ACHIEVEMENT_ach_king_blind:0 "盲目王"
  ACHIEVEMENT_DESC_ach_king_blind:0 "As the Antigonid Kingdom, enact the decision 'Secure Antigonid Position'."
- ach_king_blind.tt:0 "Enact the decision 'Secure Antigonid Position'."
+ ach_king_blind.tt:0 "決断「$Antigonid$の立場を保証する」を制定します"
  ACHIEVEMENT_ach_periplus_seas:0 "Periplus of the Seas"
  ACHIEVEMENT_DESC_ach_periplus_seas:0 "As Egypt, own or have a subject own the Aegean Islands, Rhodes, Sicily, Sardinia, Cyprus, Alalaiou (Dahkla), Devada, Diouscourides (Socotra), Tylos (Bahrain), Devada, Sri Lanka, Mliet/Malta, Yermena, Corsica, Gymnaesia (Baleares), Korkyra and Qarkna."
  ACHIEVEMENT_ach_legio_augusta:0 "軍団アウグスタ"

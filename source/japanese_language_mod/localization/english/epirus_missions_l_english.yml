@@ -319,7 +319,7 @@
  epirus_3_hellas_tt:0 "(Areas of #Y $boeotia_area$#!, #Y $euboea_area$#!, #Y $central_greece_area$#!, #Y $achaea_area$#!, #Y $arcadia_area$#!, and #Y $south_peleponnesos_area$#!.)"
  epirus_3_greece_3_reward_tt:0 "May extract extra resources from Greek subjects and territories at the cost of unrest and disloyalty."
  epirus_3_greece_3_reward_tt_subject:0 "Every #Y $hellenic$#! subject excluding client states and tributaries receives"
- epirus_3_greece_3_reward_tt_state:0 "Every owned Province in the Region of #Y $greece_region$#! receives"
+ epirus_3_greece_3_reward_tt_state:0 "#Y $greece_region$#!の領有州はすべて、以下の効果を得ます"
  epirus_3_greece_4:1 "Support Greek Claimant"
  epirus_3_greece_4_DESC:1 "The decaying monarchies of Greece face as much threat from ambitious pretenders seeking to emulate the great men of our age as they do from domineering diadochi."
  epirus_3_greece_4_allow_tt:0 "There is a non-$macedonian$ #Y $hellenic$#! monarchy in the Region of #Y $greece_region$#!."

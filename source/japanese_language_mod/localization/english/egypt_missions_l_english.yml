@@ -59,7 +59,7 @@
  egypt_mission_1_sea_task_12_trigger_3:0 "Have at least #Y [SCOPE.ScriptValue('egypt_mission_1_sea_task_12_451_total')|0]#! Fortresses in [GetProvince('(int32)451').GetName|Y]. [SCOPE.GetRootScope.GetCountry.Custom('egypt_mission_1_sea_task_12_451_counter')]"
  egypt_mission_1_sea_task_12_451_counter_1:0 "(#R [SCOPE.ScriptValue('egypt_mission_1_sea_task_12_451_current')|0]#!/#Y [SCOPE.ScriptValue('egypt_mission_1_sea_task_12_451_total')|0]#!)"
  egypt_mission_1_sea_task_12_451_counter_2:0 "(#Y [SCOPE.ScriptValue('egypt_mission_1_sea_task_12_451_current')|0]#!/#Y [SCOPE.ScriptValue('egypt_mission_1_sea_task_12_451_total')|0]#!)"
- egypt_mission_1_sea_task_12.tt:0 "#Y $arcadia_area$#!、#Y $central_greece_area$#!および#Y $achaea_area$#!にあるすべての領有区域は#Y $greek_stronghold_secured$#!を得ます"
+ egypt_mission_1_sea_task_12.tt:0 "#Y $arcadia_area$#!、#Y $central_greece_area$#!および#Y $achaea_area$#!の領有区域はすべて、#Y $greek_stronghold_secured$#!を獲得します"
  egypt_mission_1_sea_task_13:0 "The Chremonidean War"
  egypt_mission_1_sea_task_13_DESC:0 "For the freedom of all Greeks, it is time for us to expel all the (other) Diadochi from Greece!"
  egypt_mission_1_sea_task_13.tt.1:0 "No territory in [GetProvince('(int32)416').GetArea.GetRegion.GetName|Y] or [GetProvince('(int32)391').GetArea.GetName|Y] belongs to either the [GetCountry('PRY').GetName], [GetCountry('MAC').GetName], the [GetCountry('SEL').GetName] or [GetCountry('TRE').GetName]. [SCOPE.GetRootScope.GetCountry.Custom('egypt_mission_1_sea_task_13_diadochi_counter')]"

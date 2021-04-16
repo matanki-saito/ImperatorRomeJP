@@ -8,7 +8,7 @@
  NO_SURPLUS_AVAILABLE:1 "選択可能な$NAME|Y$の交易路はありません"
  TOGGLE_ATTACH_OFF:0 "#T 合流は許可されている#!\nこのユニットは他のユニットが合流することを許可しています\n#I クリックすると禁止に切り替えます#!"
  TOGGLE_ATTACH_ON:0 "#T 合流は禁止されている#!\n#I クリックすると他のユニットの合流が許可されます#!"
- ATTACHUNUIT_TT:0 "#T ユニットを合流する#!\n$WHY$"
+ ATTACHUNUIT_TT:0 "#T ユニットを合流させる#!\n$WHY$"
  UW_UNITS_ATTACHED:0 "次のユニットは合流しています"
  UW_DETACH_FROM:0 "次の$NAME$から分離します"
  UW_ATTACH_TO:0 "$ADJ$$NAME$に合流すると、自動的にそのユニットに追随するようになります！"
