@@ -126,7 +126,7 @@
  abolish_social_equity:0 "社会的平等を撤廃する"
  abolish_social_equity_desc:0 "伝統主義者たちは暗い隅で声を潜め、原始人のように髭を蓄えた男たちは我々を嘲る。政治的進歩を目指してきた我々の試みをこれ以上継続させることはできない。"
  social_equity_tooltip:0 "一度変更すると、#Y 性別平等性#!の政策は#Y 20#!年間変更できません"
- persian_claims_tooltip:1 "$PERSIA_NAME$は#Y $persis_region$#!、#Y $media_region$#!、#Y $parthia_region$#!、 #Y $ariana_region$#!、#Y $mesopotamia_region$#!、 #Y $bactriana_region$#!、#Y $gedrosia_region$#!および#Y $assyria_region$#!の各地域の請求権を獲得します"
+ persian_claims_tooltip:1 "$PERSIA_NAME$は#Y $persis_region$#!、#Y $media_region$#!、#Y $parthia_region$#!、#Y $ariana_region$#!、#Y $mesopotamia_region$#!、#Y $bactriana_region$#!、#Y $gedrosia_region$#!および#Y $assyria_region$#!の各地域の請求権を獲得します"
  seleukia_pieria_modifier:1 "海辺のセレウケイア"
  desc_seleukia_pieria_modifier:0 "アンティオケイアへの遷都に伴って、セレウコス朝は新たな地中海艦隊の基地としての役割と東西の交易を結ぶ集散地としての役割を同時に果たす新たな地中海港を必要としている。"
  indo_greek_decision:0 "インド=ギリシャ王国"

@@ -97,7 +97,7 @@
  roman_2_provincia_subdue_siculians_tooltip:2 "#Y $east_sicily_area$#!州の沿岸部を#Y $ROM$#!もしくはその従属国が領有している"
  roman_2_provincia_subdue_siculians.modtt:1 "#Y $east_sicily_area$#!州に領有する区域は次の効果を得ます"
  roman_2_provincia_sweeten_siculians:0 "シケリア人との接触"
- roman_2_provincia_sweeten_siculians_DESC:0 "ギリシア人暴君とカルタゴ人侵略者の間に挟まれたシケリア人は、 イタリア領シチリアの最後の砦だ。彼らを保護すると申し出れば、解放者として我々を受け入れるかもしれない。"
+ roman_2_provincia_sweeten_siculians_DESC:0 "ギリシア人暴君とカルタゴ人侵略者の間に挟まれたシケリア人は、イタリア領シチリアの最後の砦だ。彼らを保護すると申し出れば、解放者として我々を受け入れるかもしれない。"
  roman_2_provincia_sweeten_siculians_tooltip:0 "#Y シチリア島#!に存在する#Y $SCU$#!または他の#Y シケリア#!系国家が従属国や#Y $ROM$#!の同盟国ではなく、#Y 10#!未満の区域しか領有していない"
  roman_2_provincia_sweeten_siculians_tooltip_2:0 "#Y $SCU$#!または他の#Y シケリア#!系国家は、宗主国から解放されるかもしくは従属国の地位を提案されます"
  roman_2_provincia_grate_greeks:0 "僭主たちの土地"

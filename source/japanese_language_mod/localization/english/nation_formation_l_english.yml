@@ -177,7 +177,7 @@
  GAUL_ADJECTIVE:0 "Gallic"
  GAU:0 "Gaul"
  GAU_ADJ:0 "Gallic"
- form_gaul_claims_tooltip:0 "$GAUL_NAME$は#Y $armorica_region$#!、 #Y $belgica_region$#!、#Y $central_gaul_region$#!、#Y $germania_superior_region$#!、#Y $aquitaine_region$#!、および#Y $transalpine_gaul_region$#!地域と、#Y $tigurinia_area$#!、#Y $helvetia_inferioris_area$#!、#Y $alpes_graiae_area$#!、#Y $transpadana_area$#!および#Y $west_insubria_area$#!の各州に請求権を獲得します"
+ form_gaul_claims_tooltip:0 "$GAUL_NAME$は#Y $armorica_region$#!、#Y $belgica_region$#!、#Y $central_gaul_region$#!、#Y $germania_superior_region$#!、#Y $aquitaine_region$#!、および#Y $transalpine_gaul_region$#!地域と、#Y $tigurinia_area$#!、#Y $helvetia_inferioris_area$#!、#Y $alpes_graiae_area$#!、#Y $transpadana_area$#!および#Y $west_insubria_area$#!の各州に請求権を獲得します"
  persia_not_exists:0 "#Y $PERSIA_NAME$#!が存在しない"
  form_persia:0 "ペルシアの形成"
  form_persia_desc:0 "キュロスやダレイオスの時代はもはや遠い過去の栄光になりつつあるが、ペルシャの人々はかつての大帝国を忘れていない。ペルシャの同胞よ、今こそ外敵の軛を脱し、再び団結しようではないか！"
