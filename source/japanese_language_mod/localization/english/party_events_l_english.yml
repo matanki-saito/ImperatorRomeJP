@@ -1,9 +1,9 @@
 ﻿l_english:
  party_events_rome.1.t:0 "[ROOT.GetCountry.Custom('get_court_type')|U]の腐敗"
- party_events_rome.1.desc:0 "[ROOT.GetCountry.GetName]の指導者層は、$populares_party$の中でますます不人気になり、[populares_leader.GetName]が率いる派閥としばしば対立しつつある。[ROOT.GetCountry.Custom('get_court_type')|U]の議論で特に疲弊した後、[populares_leader.GetPraenomen]は、[ROOT.GetCountry.GetRuler.GetPraenomen]と個人的に話をして、両者の間の共通点を見つけたいと考えている。"
+ party_events_rome.1.desc:0 "[ROOT.GetCountry.GetName]の指導者層は、$populares_party$の中でますます不人気になり、[populares_leader.GetName]が率いる派閥としばしば対立しつつある。[ROOT.GetCountry.Custom('get_court_type')|U]の議論でとりわけ疲弊した[populares_leader.GetPraenomen]は、[ROOT.GetCountry.GetRuler.GetPraenomen]と個人的に話をして、両者の間の共通点を見つけたいと考えている。"
  party_events_rome.1.a:0 "[populares_leader.GetPraenomen]の真の目的は皆知っている。"
  party_events_rome.1.a.tt:0 "#Y [populares_leader.GetName]#!が腐敗しているのでこの行動を選ぶことができます"
- party_events_rome.1.b:0 "$populares_party$へのいくつかの譲歩は、非常に有効である。"
+ party_events_rome.1.b:0 "$populares_party$へのある程度の譲歩は、大いに役立つだろう。"
  party_events_rome.1.c:0 "[populares_leader.GetPraenomen]は多くを求めすぎだ。"
  party_events_rome.2.t:0 "Elite Demands"
  party_events_rome.2.desc:0 "The Patricians of the $optimates_party$ faction have become a loud annoying thorn in the side of [ROOT.GetCountry.GetRuler.GetName] lately, as their demands are often at odds with what is best for the state. Yet again, [optimates_leader.GetName] takes center stage in the [ROOT.GetCountry.Custom('get_court_type')|U] to hold another droning speech about the needs of the upper classes of [ROOT.GetCountry.GetName]."

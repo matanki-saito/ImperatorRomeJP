@@ -2042,7 +2042,7 @@
  MIL_TECH_TT:0 "#T 軍事技術#!\n彼らの現在の軍事技術レベルです。"
  CREATE_LEGION_BASE_PRICE:0 "基本コスト"
  CREATE_LEGION_UNIT_PRICE:0 "ユニットコスト"
- SINGLE_UNIT_VIEW_GO_TO_LEGION:0 "#T [legions|E]画面でこの軍隊を閲覧#!"
+ SINGLE_UNIT_VIEW_GO_TO_LEGION:0 "#T [legions|E]画面でこの軍を閲覧する#!"
  ADMINISTRATION_TITLE:0 "統治"
  CREATE_LEGION:0 "軍団編成"
  ENABLE_CREATE_MERC_CITY:0 "区域コマンド#Y 傭兵国家の創設#!が可能になります\n#Y 都市#!区域の#Y 戦術#!タブで見ることができます"
