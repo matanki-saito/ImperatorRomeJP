@@ -135,7 +135,7 @@
  BUY_INVENTION_NO:3 "#T $NAME$#!\n$CRITERIA$\n以下の理由により$NAME|Y$を採用できません：\n$WHY$\n\n$NAME|Y$は以下の効果を与えます：\n$EFFECT$\n#TF $DESC$#!\n\n$ACTIVATE_EFFECT$"
  CAN_ONLY_BUILD_IN_OWNED:1 "@trigger_no!所有していない州に建設はできません"
  CAN_ONLY_BUILD_IN_CONTROLLED:1 "@trigger_no!支配していない州に建設はできません"
- CAN_ONLY_BUILD_IF_ENOUGH_PPL:1 "@trigger_no!$NAME$には人口が足りず新たな建物を建造できません"
+ CAN_ONLY_BUILD_IF_ENOUGH_PPL:1 "@trigger_no!$NAME$の人口が足りないため、新たな建物を建造できません"
  CAN_ONLY_BUILD_IF_MONEY:3 "\n@trigger_no!$NAME$の建設には最低$COST|Y$@gold!が必要です"
  BUILD_COST_DUE_TO:0 "\n建設費の内訳：\n$WHY$"
  CAN_ONLY_DESTROY_IN_OWNED:1 "@trigger_no!所有していない州の建物は破棄できません"
