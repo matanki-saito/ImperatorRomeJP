@@ -606,7 +606,7 @@
  CANCEL_CONSTRUCTION_CONFIRM_BUILDING:0 "[PROVINCE.GetName]での$BUILDING_NAME|Y$建設を\n中止しますか？\n\n（このポップアップを出さないようにするにはアウトライナーをクリックするときにシフトキーを押してください）"
  CANCEL_CONSTRUCTION_CONFIRM_UNIT:0 "[PROVINCE.GetName]での$SUBUNIT_NAME|Y$編成を\n中止しますか？\n\n（このポップアップを出さないようにするにはアウトライナーをクリックするときにシフトキーを押してください）"
  DISBAND_ARMY_CONFIRM_TITLE:0 "解散の確認"
- DISBAND_MERCENARY_CONFIRM:1 "Canceling our deal with [UNIT.GetName|Y] will make us lose [UNIT.GetVisualStrength|Y] men from $COHORTS|Y$ cohorts. Anyone else could now hire them."
+ DISBAND_MERCENARY_CONFIRM:1 "[UNIT.GetName|Y]との契約を打ち切ると、$COHORTS|Y$個大隊[UNIT.GetVisualStrength|Y]人を喪失します。誰でも彼らを雇用できる状態になります。"
  DISBAND_ARMY_CONFIRM:0 "[UNIT.GetName|Y]を解散することで$COHORTS|Y$個大隊[UNIT.GetVisualStrength|Y]人を失います。また彼らに[UNIT.GetDisbandCost|Y]@gold!を支払う必要があります。"
  DISBAND_NAVY_CONFIRM:0 "[UNIT.GetName|Y]を解散することで[UNIT.GetVisualStrength|Y]隻失います。"
  CLICK_TO_TRANSFER_ALL:0 "#T $NAME$をすべて移動#!\nクリックして$NAME$の全ての大隊を選択したもう一つにユニットに移動します。"
