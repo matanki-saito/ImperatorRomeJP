@@ -231,7 +231,7 @@
  omen_athena_promachos_desc:1 "$athena_description$\n\n#Y Promachos#!: The epithet of Promachos was given to Athena by the Athenians after their victory over the Persians, to forever be a reminder of her blessing as the Greeks beat back the invaders. This is the form of the goddess most well known for leading men to battle, and functions as a deity of war."
  deity_athena_ergane:0 "$omen_athena_ergane$"
  omen_athena_ergane:0 "アテーナー・エルガネー"
- omen_athena_ergane_desc:1 "$athena_description$\n\n#Y Ergane#!: Ergane is the epithet given to the goddess when is invoked as the patron of craftsmen and women. In many stories, the deity was well known for her expertise in the arts of weaving in particular, but also various crafts in general."
+ omen_athena_ergane_desc:1 "$athena_description$\n\n#Y エルガネ#!：エルガネは、職人や女性の守護神として召喚された女神に与えられた称号です。多くの物語において、この女神は特に織物の技術に精通していることで知られています。"
  deity_athena_parthenos:0 "$omen_athena_parthenos$"
  omen_athena_parthenos:0 "アテーナー・パルテノス"
  omen_athena_parthenos_desc:1 "$athena_description$\n\n#Y Parthenos#!: Parthenos, the Maiden, is an epithet given to Athena as a reflection of her perpetual status as a virgin, like some of her fellow goddesses. A grand statue of this particular version of the deity rests on the Akropolis of Athens, made by the sculptor Phidias."

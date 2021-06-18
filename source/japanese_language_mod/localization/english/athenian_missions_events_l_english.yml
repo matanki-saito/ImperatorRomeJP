@@ -1,7 +1,7 @@
 ﻿l_english:
  me_athens_01_foreign_rulership.1.t:0 "Democracy and Oligarchy"
- me_athens_01_foreign_rulership.1.desc:0 "The Assembly is split in two, with [independence_head.GetName] leading those looking to return to the ancient days of an independent [ROOT.GetCountry.GetName], and [loyalist_head.GetName] in charge of those who think we should forge a closer bond to [mission_overlord_scope.GetName].\n\nThough the discussions started peacefully, the two sides have grown hostile to one another, leaving the Assembly in a constant state of disarray. Rumors are flourishing about both sides, and neither are willing to back down at this point."
- me_athens_01_foreign_rulership.1.a:0 "It is only a matter of time before the two sides will clash..."
+ me_athens_01_foreign_rulership.1.desc:0 "議会は2つに分かれており、[independence_head.GetName]は古き日の独立した[ROOT.GetCountry.GetName]への回帰を求める人々を率いています。そして、[mission_overlord_scope.GetName]との絆を深めるべきだと考える人たちを率いるのが、[loyalist_head.GetName]です。\n\n最初の議論は平和的に始まったが、両者は徐々に対立を深め、今や議会は常時混乱状態に陥っている。双方の噂が飛び交い、どちらも今のところ引き下がる気はないようです。"
+ me_athens_01_foreign_rulership.1.a:0 "両者が激突するのも時間の問題だ…"
  me_athens_01_foreign_rulership.2.t:0 "A Delegate to [mission_overlord_scope.GetName]"
  me_athens_01_foreign_rulership.2.desc:0 "Under the leadership of [loyalist_head.GetPraenomen] and the loyalist faction, a delegate will be sent to [mission_overlord_scope.GetName] to see if an embassy can be set up to improve our diplomatic relations. Those who seek independence from our overlord are up in arms and arguing loudly about the loyalist faction ignoring the Assembly."
  me_athens_01_foreign_rulership.2.a:0 "Hopefully they will be pleased with our subservience."
