@@ -538,7 +538,7 @@
  arrange_marriage_consort_tt:0 "The Consort will contribute skills higher than those of their spouse to the government in Monarchies"
  recruit_general_tt:0 "[target.GetName]と[target.GetHerHis][legion|E]は離反するでしょう"
  scheme_assassinate_tt:0 "[actor.GetRuler.GetPraenomen]は選択した宿敵の暗殺を企てます"
- assassinate_scheme_other:0 ""
+ assassinate_scheme_other:0 "宿敵の暗殺"
  assassinate_scheme_other_past:0 "$CHAR$の暗殺計画を開始しました"
  assassinate_scheme_other_act:0 "$CHAR$の暗殺を企てる"
  assassinate_scheme_other_act_past:0 "$CHAR$の暗殺を企てました"
