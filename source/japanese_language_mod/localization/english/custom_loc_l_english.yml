@@ -416,7 +416,7 @@
  get_plutocrats:0 "がめつい商人共"
  popular_ruler_pirate_attack:0 "[ROOT.GetCountry.GetRuler.GetName], wary of losing favor with the local population, has decided to give in to its demands. After a year of preparation, [ROOT.GetCountry.GetRuler.GetSheHe] is finally ready to attack. [ROOT.GetCountry.GetRuler.GetHerHis|U] advisors cannot agree, however, on whether it would be best to attack them by land or by sea."
  arrogant_ruler_pirate_attack:0 "[ROOT.GetCountry.GetRuler.GetName] has spent a year drilling [ROOT.GetCountry.GetRuler.GetHerHis] forces, gathering supplies, and making the necessary preparations. [ROOT.GetCountry.GetRuler.GetHerHis|U] advisors cannot agree, however, on whether it would be best to attack them by land or by sea. Of course, they have turned to [ROOT.GetCountry.GetRuler.GetName] to make the decision, being the tactical genius that [ROOT.GetCountry.GetRuler.GetSheHe] is."
- generic_attack_pirate_attack:0 "[ROOT.GetCountry.GetRuler.GetName] has spent a year drilling [ROOT.GetCountry.GetRuler.GetHerHis] forces, gathering supplies, and making the necessary preparations. [ROOT.GetCountry.GetRuler.GetHerHis|U] advisors cannot agree, however, on whether it would be best to attack them by land or by sea."
+ generic_attack_pirate_attack:0 "[ROOT.GetCountry.GetRuler.GetName]は一年を[ROOT.GetCountry.GetRuler.GetHerHis]の部隊の訓練に費やし、軍需物資を集め、必要なすべての準備を行った。[ROOT.GetCountry.GetRuler.GetHerHis|U]の参謀たちは攻撃を陸、海どちらから行うのが最善なのかについて合意できなかったのだが…"
  got_marble:0 "大理石"
  got_stone:0 "石"
  got_nothing:0 "煉瓦"
