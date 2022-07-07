@@ -112,7 +112,7 @@
  title_legate_desc:0 "$game_concept_legate_desc$"
  title_tribune:0 "$game_concept_tribune$"
  title_tribune_desc:0 "$game_concept_tribune_desc$"
- title_deployed_tribune:0 "Deployed Tribune"
+ title_deployed_tribune:0 "配置された指揮官"
  title_deployed_tribune_desc:0 "$game_concept_tribune_desc$"
  title_great_work_construction_leader:0 "Construction Leader"
  title_great_work_construction_leader_desc:0 "Leading the construction of a Great Wonder"
