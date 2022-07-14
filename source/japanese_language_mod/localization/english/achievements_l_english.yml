@@ -154,7 +154,7 @@
  ACHIEVEMENT_DESC_ach_pentecontaetia:0 "アテネが独立しており、AUC 500年までにデロス、ナクソス、カサンドレア、タソス、カルキス、サモス、セストス、キティオン、サラミス、オレオスを領有する。"
  ACHIEVEMENT_ach_laconic_if:0 "ラコニア人「もし。」"
  ACHIEVEMENT_DESC_ach_laconic_if:0 "$SPA$として$PROV379$を征服し略奪する"
- ach_laconic_if_tooltip:0 "Sack the territory of #Y Pella#!"
+ ach_laconic_if_tooltip:0 "#Y $PROV379$#!の区域を略奪する"
  ACHIEVEMENT_ach_tyrant_to_king:0 "陶工から王へ"
  ACHIEVEMENT_DESC_ach_tyrant_to_king:0 "$SYR$で、開始時の統治者であるアガトクレスが死亡する前にシチリア全土を征服する。"
  ach_agathocles_lives:0 "アガトクレスが生きており、統治者でなければならない。"

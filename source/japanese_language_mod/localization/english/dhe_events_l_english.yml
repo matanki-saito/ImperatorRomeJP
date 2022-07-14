@@ -795,7 +795,7 @@
  dhe_mithridates.12.a:0 "We will waste no time..."
  dhe_mithridates.12.b:0 "The offer was a courtesy."
  dhe_mithridates.12.tt:0 "[GetProvince('(int32)245').GetName|Y] will be abandoned.\nWe will gain claims around our new home."
- dhe_mithridates.13.t:0 "[mithridatic_kingdom.GetAdjective] Invasion"
+ dhe_mithridates.13.t:0 "[mithridatic_kingdom.GetAdjective]の侵攻"
  dhe_mithridates.13.desc_1:0 "The treacherous [mithridatic_kingdom.GetRulerTitle] of [GetProvince('(int32)245').GetName], [mithridatic_kingdom.GetRuler.GetName], has moved with [mithridatic_kingdom.GetRuler.GetHerHis] supporters into the mountains of Paphlagonia despite our refusal to aid [mithridatic_kingdom.GetRuler.GetHerHim]!\n\nEven now they seize fortresses and villages, gathering their forces to move against us!"
  dhe_mithridates.13.desc_2:0 "$dhe_mithridates.13.desc_shared_1$ been granted refuge at the fortress of Kimiata by the gullible [mithridates_refuge.GetRuler.GetPraenomen] of [mithridates_refuge.GetName], despite clear pretensions to [mithridates_refuge.GetAdjective] and [ROOT.GetCountry.GetAdjective] holdings! $dhe_mithridates.13.desc_shared_2$"
  dhe_mithridates.13.desc_3:0 "$dhe_mithridates.13.desc_shared_1$ occupied the fortress of Kimiata, with clear pretensions to [ROOT.GetCountry.GetAdjective] holdings! $dhe_mithridates.13.desc_shared_2$"

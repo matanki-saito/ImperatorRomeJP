@@ -2,7 +2,7 @@
  anthology_which_does_not_exist_yet_tt:0 "Assemble the $treasure_anthology$ using the #Y $philosophike_anthologia$#! decision and place it in the Holy Site of [GetDeityDefinition('omen_alexander').GetName]."
  panoply_which_does_not_exist_yet_tt:0 "Assemble the $treasure_alexander_panoply$ using the #Y $panoply_of_alexander_the_great$#! decision and place it in the Holy Site of [GetDeityDefinition('omen_alexander').GetName]."
  own_or_control_treasure_in_alex_shrine:0 "Treasure is in the holy site of [alexander_deity_scope.GetName], which is owned by [SCOPE.GetRootScope.GetCountry.GetName]."
- diadochi_empire:0 "Hellenistic Empire"
+ diadochi_empire:0 "ギリシャ帝国"
  diadochi_empire_DESCRIPTION:0 "A devastating civil war has threatened to destroy the empire forged by [alexander_scope.GetPraenomen] and his generals. As we assert our control over an increasing amount of this fallen empire we must ask ourselves what type of Empire it is that we want to build.\nIf our legacy is to be longer lasting than that of Alexander we must strive to realize the Hellenistic vision he had, building an imperial culture that encompasses all the elites of the empire."
  AN_empire_tt:0 "[SCOPE.GetRootScope.GetCountry.GetName] is an #Y Empire#!."
  diadochi_empire_CRITERIA_DESCRIPTION:0 "This mission will be considered complete after we have stabilized and united the Hellenistic World which was once ruled by [alexander_scope.GetName]."

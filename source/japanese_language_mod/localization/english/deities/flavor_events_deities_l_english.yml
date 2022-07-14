@@ -1,7 +1,7 @@
 ﻿l_english:
- deity_flavor.1.t:0 "The Blessed Hunt"
+ deity_flavor.1.t:0 "祝福された狩り"
  deity_flavor.1.desc:0 "We have received news that our people in [hunting_province.GetShortName] have seen a huge rise in hunting game these last months, almost as if game are being driven to our territories intentionally. Some claim our recent worship of [hunting_deity.GetName] is the cause, whereas others thinks this is just the last of many blessings [ROOT.GetCountry.GetRuler.GetPraenomen] has received by the gods."
- deity_flavor.1.a:0 "We should bring some back to [ROOT.GetCountry.GetCapital.GetName]."
+ deity_flavor.1.a:0 "[ROOT.GetCountry.GetCapital.GetName]に持ち帰るべきだ。"
  deity_flavor.1.a.tt:0 "This option is available as the occurence did not happen in the #Y [SCOPE.GetRootScope.GetCountry.GetCapital.GetState.GetName]#!."
  deity_flavor.1.b:0 "Well, time to make the most of this little blessing then."
  deity_flavor.1.c:0 "We will make sure these animals thrive and prosper in [hunting_province.GetShortName]."

@@ -522,7 +522,7 @@
  get_pry_name_fallback:0 "Asian Kingdom"
  get_pry_adj_fetch:1 "$PRY_ADJ$"
  get_pry_adj_fallback:0 "Asian"
- court_type_greek:1 "Boule"
+ court_type_greek:1 "ブーレ"
  court_type_rome:0 "元老院"
  court_type_greek_oligarchy:0 "Gerousia"
  court_type_punic:0 "Adirim"
