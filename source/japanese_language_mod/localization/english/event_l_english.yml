@@ -2229,7 +2229,7 @@
  family_events.2.t:0 "[SCOPE.sChar('fallen_head').GetFamilyDisplayAdjective]一門の没落"
  family_events.2.desc:0 "[SCOPE.sChar('fallen_head').GetFamilyDisplayName]一門は長きに渡って、我が国の[ROOT.GetCountry.Custom('get_base_government_type')]統治における重要な役割を果たしてきた。彼らの始祖は革新を推し進め、市民としての義務を体現する立派な人物であったが、時の経過とは残酷なもので、その後裔は祖先から受け継いだ権威を振りかざし、悪用するばかりである。\n事ここに至っては、[SCOPE.sChar('fallen_head').GetFamilyDisplayAdjective]の血筋を特別視する者は殆どいない。"
  family_events.2.a.tooltip:0 "没落した一門に属するほとんどの人物は#Y [SCOPE.GetRootScope.GetCountry.GetName]#!に残りますが、以後は#Y 諸家の人物#!として扱われます\n\nこれは現在の国家ランクにおける名家の上限数を上回ったために発生しています\n\n"
- family_events.2.a:0 "Ruling requires more dignity."
+ family_events.2.a:0 "支配者は気高くなければならない。"
  family_events.3.t:1 "[SCOPE.sChar('scope:adopted_person').GetName]が[ROOT.GetCharacter.GetFamily.GetFamilyDisplayName]一門に"
  family_events.3.desc:1 "どこからともなく[ROOT.GetCharacter.GetFamily.GetFamilyDisplayName]一門には十分な能力を持つ者が不足しているとの声が上がってきている。その真偽はともかく、彼らが最近[SCOPE.sChar('scope:adopted_person').GetName]を一門に迎え入れたのは事実だ。"
  family_events.3.a:0 "興味深い。"

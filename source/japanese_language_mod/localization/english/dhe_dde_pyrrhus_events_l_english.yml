@@ -210,7 +210,7 @@
  dhe_dde_pyrrhus.37.desc:1 "To placate certain members of the aristocracy, Pyrrhos has been ruling as a joint king of sorts sharing power with [neoptolemus.GetName] - though this has fast become untenable. Both see themselves as the rightful ruler of Epirus, and schemes have begun to unravel.\n\nUltimately influence rests with the Molossians, for without their support a king cannot hope to rule, even now..."
  dhe_dde_pyrrhus.37.a:0 "Pyrrhos is the true king."
  dhe_dde_pyrrhus.37.at:0 "#R [neoptolemus.GetPraenomen] will be killed to settle the dispute.#!"
- dhe_dde_pyrrhus.37.b:0 "Neoptolemos has the blood of Alexander."
+ dhe_dde_pyrrhus.37.b:0 "ネオプトレモスはアレクサンドロスの血を引いている。"
  dhe_dde_pyrrhus.37.bt:0 "#R Pyrrhos will be killed to settle the dispute.#!\n[neoptolemus.GetPraenomen] will become ruler."
  dhe_dde_pyrrhus.37.c:0 "[neoptolemus.GetPraenomen] is our [neoptolemus.GetWomanMan]."
  dhe_dde_pyrrhus.38.t:0 "Necessary Evils"
