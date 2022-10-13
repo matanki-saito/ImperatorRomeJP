@@ -24,7 +24,7 @@
  me_antigonid_1_vision.14.desc:0 "アンティゴネイアの喪失はアンティゴノス朝にとって象徴的な打撃と同時に[me_antigonids_scope.GetRulerTitle][me_antigonids_scope.GetRuler.GetPraenomen]に対する不当な屈辱を与えた。\n\nいつの日か神々が我らの軍隊を率いて輝かしい再征服をしてくださることを祈るのみである…。"
  me_antigonid_1_vision.14.tt:0 "$mission_task_completed_tt_1$$antigonid_01_vision_1$は#!#R 無視されました#!！"
  me_antigonid_1_vision.14.a:0 "これで終わりではない。"
- me_antigonid_1_vision.14.b:0 "古の首都で再出発しよう。"
+ me_antigonid_1_vision.14.b:0 "いにしえの都で再出発しよう。"
  me_antigonid_1_vision.21.t:0 "$antigonid_01_vision_2$: Eastern Hub"
  me_antigonid_1_vision.21.desc:0 "In all subsequent planning for the Antigonid capital, the old port of Myriandros and Antigonos' veteran settlement at Alexandreia kat'Isson were the focus of our maritime efforts, utilizing the old Persian road over the Syrian Gates.\n\nThey have served our capital well, but there are suggestions that the settlement of Hydatos - just a short distance down the Orontes river and already settled by Antigonos with Carian veterans - could be developed into the main port of Antigoneia."
  me_antigonid_1_vision.21.a:0 "The northern ports shall remain our focus."
