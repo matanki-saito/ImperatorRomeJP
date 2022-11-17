@@ -45,7 +45,7 @@
  me_antigonid_1_vision.23.at:0 "$mission_task_completed_tt_1$$antigonid_01_vision_2$は#!#R 無視されました#!！"
  me_antigonid_1_vision.31.t:0 "$antigonid_01_vision_3$：海の都市"
  me_antigonid_1_vision.31.desc:0 "ギリシアとの関係や地中海の支配を維持するには強力な海軍が必要だが、フェネキア人はその部分で大いに役立っている。\n\nもし、海軍の覇権を維持したければ、これら海上都市とのつながりを新たにし、継続させる必要がある。"
- me_antigonid_1_vision.31.a:0 "海軍は我らが背骨だ。"
+ me_antigonid_1_vision.31.a:0 "海軍は我々の背骨だ。"
  me_antigonid_1_vision.31.at:0 "$me_ant_task_start_tt_1$ さらにフェネキア都市国家と協議させます。"
  me_antigonid_1_vision.32.t:0 "$antigonid_01_vision_3$: Mastery of the Sea"
  me_antigonid_1_vision.32.desc:1 "Our dealings with the Phoenicians have refreshed our long standing relationships, injecting a new spirit of urgency to the shipyards and midships of our subjects. Let us ensure our naval victories are not famous for their infrequency, and may the triumph at Salamis mark a new era of Antigonid dominance in the internal sea."
