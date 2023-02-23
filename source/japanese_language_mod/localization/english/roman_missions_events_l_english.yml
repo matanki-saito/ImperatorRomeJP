@@ -607,7 +607,7 @@
  me_roman_5_hispanian_ambition.4.desc:0 "ヒスパニアの新しい土地は、税金徴収、徴兵、貿易の流れを監督する統治者によって慎重に組織されている。\n\n彼らはこの地域を「ヒスパニア・キテリオル」と「ヒスパニア・ウルテリオル」に分け、膨大な管理要件を分割している。今後の拡張のため資金を搾り取るか、それとも一日も早く文明化させようか？"
  me_roman_5_hispanian_ambition.4.a:1 "我々は略奪のために来たのであって、部族にホメロスを読むために来たのではない。"
  me_roman_5_hispanian_ambition.4.b:0 "ヒスパニアの真の可能性を実現するには数十年かかるだろう。"
- me_roman_5_hispanian_ambition.4.modtt:1 "The owned Provinces of #Y $bastetania_area$#!, #Y $mastiania_area$#!, #Y $contestania_meridionalis_area$#!, #Y $contestania_septentrionalis_area$#!, #Y $indiketia_area$#!, #Y $cessetania_area$#!, #Y $ilercavonia_area$#!, and #Y $edetania_area$#! will receive"
+ me_roman_5_hispanian_ambition.4.modtt:1 "#Y $bastetania_area$#!、#Y $mastiania_area$#!、#Y $contestania_meridionalis_area$#!、#Y $contestania_septentrionalis_area$#!、#Y $indiketia_area$#!、#Y $cessetania_area$#!、#Y $ilercavonia_area$#!および#Y $edetania_area$#!州に領有する州は次の効果を得ます"
  me_roman_5_hispanian_ambition.5.t:0 "[SCOPE.sC('rm_protection_enemy_scope').GetName] Threatens [SCOPE.sC('rm_offer_scope').GetName]"
  me_roman_5_hispanian_ambition.5.desc:0 "The careful exploitation of an existing situation can be the most fruitful method of expanding the state.\n\nFor instance, the people of [SCOPE.sC('rm_offer_scope').GetName] find fighting [SCOPE.sC('rm_protection_enemy_scope').GetName]. We could bring [SCOPE.sC('rm_offer_scope').GetName] into the fold with a deal, by protecting them from the [SCOPE.sC('rm_protection_enemy_scope').GetAdjective] threat..."
  me_roman_5_hispanian_ambition.5.a:0 "A perfect opportunity to expand our interests."
