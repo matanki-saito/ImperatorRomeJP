@@ -81,7 +81,7 @@
  me_egypt_1_sea.17.a:0 "We can be proud of this accomplishment."
  me_egypt_1_sea.17.a.tt:0 "Admiral #Y Kallikrates#! appears in #Y $mare_aegyptum_area$#!."
  me_egypt_1_sea.17.a.tt.end:0 "The mission task '#Y $egypt_mission_1_sea_task_2$#!' has now been #G Completed#!!"
- me_egypt_1_sea.18.t:0 "The League of the Islanders: Peace for the Aegean Islands"
+ me_egypt_1_sea.18.t:0 "島嶼連合：エーゲ海諸島に平和を"
  me_egypt_1_sea.18.desc:1 "The [GetProvince('(int32)1915').GetArea.GetName] have long been contended since Alexander's death. Our interest in the sea is strong, but so was [GetCharacter('(int32)37').GetPraenomen]'s ambition, when he sent his son [GetCharacter('(int32)38').GetPraenomen] to offer his very conditional friendship to the islands of the Aegean Sea. Unable to refuse, they capitulated but, later on, looked at [ROOT.GetCountry.GetRuler.GetName] as a savior and a pacifier, and they were not disappointed. \n\nNow that most of the islands are under our protection, we should ensure our position in the whole Aegean Sea!"
  me_egypt_1_sea.18.a:0 "Onwards!"
  me_egypt_1_sea.18.a.tt:0 "[GetCountry('EGY').GetName] gains a claim on [GetProvince('(int32)7901').GetName|Y], [GetProvince('(int32)283').GetName|Y], [GetProvince('(int32)1974').GetName|Y], [GetProvince('(int32)266').GetName|Y], [GetProvince('(int32)331').GetName|Y], [GetProvince('(int32)1989').GetName|Y] and [GetProvince('(int32)1973').GetName|Y], if not already owned or subject owned. \nAdmiral #Y Bakchon#! appears in #Y $mare_aegaeum_area$#!."
