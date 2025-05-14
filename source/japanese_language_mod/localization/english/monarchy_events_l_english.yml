@@ -67,7 +67,7 @@
  monarchy_events.17.a:0 "[SCOPE.sCharacter('responsible_heir').GetHerHim]に機会を与えてやろう。"
  monarchy_events.17.b:0 "[SCOPE.sCharacter('responsible_heir').GetSheHe|U|]にはまだ早い。"
  monarchy_events.18.t:0 "指導者たる素養を備える[SCOPE.sCharacter('responsible_heir').GetName]"
- monarchy_events.18.desc:0 "[SCOPE.sCharacter('responsible_heir').GetName]は[ROOT.GetCountry.GetRuler.GetName]から統治権の一部を任されていたが、彼はそこで際立った能力を示した。[SCOPE.sCharacter('responsible_heir').GetSheHe|U|]は内政と外交の両者に見込みがあり、それは[SCOPE.sCharacter('responsible_heir').GetHerHis]が統治するときにおいても役に立つに違いない。"
+ monarchy_events.18.desc:0 "[SCOPE.sCharacter('responsible_heir').GetName] has taken on some of the responsibilities of state from [ROOT.GetCountry.GetRuler.GetName], and has performed remarkably well. [SCOPE.sCharacter('responsible_heir').GetSheHe|U|] shows promise in both statecraft and diplomacy that will serve [SCOPE.sCharacter('responsible_heir').GetHerHim] well when it is [SCOPE.sCharacter('responsible_heir').GetHerHis] time to rule."
  monarchy_events.18.a:0 "[SCOPE.sCharacter('responsible_heir').GetName]は良い[ROOT.GetCountry.GetRulerTitle]となるに違いないな。"
  monarchy_events.18.b:0 "[SCOPE.sCharacter('responsible_heir').GetName]は並外れた[ROOT.GetCountry.GetRulerTitle]になるだろう。"
  monarchy_events.19.t:0 "[SCOPE.sCharacter('responsible_heir').GetName]の統治力不足"

@@ -353,7 +353,7 @@
  taxation_law_unlock:0 "#Y 税法#!を解禁します"
  unlocks_sponsored_scholars:0 "権威法#Y $scholarly_pursuits_law$#!を解禁します"
  unlocks_might_of_majesty:0 "権威法#Y $royal_bureaucracy$#!を開放します"
- standing_army_law:0 "王立軍"
+ standing_army_law:0 "王の軍"
  standing_army_law_desc:0 "偉大な帝国には外交政策を支持し、侵入者から領域を取り締まり防衛するために、一つだけでなく幾つかの常備軍を維持する必要がある。"
  jewish_monarchy_divinity_statutes:0 "Royal Status Laws"
  elevate_prophet_monarch_monarchy:0 "Prophetic Title"

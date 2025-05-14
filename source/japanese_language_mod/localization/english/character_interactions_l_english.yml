@@ -595,7 +595,7 @@
  support_successor_past:0 "$CHAR$へ資金援助を送る"
  support_successor_act_past:0 "$CHAR$へ資金援助を送る"
  PRETENDER_TOOLTIP:0 "この人物は王位僭称者だ"
- RESET_CVIEW:0 "人物表示をリセットして、私たちの人物を表示します。"
+ RESET_CVIEW:0 "人物表示をリセットし、我々の人物を表示します。"
  warfare.12.d:0 "我々の忠誠は必ず報われるだろう。"
  if_small_enough_subject_tt:0 "#G もし彼らの国が内戦を生き残り、かつ我々より格下であれば、我々の属国になるだろう#!"
  warfare.14.t:0 "甦る王国"
