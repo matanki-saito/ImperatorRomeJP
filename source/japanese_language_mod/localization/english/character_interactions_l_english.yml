@@ -377,7 +377,7 @@
  auto_influence_toggle_act:0 "$CHAR$は自分の意志で人物を選び助力を請います"
  auto_influence_toggle_past:0 "$CHAR$が自分の意志で人物を選び助力を請うことを許可しました"
  auto_influence_toggle_act_past:0 "$CHAR$が自分の意志で人物を選び助力を請うことを許可しました。"
- influence_potential_rewards_tt:2 "[target.GetName]は毎月#R -0.1#!のn人気@popularity_icon!を失います"
+ influence_potential_rewards_tt:2 "[target.GetName]は毎月#R -0.1#!の人気@popularity_icon!を失います"
  scheme_ruler_invest_has_tt:0 "「資金を吸い上げる」の野望を持っている"
  scheme_ruler_invest_potential_rewards_tt:1 "[target.GetName]は計画が終了するまで毎月#G 10#! @gold!と#R 0.05#!@corruption_icon!を得ます"
  ruler_invest_ambition:0 "計画：財貨の横領"
