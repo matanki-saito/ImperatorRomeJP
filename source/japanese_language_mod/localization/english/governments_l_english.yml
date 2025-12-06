@@ -115,5 +115,5 @@
  title_deployed_tribune:0 "配置された指揮官"
  title_deployed_tribune_desc:0 "$game_concept_tribune_desc$"
  title_great_work_construction_leader:0 "建設指揮者"
- title_great_work_construction_leader_desc:0 "Leading the construction of a Great Wonder"
+ title_great_work_construction_leader_desc:0 "偉大な建造物の建設を指揮しています"
  SUCC_ELECTIVE_MONARCHY:0 "選挙君主制"

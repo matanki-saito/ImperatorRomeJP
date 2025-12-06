@@ -149,7 +149,7 @@
  got_settlement_type:0 "集落"
  got_territory_type:0 "区域"
  got_established_metropolis_type:0 "メトロポリス"
- MISMATCHING_DEITY_FACTOR:0 "Mismatching pantheon deity religion: $VAL|%+=2$"
+ MISMATCHING_DEITY_FACTOR:0 "不一致のパンテオンの神の宗教: $VAL|%+=2$"
  change_pantheon:0 "パンテオンの構成を変更したこと"
  TRADE_GOODS_CATEGORY_5:0 "@tribesmen! 奴隷・部族民"
  TRADE_GOODS_CATEGORY_6:0 "その他"

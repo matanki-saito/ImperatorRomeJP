@@ -17,7 +17,7 @@
  ASSAULT_TITLE:0 "#T 強襲命令#!"
  ASSAULT_DESC:0 "#TF 強襲命令を与えると、人的資源のコストが高くつきますが、迅速な結果をもたらす可能性があります。#!"
  ASSAULT_POWER:0 "全ての[units|E]からの強襲力：$POWER|2=+$"
- UNIT_ASSAULT_POWER:0 "[UNIT.GetName]: [UNIT.GetAssaultStrength|2=+]"
+ UNIT_ASSAULT_POWER:0 "[UNIT.GetName]: 突撃力 [UNIT.GetAssaultStrength|2=+]"
  UNIT_ASSAULT_POWER_DETAILED:0 "[UNIT.GetName|E]の有効な戦闘力は[UNIT.GetAssaultStrength|2=+]です"
  UNIT_ASSAULT_POWER_DETAILED_MODIFIED:0 "基礎戦闘力[UNIT.GetBaseAssaultStrength|2=+]が以下の影響を受けた結果："
  UNIT_ASSAULT_POWER_TITLE:0 "強襲力"

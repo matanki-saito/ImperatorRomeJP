@@ -1,2 +1,2 @@
 ﻿l_english:
- JOMINI_DEBUG_FORMAT: "#debug $VALUE$#!"
+ JOMINI_DEBUG_FORMAT: "#デバッグ $VALUE$#!"

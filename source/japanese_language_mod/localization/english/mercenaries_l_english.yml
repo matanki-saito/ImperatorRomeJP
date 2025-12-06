@@ -25,5 +25,5 @@
  MERCENARY_VIEW_ARMY_TOOLTIP:0 "全ての傭兵陸軍を表示"
  MERCENARY_VIEW_NAVAL_TOOLTIP:0 "全ての傭兵海軍を表示"
  MERCENARY_VIEW_LOCATION:0 "$LOCNAME$（@$FLAG$!）"
- MERCENARY_GOTO_LOCATION:1 "[MercenaryItem.GetMercLocName]"
+ MERCENARY_GOTO_LOCATION:1 "[MercenaryItem.GetMercLocName]に移動"
  no_other_mercs_here:1 "@trigger_no! 区域に他の陸軍がいてはなりません。"

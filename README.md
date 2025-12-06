@@ -1,14 +1,17 @@
 # Japanese language mod for Imperator: Rome
 
-This is a Japanese localization mod for Imperator: Rome.
+This is a project for the Japanese localization mod of Imperator: Rome.
 
-## Publish Flow
+## status
 
-See [Ck3jpmod](https://github.com/matanki-saito/Ck3JpMod)
+2025/12/06
+Since Paradox (Pdx) has ended development of Imperator: Rome, this Japanese localization project has also been concluded.
+
+**Note: 2025/12/06**
+To complete the translation, untranslated sections were supplemented using Gemini 2.5.
+Please refer to the commits for the supplemented items.
 
 ## Mod tree
-
-See source folder in reoisitory.
 
 - localization
 - descriptor.mod
@@ -32,17 +35,22 @@ See source folder in reoisitory.
         - english
             - cultures_l_english.yml
 
-## Steam workshop
+## Install
+### Steam workshop
 
 [https://steamcommunity.com/sharedfiles/filedetails/?id=2407040628](https://steamcommunity.com/sharedfiles/filedetails/?id=2407040628)
 
-## Other install
+### Manual install
 
 1. Click the Green "Code" button in this page
 2. Click "Download ZIP" on modal
 3. Unzip the downloaded zip file
 4. Move the contents of the `source` folder to the `mod` folder. The `mod` folder is following
   `C:\Users\!!!YOUR_USER_NAME!!!\Documents\Paradox Interactive\Imperator\mod`
+
+## Paradox Ironman mode
+
+No support
 
 ## Translation workspace
 
@@ -52,26 +60,3 @@ See source folder in reoisitory.
 
 [https://discord.gg/9qAd2Ct](https://discord.gg/9qAd2Ct)
 
-## Game wiki
-
-- TDB
-
-## Paradox Ironman mode
-
-No support
-
-## File size
-
-12MB
-
-## Auto update
-
-Yes: Every friday UTC 01:00(JST 10:00)
-
-## Manual release
-
-See [Ck3jpmod](https://github.com/matanki-saito/Ck3JpMod)
-
-## How to use auto update program for other project ?
-
-See [Ck3jpmod](https://github.com/matanki-saito/Ck3JpMod)
