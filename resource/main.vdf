@@ -2,8 +2,8 @@
 {
 	"appid"		"859580"
     "publishedfileid"		"2407040628"
-	"contentfolder"		"/home/gnagaoka/ir-actions-runner/_work/ImperatorRomeJP/ImperatorRomeJP/out/japanese/"
-	"previewfile"		"/home/gnagaoka/ir-actions-runner/_work/ImperatorRomeJP/ImperatorRomeJP/resource/title.jpg"
+	"contentfolder"		"D:\a\ImperatorRomeJP\ImperatorRomeJP\source\japanese_language_mod\"
+	"previewfile"		"D:\a\ImperatorRomeJP\ImperatorRomeJP\resource\title.jpg"
 	"visibility"		"0"
 	"changenote"		"Translation is updated"
 }
