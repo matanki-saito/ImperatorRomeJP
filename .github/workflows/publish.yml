@@ -90,8 +90,7 @@ jobs:
       - name: uploading steam workshop
         run: |
           cd steamcmd
-          steamcmd.exe -dev -textmode -ignoredxsupportcfg +login ${STEAM_LOGIN_NAME} +workshop_build_item ..\resource\main.vdf +quit
+          steamcmd.exe -dev -textmode -ignoredxsupportcfg +login %STEAM_LOGIN_NAME% +workshop_build_item ..\resource\main.vdf +quit
         env:
           STEAM_LOGIN_NAME: ${{ secrets.STEAM_LOGIN_NAME }}
-          STEAM_LOGIN_PASSWORD: ${{ secrets.STEAM_LOGIN_PASSWORD }}
         shell: cmd
